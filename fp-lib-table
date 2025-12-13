@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "0_package_qfp")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_package_qfp.pretty")(options "")(descr ""))
+)

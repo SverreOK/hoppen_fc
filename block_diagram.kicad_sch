@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "19484241-34a4-4a1d-bad1-870febf6c01e")
+	(paper "A4")
+	(title_block
+		(title "Hoppen FC")
+		(date "2025-12-13")
+		(rev "1.0")
+		(company "Hoppen")
+	)
+	(lib_symbols)
+)

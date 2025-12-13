@@ -2,13 +2,125 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid abe950a1-9eef-4508-9fd4-31d3e723e029)
+	(uuid "abe950a1-9eef-4508-9fd4-31d3e723e029")
 	(paper "A4")
+	(title_block
+		(title "Hoppen FC")
+		(date "2025-12-13")
+		(rev "1.0")
+		(company "Hoppen")
+	)
 	(lib_symbols)
+	(sheet
+		(at -55.88 49.53)
+		(size 13.97 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3d2c0b1f-5398-4902-9d0f-410840dd3a9a")
+		(property "Sheetname" "Block Diagram"
+			(at -55.88 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "block_diagram.kicad_sch"
+			(at -55.88 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at -55.88 59.69)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c85454e5-a89e-41eb-a5ed-71b4fc4cf13a")
+		(property "Sheetname" "Architecture"
+			(at -55.88 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "architecture.kicad_sch"
+			(at -55.88 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "TitleBlockTemplate.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WAiCx0XALbfYyDwWDfQMUlt2zMaias0h76LJSibz+ORuLuTGwuLg3O9qFkAUwBdAD5690HP
+				I/7HH4k/BLJ50r4WlL3R8x8XDRm9Zoc+tCa/VjRkF21P2fJP/gUAICAgSe/lvBaWx7Khe0TS6ozf
+				y34dZNAopVidtS+2ZfZSARAQlCOTJ/RAOyoEWW26oWrW8/u+SbEC4C/+0M5ql5i0qNV/8v8+m1hW
+				e2aoUwavfc9Jz9lvxuCLPXtaIxCLX7v49ttD3+El4ey11X99HDFYu3Z4HYH1pLQ/e19aVgerwbuH
+				rH5vzPjT2UnPcuEsm8VTFhOK+GtE7TbcpeQXTbM6Qi9ELyalVDrMhdt4HFuji6gI2ZX1pHTOxZXo
+				Omd21cSKy2wOD6fBYDoVoRn+niPnjMr+18FGfeyXJFEBgQGBuXAczlAWspvcXjgKpMNwjuwXZEuv
+				VKOKqqi1ZpoigVUMURcYTdSJVZqhcBPU9cgRN7AOZbNMKg3QRThbKNWuBJ3XZKNwku5hH6AVvbet
+				uCblJJkuk6k0tD04BICVoBFFZhiSEilIkhQ6gESk5IgdcDbBINWSF7GcX74On7qsd2R218ExZjqP
+				8UntmB2IKchADM4MQLd+eR3nR7ddIWDDqdgAYwea43HrZTjkGt4QUo03VQ5wTJjPoQvezWvqUaP5
+				MjcIpl92dDE0CCEWS7+CXResVmBbLYWt6QFOTqVeylYue0e67TEX0SkBl81jtkEmh0DAgRwqgvdL
+				2xDDiQ4OmXtXi8SnWCvPGiEY0OevBrNAbAi7DgOZCDmagIknmYhi9TrSRYSBHiIXwrYGnBn8PmjP
+				ahjR0dNPdJStecjDnnKJsm7SSFM9GBDRnlN/NFby7hwO8PtTHaO1AJLBLcdyx7/0ynxTDZf2osBI
+				qEhOD2iy4ghhOJCTeiRO2WCxFD1MvxowHGyYtUZLMVt0k9JiSbkYkUPO8Yi9lBJNapqujfXf8VyE
+				beSuD+kYrCo=|
+			)
+			(checksum "2AEE4E7C6D6965132E3B4F2622F6AAAB")
+		)
+	)
 )
