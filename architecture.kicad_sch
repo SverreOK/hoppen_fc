@@ -12,6 +12,48 @@
 	)
 	(lib_symbols)
 	(sheet
+		(at 102.87 115.57)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1b965b44-1377-4308-8bb4-a6ed39c8528f")
+		(property "Sheetname" "Interfaces"
+			(at 102.87 114.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "interface.kicad_sch"
+			(at 102.87 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 73.66 71.12)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
@@ -54,6 +96,258 @@
 		)
 	)
 	(sheet
+		(at 67.31 124.46)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4b2dd471-a6f8-4e49-8717-912e41e4e851")
+		(property "Sheetname" "CAN"
+			(at 67.31 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "canbus.kicad_sch"
+			(at 67.31 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 110.49)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6b1c272f-f844-4b77-b3c6-c5f88ea6e7ac")
+		(property "Sheetname" "Misc"
+			(at 180.34 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "misc.kicad_sch"
+			(at 180.34 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 86.36)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "70185383-c6d2-4eb6-9764-fd02002b35f8")
+		(property "Sheetname" "USB"
+			(at 81.28 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 81.28 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 116.84)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4")
+		(property "Sheetname" "Indicators"
+			(at 69.85 116.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "indicators.kicad_sch"
+			(at 69.85 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 104.14)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "93bd097e-cae3-4aaa-9718-ae37366bd59a")
+		(property "Sheetname" "Storage"
+			(at 40.64 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "storage.kicad_sch"
+			(at 40.64 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 110.49)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b20bfd16-8587-4ee2-a4b4-53d6b6d5b5b2")
+		(property "Sheetname" "RS232"
+			(at 135.89 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rs232.kicad_sch"
+			(at 135.89 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 130.81 88.9)
 		(size 15.24 3.81)
 		(exclude_from_sim no)
@@ -91,6 +385,90 @@
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 194.31 85.09)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c2b34505-b856-4d49-9ba9-6d21c609d4cd")
+		(property "Sheetname" "Power"
+			(at 194.31 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 194.31 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 189.23 63.5)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d05bb2ec-4de7-4f1a-9b4f-371fdb11e242")
+		(property "Sheetname" "Power Input"
+			(at 189.23 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_input.kicad_sch"
+			(at 189.23 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a"
+					(page "13")
 				)
 			)
 		)

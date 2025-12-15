@@ -476,9 +476,10 @@
       },
       {
         "bus_width": 12,
+        "line_style": 0,
         "name": "Ground",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(0, 0, 0)",
         "wire_width": 12
       },
@@ -487,8 +488,17 @@
         "line_style": 0,
         "name": "Power 3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 73, 4)",
+        "wire_width": 12
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 117, 200)",
         "wire_width": 12
       }
     ],
@@ -505,6 +515,10 @@
       {
         "netclass": "Ground",
         "pattern": "GND"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "*USB_*"
       }
     ]
   },
@@ -677,6 +691,42 @@
     [
       "328607b5-eaf8-4cbb-82fe-138ea1b53a88",
       "Sensors"
+    ],
+    [
+      "70185383-c6d2-4eb6-9764-fd02002b35f8",
+      "USB"
+    ],
+    [
+      "b20bfd16-8587-4ee2-a4b4-53d6b6d5b5b2",
+      "RS232"
+    ],
+    [
+      "4b2dd471-a6f8-4e49-8717-912e41e4e851",
+      "CAN"
+    ],
+    [
+      "8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4",
+      "Indicators"
+    ],
+    [
+      "1b965b44-1377-4308-8bb4-a6ed39c8528f",
+      "Interfaces"
+    ],
+    [
+      "93bd097e-cae3-4aaa-9718-ae37366bd59a",
+      "Storage"
+    ],
+    [
+      "d05bb2ec-4de7-4f1a-9b4f-371fdb11e242",
+      "Power Input"
+    ],
+    [
+      "c2b34505-b856-4d49-9ba9-6d21c609d4cd",
+      "Power"
+    ],
+    [
+      "6b1c272f-f844-4b77-b3c6-c5f88ea6e7ac",
+      "Misc"
     ]
   ],
   "text_variables": {

@@ -8694,7 +8694,7 @@
 		)
 	)
 	(rectangle
-		(start 182.88 251.46)
+		(start 182.88 254)
 		(end 226.06 279.4)
 		(stroke
 			(width 0.254)
@@ -8706,7 +8706,7 @@
 		(uuid 1c605b21-c3fb-4f2b-82b7-ffc24f909ca8)
 	)
 	(rectangle
-		(start 129.54 251.46)
+		(start 129.54 254)
 		(end 177.8 279.4)
 		(stroke
 			(width 0.254)
@@ -8718,7 +8718,7 @@
 		(uuid 31d40b80-0641-44be-9ae5-4c7e26e9dc04)
 	)
 	(rectangle
-		(start 231.14 251.46)
+		(start 231.14 254)
 		(end 276.86 279.4)
 		(stroke
 			(width 0.254)
@@ -8730,7 +8730,7 @@
 		(uuid 9064e8ed-2435-4922-8c33-c20a7425a8c2)
 	)
 	(rectangle
-		(start 81.28 251.46)
+		(start 81.28 254)
 		(end 124.46 279.4)
 		(stroke
 			(width 0.254)
@@ -8742,7 +8742,7 @@
 		(uuid c0794bc4-3316-4a72-a7c3-3fe02658197d)
 	)
 	(rectangle
-		(start 33.02 251.46)
+		(start 33.02 254)
 		(end 76.2 279.4)
 		(stroke
 			(width 0.254)
@@ -8755,7 +8755,7 @@
 	)
 	(text "HSE 25 MHz"
 		(exclude_from_sim no)
-		(at 194.31 248.92 0)
+		(at 194.31 251.46 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -8768,7 +8768,7 @@
 	)
 	(text "BOOT\n"
 		(exclude_from_sim no)
-		(at 134.62 248.92 0)
+		(at 134.62 251.46 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -8781,7 +8781,7 @@
 	)
 	(text "RESET BUTTON\n"
 		(exclude_from_sim no)
-		(at 95.25 248.92 0)
+		(at 95.25 251.46 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -8794,7 +8794,7 @@
 	)
 	(text "LSE 32.768 kHz\n"
 		(exclude_from_sim no)
-		(at 246.38 248.92 0)
+		(at 246.38 251.46 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -8807,7 +8807,7 @@
 	)
 	(text "USER BUTTON\n"
 		(exclude_from_sim no)
-		(at 45.72 248.92 0)
+		(at 45.72 251.46 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -9028,7 +9028,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 260.35) (xy 204.47 254)
+			(xy 204.47 260.35) (xy 204.47 256.54)
 		)
 		(stroke
 			(width 0)
@@ -9038,7 +9038,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 254) (xy 207.01 254)
+			(xy 204.47 256.54) (xy 207.01 256.54)
 		)
 		(stroke
 			(width 0)
@@ -9075,6 +9075,16 @@
 			(type default)
 		)
 		(uuid "69381c31-2998-4d87-b1e2-f2ff7df16743")
+	)
+	(wire
+		(pts
+			(xy 207.01 256.54) (xy 207.01 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "741ee6b6-ebed-4ffb-ac11-0c45fa11103d")
 	)
 	(wire
 		(pts
@@ -9135,16 +9145,6 @@
 			(type default)
 		)
 		(uuid "892c9051-99ef-4203-965b-178c687e320c")
-	)
-	(wire
-		(pts
-			(xy 207.01 254) (xy 207.01 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b4e8f73-8191-438e-a0fd-95a884878523")
 	)
 	(wire
 		(pts
@@ -10021,7 +10021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "255bbc22-e76b-4ec9-9e65-7a4999d3aa8c")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR018"
 			(at 242.57 280.67 0)
 			(effects
 				(font
@@ -10072,7 +10072,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/b2889d66-ad44-4386-8a59-32f6d6b6b256"
-					(reference "#PWR033")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10087,7 +10087,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25c25b64-e087-49b1-9959-5b53ccef8766")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 140.97 267.9699 0)
 			(effects
 				(font
@@ -10141,7 +10141,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/b2889d66-ad44-4386-8a59-32f6d6b6b256"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -10157,7 +10157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d3b1d37-bca2-4f47-b050-002847ae1a0c")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR012"
 			(at 138.43 280.67 0)
 			(effects
 				(font
@@ -10208,7 +10208,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/b2889d66-ad44-4386-8a59-32f6d6b6b256"
-					(reference "#PWR027")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -10224,7 +10224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e417dc8-54f3-4b2a-a01a-6ef47b712732")
-		(property "Reference" "C30"
+		(property "Reference" "C24"
 			(at 218.44 267.9699 0)
 			(effects
 				(font
@@ -10278,7 +10278,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/b2889d66-ad44-4386-8a59-32f6d6b6b256"
-					(reference "C30")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -10294,7 +10294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a93bcc6-edfd-4091-b020-10f937dc3401")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR019"
 			(at 264.16 280.67 0)
 			(effects
 				(font
@@ -10345,7 +10345,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/b2889d66-ad44-4386-8a59-32f6d6b6b256"
-					(reference "#PWR034")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10361,7 +10361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e327e6b-1c02-4a5d-9add-aa787665e2a8")
-		(property "Reference" "C32"
+		(property "Reference" "C26"
 			(at 267.97 267.9699 0)
 			(effects
 				(font
@@ -10415,7 +10415,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/b2889d66-ad44-4386-8a59-32f6d6b6b256"
-					(reference "C32")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -10568,7 +10568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53d9fb31-5487-4bd2-8fec-f865bb0650c2")
-		(property "Reference" "C29"
+		(property "Reference" "C23"
 			(at 196.85 267.9699 0)
 			(effects
 				(font
@@ -10622,7 +10622,7 @@
 		(instances
 			(project ""
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/b2889d66-ad44-4386-8a59-32f6d6b6b256"
-					(reference "C29")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -10638,7 +10638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54507e45-a544-4e61-a653-a1e41e70281f")
-		(property "Reference" "C26"
+		(property "Reference" "C20"
 			(at 57.15 266.6999 0)
 			(effects
 				(font
@@ -10692,7 +10692,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/b2889d66-ad44-4386-8a59-32f6d6b6b256"
-					(reference "C26")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -10708,7 +10708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65ada56b-cc2e-4191-8794-9793e7fcadb5")
-		(property "Reference" "C31"
+		(property "Reference" "C25"
 			(at 246.38 267.9699 0)
 			(effects
 				(font
@@ -10762,7 +10762,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/b2889d66-ad44-4386-8a59-32f6d6b6b256"
-					(reference "C31")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -10778,7 +10778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69436153-db0d-4097-89d7-e9cfab4ba656")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR013"
 			(at 172.72 280.67 0)
 			(effects
 				(font
@@ -10829,7 +10829,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/b2889d66-ad44-4386-8a59-32f6d6b6b256"
-					(reference "#PWR028")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10845,7 +10845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7afc397f-9e42-4f57-ac5b-5a8f32edc697")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR011"
 			(at 118.11 280.67 0)
 			(effects
 				(font
@@ -10896,7 +10896,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/b2889d66-ad44-4386-8a59-32f6d6b6b256"
-					(reference "#PWR025")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -10912,7 +10912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b46f730-5477-452b-9f52-961cc47520cc")
-		(property "Reference" "C27"
+		(property "Reference" "C21"
 			(at 96.52 266.6999 0)
 			(effects
 				(font
@@ -10966,7 +10966,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/b2889d66-ad44-4386-8a59-32f6d6b6b256"
-					(reference "C27")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -10982,7 +10982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d02f70e-4005-4e15-99d0-6b69ceaba7a3")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR015"
 			(at 204.47 280.67 0)
 			(effects
 				(font
@@ -11033,7 +11033,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/b2889d66-ad44-4386-8a59-32f6d6b6b256"
-					(reference "#PWR029")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -11117,7 +11117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7c8519e-f1be-47c6-9bb2-a9f97841811b")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR010"
 			(at 68.58 280.67 0)
 			(effects
 				(font
@@ -11168,7 +11168,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/b2889d66-ad44-4386-8a59-32f6d6b6b256"
-					(reference "#PWR024")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -11267,7 +11267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba71ab71-4d8c-46b2-9c11-97d7a16c8b6e")
-		(property "Reference" "C28"
+		(property "Reference" "C22"
 			(at 151.13 266.6999 0)
 			(effects
 				(font
@@ -11321,7 +11321,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/b2889d66-ad44-4386-8a59-32f6d6b6b256"
-					(reference "C28")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -11982,7 +11982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0a0fae2-8f49-48d2-bbb7-17e017fb98e2")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR017"
 			(at 214.63 280.67 0)
 			(effects
 				(font
@@ -12033,7 +12033,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/b2889d66-ad44-4386-8a59-32f6d6b6b256"
-					(reference "#PWR032")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -12041,7 +12041,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 255.27 0)
+		(at 207.01 257.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12049,8 +12049,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed44dfcd-c71b-4853-b11f-db1b85ab243a")
-		(property "Reference" "#PWR030"
-			(at 207.01 261.62 0)
+		(property "Reference" "#PWR016"
+			(at 207.01 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12059,7 +12059,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 260.35 0)
+			(at 207.01 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12068,7 +12068,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 255.27 0)
+			(at 207.01 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12077,7 +12077,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 255.27 0)
+			(at 207.01 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12086,7 +12086,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 255.27 0)
+			(at 207.01 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12100,7 +12100,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/b2889d66-ad44-4386-8a59-32f6d6b6b256"
-					(reference "#PWR030")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -12116,7 +12116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc5fe539-a07d-4aca-9cb4-190781715b19")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR014"
 			(at 193.04 280.67 0)
 			(effects
 				(font
@@ -12167,7 +12167,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/b2889d66-ad44-4386-8a59-32f6d6b6b256"
-					(reference "#PWR031")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
