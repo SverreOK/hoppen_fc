@@ -3,4 +3,6 @@
   (lib (name "0_package_qfp")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_package_qfp.pretty")(options "")(descr ""))
   (lib (name "0_capacitor_smd")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_capacitor_smd.pretty")(options "")(descr ""))
   (lib (name "0_resistor_smd")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_resistor_smd.pretty")(options "")(descr ""))
+  (lib (name "0_misc")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_misc.pretty")(options "")(descr ""))
+  (lib (name "0_sensors")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_sensors.pretty")(options "")(descr ""))
 )

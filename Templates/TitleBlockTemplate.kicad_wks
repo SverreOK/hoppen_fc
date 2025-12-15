@@ -130,7 +130,7 @@
 		(start 110 12.5)
 		(end 2 12.5)
 	)
-	(tbtext "Title: ${TITLE}"
+	(tbtext "Project: ${PROJECT}"
 		(name "")
 		(pos 109 10.7)
 		(font
@@ -145,9 +145,9 @@
 		(start 110 18.5)
 		(end 2 18.5)
 	)
-	(tbtext "Project: ${COMPANY}"
+	(tbtext "Company: ${COMPANY}"
 		(name "")
-		(pos 62.5002 3.5002)
+		(pos 62.5 3.5)
 		(font bold)
 		(comment "Company name")
 	)
@@ -198,5 +198,16 @@
 	(tbtext "Reviewer(s): ${REVIEWERS}"
 		(name "")
 		(pos 62.5022 14.0072)
+	)
+	(tbtext "Sheet Title: ${TITLE}"
+		(name "")
+		(pos 62.502 10.507)
+		(font
+			(size 2 2) bold italic)
+	)
+	(line
+		(name "")
+		(start 67.0022 12.5072)
+		(end 67.0022 8.5072)
 	)
 )

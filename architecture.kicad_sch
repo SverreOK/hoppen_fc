@@ -5,12 +5,54 @@
 	(uuid "d515441d-ce52-4ea8-8f43-ec7e65bfc535")
 	(paper "A4")
 	(title_block
-		(title "Hoppen FC")
+		(title "MCU Power")
 		(date "2025-12-13")
 		(rev "1.0")
 		(company "Hoppen")
 	)
 	(lib_symbols)
+	(sheet
+		(at 73.66 71.12)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "328607b5-eaf8-4cbb-82fe-138ea1b53a88")
+		(property "Sheetname" "Sensors"
+			(at 73.66 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 73.66 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a"
+					(page "6")
+				)
+			)
+		)
+	)
 	(sheet
 		(at 130.81 88.9)
 		(size 15.24 3.81)

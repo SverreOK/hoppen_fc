@@ -5,7 +5,7 @@
 	(uuid "ad9ae7ee-b36b-40af-b2c5-7e56e9860004")
 	(paper "A4")
 	(title_block
-		(title "Hoppen FC")
+		(title "MCU Power")
 		(date "2025-12-13")
 		(rev "1.0")
 		(company "Hoppen")

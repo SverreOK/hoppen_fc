@@ -5,7 +5,7 @@
 	(uuid "abe950a1-9eef-4508-9fd4-31d3e723e029")
 	(paper "A4")
 	(title_block
-		(title "Hoppen FC")
+		(title "MCU Power")
 		(date "2025-12-13")
 		(rev "1.0")
 		(company "Hoppen")
@@ -105,22 +105,22 @@
 		(file
 			(name "TitleBlockTemplate.kicad_wks")
 			(type worksheet)
-			(data |KLUv/WAiCx0XALbfYyDwWDfQMUlt2zMaias0h76LJSibz+ORuLuTGwuLg3O9qFkAUwBdAD5690HP
-				I/7HH4k/BLJ50r4WlL3R8x8XDRm9Zoc+tCa/VjRkF21P2fJP/gUAICAgSe/lvBaWx7Khe0TS6ozf
-				y34dZNAopVidtS+2ZfZSARAQlCOTJ/RAOyoEWW26oWrW8/u+SbEC4C/+0M5ql5i0qNV/8v8+m1hW
-				e2aoUwavfc9Jz9lvxuCLPXtaIxCLX7v49ttD3+El4ey11X99HDFYu3Z4HYH1pLQ/e19aVgerwbuH
-				rH5vzPjT2UnPcuEsm8VTFhOK+GtE7TbcpeQXTbM6Qi9ELyalVDrMhdt4HFuji6gI2ZX1pHTOxZXo
-				Omd21cSKy2wOD6fBYDoVoRn+niPnjMr+18FGfeyXJFEBgQGBuXAczlAWspvcXjgKpMNwjuwXZEuv
-				VKOKqqi1ZpoigVUMURcYTdSJVZqhcBPU9cgRN7AOZbNMKg3QRThbKNWuBJ3XZKNwku5hH6AVvbet
-				uCblJJkuk6k0tD04BICVoBFFZhiSEilIkhQ6gESk5IgdcDbBINWSF7GcX74On7qsd2R218ExZjqP
-				8UntmB2IKchADM4MQLd+eR3nR7ddIWDDqdgAYwea43HrZTjkGt4QUo03VQ5wTJjPoQvezWvqUaP5
-				MjcIpl92dDE0CCEWS7+CXResVmBbLYWt6QFOTqVeylYue0e67TEX0SkBl81jtkEmh0DAgRwqgvdL
-				2xDDiQ4OmXtXi8SnWCvPGiEY0OevBrNAbAi7DgOZCDmagIknmYhi9TrSRYSBHiIXwrYGnBn8PmjP
-				ahjR0dNPdJStecjDnnKJsm7SSFM9GBDRnlN/NFby7hwO8PtTHaO1AJLBLcdyx7/0ynxTDZf2osBI
-				qEhOD2iy4ghhOJCTeiRO2WCxFD1MvxowHGyYtUZLMVt0k9JiSbkYkUPO8Yi9lBJNapqujfXf8VyE
-				beSuD+kYrCo=|
+			(data |KLUv/WDbCx0YADbhZyDwWDfQMcneOM4jea8slE+FkVRp4DJp3d3JjYXFwbleVF4AWABhAN6X19U+
+				euSDnkf8j78SflHo5kmbvKHsjZ8HuWjQKDZb9OFFOXlFg4bR9tUtP+VfAAACgpLpvZzY4vpcN/SP
+				WLo64/eykx4ybJTSrM7aJL5l9lMBEBCUJNQn9MBLKgRPOtgq0P3SNNJq04aqaj2/75s0KwCexCDa
+				Wu0Sly569af8v9dmptWemiqVQfK+5yXP2cmMwRd79rxIIBa/dvHvt4u+Q9KEs9dXP+njiMHatUPS
+				EVlPSvtzVnLpHvQRzphKw9uDQ2vw7qKr3xszBnX2kofpLKaB8dXNhCL+GlE5ju1O3m3b1ROKIXox
+				qeXCZTrL+TwaDm7CImiY1pPSORdYouucGlYTLatpPD52k8lwLEIz/L1HzlmVPQGBYauTtqVoOM1f
+				DSLT2Y41lIXsKL+dtUS4jH1kJ0O39Eo3qqiKWqu2KRJZzRB1kdFEnVmlGoutaFjWHksDU7k4VKRX
+				GrGD0g1L0K5zTsxWGhZL4SAuXgh4Re9vK7BJNY6Am6AhPYUYkhopSJIUOnBEpOSKHVpwXt0thMYj
+				QU8A+DlBIEgMMg1ewUkGQStfwGp68TJ64ALpyIGug17MRB6Dx3XP6FQsQgY4OMMgodHbajh+vuxL
+				/q/lkUsqODi5HmN9jAul1luGVrvbSgQJLLDPe2UG1cW8a5NemCZ/DXa+tAwMBsFYWi/YGRXLlKkj
+				0Ndea2KFsttcMG+0qBcrXtcXTdOsBkEGgQ4BPiiyh1e0DYAQDwyrb3eLS4/YKs8UIXBIk1cDtEAs
+				EHvHg0oyWZqAiSepiGLpOuogQkAPkQphWgOuDH4P2qMahmioqR8qitpU5LSn3EdVP2mpqR8axOif
+				Un9oUPTuBA7w2+vuY0lASyMsYd3xb3ll2LgOh35xYKRVJKUCmqxwYQ8T5o9uYqc0aGyLHqavBggH
+				HGbR0XLNlp0ktlde1naE+InfsffRoU2drw9n/RssH5F+stGAdAx6FQ==|
 			)
-			(checksum "2AEE4E7C6D6965132E3B4F2622F6AAAB")
+			(checksum "D9F631DB88F01A797A4D5AE6908A1A5F")
 		)
 	)
 )

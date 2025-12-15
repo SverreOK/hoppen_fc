@@ -347,8 +347,26 @@
 					)
 				)
 			)
+			(pin input line
+				(at -20.32 12.7 0)
+				(length 5.08)
+				(name "PDR_ON"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "143"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
-				(at -20.32 10.16 0)
+				(at -20.32 7.62 0)
 				(length 5.08)
 				(name "VDDA"
 					(effects
@@ -366,7 +384,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 6.35 0)
+				(at -20.32 2.54 0)
 				(length 5.08)
 				(name "VREF+"
 					(effects
@@ -383,24 +401,6 @@
 					)
 				)
 				(alternate "VREFBUF_OUT" bidirectional line)
-			)
-			(pin input line
-				(at -20.32 2.54 0)
-				(length 5.08)
-				(name "PDR_ON"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "143"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 			)
 			(pin power_out line
 				(at 20.32 52.07 180)
