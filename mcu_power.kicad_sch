@@ -4454,6 +4454,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 25.4 38.1)
+		(end 266.7 139.7)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fb3835cb-eeff-49c3-b8fa-e4a4237186fb)
+	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
 		(at 104.14 17.78 0)
@@ -6114,6 +6126,46 @@
 		)
 		(uuid "ff70b7d6-2f8b-4322-9b08-8065ca3523d3")
 	)
+	(label "MCU_VREF"
+		(at 133.35 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d5b4b42-a36e-4320-974d-7bea07373c71")
+	)
+	(label "MCU_VCAP1"
+		(at 220.98 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b85338e6-3d21-43e6-9e10-191a50b3af3d")
+	)
+	(label "MCU_VDDA"
+		(at 133.35 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f90feba0-3c50-465f-96b5-3ab03c119a33")
+	)
+	(label "MCU_VCAP2"
+		(at 220.98 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fcca62b0-e5a2-4aa6-a6d5-4b6ee39a193b")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 233.68 116.84 0)
@@ -6748,12 +6800,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 110.49 86.36 0)
+		(property "Value" "+3V3A"
+			(at 113.03 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
