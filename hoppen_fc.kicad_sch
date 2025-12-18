@@ -12,7 +12,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at -55.88 49.53)
+		(at 17.78 20.32)
 		(size 13.97 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28,7 +28,7 @@
 		)
 		(uuid "3d2c0b1f-5398-4902-9d0f-410840dd3a9a")
 		(property "Sheetname" "Block Diagram"
-			(at -55.88 48.8184 0)
+			(at 17.78 19.6084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37,7 +37,7 @@
 			)
 		)
 		(property "Sheetfile" "block_diagram.kicad_sch"
-			(at -55.88 53.9246 0)
+			(at 17.78 24.7146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54,7 +54,7 @@
 		)
 	)
 	(sheet
-		(at -55.88 59.69)
+		(at 17.78 30.48)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -70,7 +70,7 @@
 		)
 		(uuid "c85454e5-a89e-41eb-a5ed-71b4fc4cf13a")
 		(property "Sheetname" "Architecture"
-			(at -55.88 58.9784 0)
+			(at 17.78 29.7684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -79,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "architecture.kicad_sch"
-			(at -55.88 64.0846 0)
+			(at 17.78 34.8746 0)
 			(effects
 				(font
 					(size 1.27 1.27)

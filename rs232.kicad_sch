@@ -775,6 +775,12 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "RS232_IN"
+		(members "RS232_IN_T" "RS232_IN_R")
+	)
+	(bus_alias "VN_RS232"
+		(members "RS232_OUT_T" "RS232_OUT_R")
+	)
 	(rectangle
 		(start 64.77 35.56)
 		(end 217.17 149.86)
@@ -1365,7 +1371,7 @@
 		)
 		(uuid "9220bc35-9e51-46eb-97e5-983eb0a8c43f")
 	)
-	(hierarchical_label "{RS232_OUT}"
+	(hierarchical_label "{VN_RS232}"
 		(shape input)
 		(at 182.88 107.95 0)
 		(effects

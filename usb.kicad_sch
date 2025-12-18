@@ -1699,6 +1699,28 @@
 		)
 		(uuid "1aefa291-1447-4292-b74d-4e418208a2ab")
 	)
+	(text_box "DESIGN:\nOutput ~1.02V @ 5V"
+		(exclude_from_sim no)
+		(at 180.34 66.04 0)
+		(size 17.78 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.3048)
+			(type solid)
+			(color 132 132 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.016 1.016)
+			)
+			(justify left top)
+		)
+		(uuid "24bb84c2-c097-4aab-854d-22283c431974")
+	)
 	(junction
 		(at 137.16 111.76)
 		(diameter 0)
@@ -2546,7 +2568,7 @@
 		)
 		(uuid "0b7ba3dd-d3bc-4342-b164-4357a38094a3")
 	)
-	(hierarchical_label "USB"
+	(hierarchical_label "{USB}"
 		(shape input)
 		(at 212.09 107.95 0)
 		(effects
@@ -3098,7 +3120,7 @@
 	)
 	(symbol
 		(lib_id "0_diodes:SMF5V0A")
-		(at 153.67 74.93 90)
+		(at 153.67 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3112,7 +3134,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "SMF5V0A"
@@ -3121,11 +3143,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMF"
-			(at 139.7 74.93 0)
+			(at 167.64 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3134,7 +3156,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?85881"
-			(at 144.78 74.93 0)
+			(at 162.56 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3143,7 +3165,7 @@
 			)
 		)
 		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 5Vrwm, SMF"
-			(at 142.24 74.93 0)
+			(at 165.1 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3158,7 +3180,7 @@
 			(uuid "9cfc0206-7e83-4d05-aec5-d98899150a92")
 		)
 		(instances
-			(project ""
+			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/70185383-c6d2-4eb6-9764-fd02002b35f8"
 					(reference "D1")
 					(unit 1)
@@ -3654,7 +3676,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "10k"
 			(at 173.99 82.5499 0)
 			(effects
 				(font
@@ -3724,7 +3746,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "39k"
 			(at 173.99 69.8499 0)
 			(effects
 				(font

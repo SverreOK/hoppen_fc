@@ -744,7 +744,7 @@
 	)
 	(rectangle
 		(start 25.4 63.5)
-		(end 87.63 88.9)
+		(end 87.63 90.17)
 		(stroke
 			(width 0.254)
 			(type dash)
@@ -754,9 +754,9 @@
 		)
 		(uuid 91edfa80-2959-447c-8e9f-75fff01ffe5f)
 	)
-	(text "FIDUCIALS"
+	(text "FIDUCIALS (FRONT & BACK)"
 		(exclude_from_sim no)
-		(at 34.29 60.96 0)
+		(at 52.07 60.96 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -780,9 +780,9 @@
 		)
 		(uuid "ccbed81e-4c5a-4702-b69e-0383105106e9")
 	)
-	(text "Mounting Holes"
+	(text "M3 MOUNTING HOLES"
 		(exclude_from_sim no)
-		(at 128.27 60.96 0)
+		(at 134.62 60.96 0)
 		(effects
 			(font
 				(face "KiCad Font")

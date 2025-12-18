@@ -1178,6 +1178,12 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "QSPI"
+		(members "QSPI_IO0" "QSPI_IO1" "QSPI_IO2" "QSPI_IO3" "QSPI_CLK" "QSPI_nCS")
+	)
+	(bus_alias "SD"
+		(members "SD_D0" "SD_D1" "SD_D2" "SD_D3" "SD_CLK" "SD_CMD")
+	)
 	(rectangle
 		(start 148.59 63.5)
 		(end 275.59 139.7)
@@ -2589,7 +2595,7 @@
 		)
 		(uuid "356fb57a-5ba7-45a6-8ca5-5d143574c7b8")
 	)
-	(hierarchical_label "QSPI"
+	(hierarchical_label "{QSPI}"
 		(shape input)
 		(at 38.1 92.71 180)
 		(effects
@@ -2600,7 +2606,7 @@
 		)
 		(uuid "ad00e7b4-2ada-4e14-83d7-a79150d09283")
 	)
-	(hierarchical_label "SD"
+	(hierarchical_label "{SD}"
 		(shape input)
 		(at 166.37 91.44 180)
 		(effects

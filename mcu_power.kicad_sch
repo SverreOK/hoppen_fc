@@ -6126,16 +6126,6 @@
 		)
 		(uuid "ff70b7d6-2f8b-4322-9b08-8065ca3523d3")
 	)
-	(label "MCU_VREF"
-		(at 133.35 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1d5b4b42-a36e-4320-974d-7bea07373c71")
-	)
 	(label "MCU_VCAP1"
 		(at 220.98 58.42 0)
 		(effects

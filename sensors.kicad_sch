@@ -1494,6 +1494,28 @@
 		)
 		(uuid "04ad4782-a1cc-49e9-9984-c6e65d493264")
 	)
+	(text_box "SOFTWARE IMPLEMENTATION NOTE:\n8 bits\nMSB first\nMode 0 (CPOL=CPHA=0)\n\nBMI088 put on its own bus due to availability"
+		(exclude_from_sim no)
+		(at 177.8 127 0)
+		(size 63.5 25.4)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.4572)
+			(type solid)
+			(color 255 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.524 1.524)
+			)
+			(justify left top)
+		)
+		(uuid "2569fe23-b641-44d3-bf99-17ec5a8ef290")
+	)
 	(junction
 		(at 85.09 180.34)
 		(diameter 0)
@@ -1653,7 +1675,7 @@
 		(uuid "28d99891-89dc-4baf-aef3-4ffbbe2e9208")
 	)
 	(bus_entry
-		(at 54.61 163.83)
+		(at 48.26 163.83)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1689,7 +1711,7 @@
 		(uuid "a1b8b0dc-b113-4395-afbc-20effcb6baff")
 	)
 	(bus_entry
-		(at 54.61 158.75)
+		(at 48.26 158.75)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1707,7 +1729,7 @@
 		(uuid "b317e3ee-2cc6-43cd-94de-41c64d13e18d")
 	)
 	(bus_entry
-		(at 54.61 161.29)
+		(at 48.26 161.29)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1747,7 +1769,7 @@
 	)
 	(bus
 		(pts
-			(xy 54.61 163.83) (xy 54.61 161.29)
+			(xy 48.26 163.83) (xy 48.26 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1887,7 +1909,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 166.37) (xy 62.23 166.37)
+			(xy 50.8 166.37) (xy 62.23 166.37)
 		)
 		(stroke
 			(width 0)
@@ -1897,7 +1919,7 @@
 	)
 	(bus
 		(pts
-			(xy 54.61 161.29) (xy 54.61 158.75)
+			(xy 48.26 161.29) (xy 48.26 158.75)
 		)
 		(stroke
 			(width 0)
@@ -2127,7 +2149,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 161.29) (xy 62.23 161.29)
+			(xy 50.8 161.29) (xy 62.23 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2147,7 +2169,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 163.83) (xy 62.23 163.83)
+			(xy 50.8 163.83) (xy 62.23 163.83)
 		)
 		(stroke
 			(width 0)
@@ -2227,7 +2249,7 @@
 	)
 	(bus
 		(pts
-			(xy 54.61 158.75) (xy 50.8 158.75)
+			(xy 48.26 158.75) (xy 44.45 158.75)
 		)
 		(stroke
 			(width 0)
@@ -2585,6 +2607,96 @@
 		)
 		(uuid "f9d941c1-9e35-4369-b280-6d0d25a8f901")
 	)
+	(label "IMU_SCK"
+		(at 57.15 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08e20eb0-677a-4ccc-abc4-7773df240186")
+	)
+	(label "BARO_SCK"
+		(at 250.19 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2444bfe0-856b-4053-a091-4e5f6015f700")
+	)
+	(label "BARO_MOSI"
+		(at 250.19 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "42d41b1b-ea60-4e96-a73b-601911f5bd8c")
+	)
+	(label "IMU_MISO"
+		(at 57.15 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "530009fe-91ad-40f0-b2b8-73bcd89ee124")
+	)
+	(label "MAG_SCK"
+		(at 52.07 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "569e4df5-d7f7-4bb3-9ed2-804d0f81d898")
+	)
+	(label "MAG_MOSI"
+		(at 52.07 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9290538d-4b7c-4216-bba3-159c0737f4dd")
+	)
+	(label "MAG_MISO"
+		(at 52.07 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99c63b80-fe93-49d2-aa10-7eebac074da9")
+	)
+	(label "BARO_MISO"
+		(at 250.19 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "daac84f9-f5bb-4607-968d-bfaef09a3162")
+	)
+	(label "IMU_MOSI"
+		(at 57.15 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e35a85c7-88f4-4686-b30c-b88fec516b81")
+	)
 	(hierarchical_label "INT1_ACC"
 		(shape input)
 		(at 101.6 78.74 0)
@@ -2596,7 +2708,7 @@
 		)
 		(uuid "2f1b1df5-0300-420f-9f0a-4532c71ed858")
 	)
-	(hierarchical_label "SPI4"
+	(hierarchical_label "{SPI5}"
 		(shape input)
 		(at 257.81 60.96 0)
 		(effects
@@ -2640,9 +2752,9 @@
 		)
 		(uuid "bb011dc8-4ed7-46b1-ab4e-f62db3288e0b")
 	)
-	(hierarchical_label "SPI4"
+	(hierarchical_label "{SPI5}"
 		(shape input)
-		(at 50.8 158.75 180)
+		(at 44.45 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2651,7 +2763,7 @@
 		)
 		(uuid "c3231812-c688-415b-9826-36a5f79104dc")
 	)
-	(hierarchical_label "SPI4"
+	(hierarchical_label "{SPI4}"
 		(shape input)
 		(at 48.26 76.2 180)
 		(effects

@@ -8928,7 +8928,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 262.89) (xy 172.72 262.89)
+			(xy 171.45 262.89) (xy 172.72 262.89)
 		)
 		(stroke
 			(width 0)
@@ -9048,7 +9048,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 262.89) (xy 149.86 262.89)
+			(xy 147.32 262.89) (xy 148.59 262.89)
 		)
 		(stroke
 			(width 0)
@@ -9068,7 +9068,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 262.89) (xy 95.25 262.89)
+			(xy 92.71 262.89) (xy 93.98 262.89)
 		)
 		(stroke
 			(width 0)
@@ -9138,7 +9138,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 262.89) (xy 118.11 262.89)
+			(xy 116.84 262.89) (xy 118.11 262.89)
 		)
 		(stroke
 			(width 0)
@@ -9218,6 +9218,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 262.89) (xy 163.83 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b412f3-70fc-471d-9d12-f6cb3a4d88d6")
+	)
+	(wire
+		(pts
 			(xy 118.11 262.89) (xy 118.11 273.05)
 		)
 		(stroke
@@ -9278,7 +9288,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 262.89) (xy 107.95 262.89)
+			(xy 104.14 262.89) (xy 109.22 262.89)
 		)
 		(stroke
 			(width 0)
@@ -9315,16 +9325,6 @@
 			(type default)
 		)
 		(uuid "dc26df13-d0dd-4b29-a332-63666dfe8969")
-	)
-	(wire
-		(pts
-			(xy 160.02 262.89) (xy 162.56 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de62ee46-7446-4f3a-8de8-1b51ed60cf7f")
 	)
 	(wire
 		(pts
@@ -9396,6 +9396,16 @@
 		)
 		(uuid "24cb3bb0-453b-4788-957c-10b1e3c795f5")
 	)
+	(label "BOOT_POST_SW"
+		(at 158.75 262.89 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b67e409-fbac-4064-8284-dd373483ee05")
+	)
 	(label "RST"
 		(at 85.09 262.89 0)
 		(effects
@@ -9415,6 +9425,16 @@
 			(justify left bottom)
 		)
 		(uuid "41131633-465f-42b2-bf82-869e98d13d8b")
+	)
+	(label "RST_POST_SW"
+		(at 104.14 262.89 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "61851c00-f79e-484e-8962-562f0411fdcf")
 	)
 	(label "HSE_IN"
 		(at 185.42 265.43 0)
@@ -10423,7 +10443,7 @@
 	)
 	(symbol
 		(lib_id "0_misc:SW_Push")
-		(at 100.33 262.89 0)
+		(at 99.06 262.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10431,7 +10451,7 @@
 		(dnp no)
 		(uuid "50424a82-1a5c-4ea6-9dcd-7dd3dd760a5b")
 		(property "Reference" "SW2"
-			(at 100.33 257.81 0)
+			(at 99.06 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10439,7 +10459,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 100.33 257.81 0)
+			(at 99.06 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10448,7 +10468,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 257.81 0)
+			(at 99.06 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10457,7 +10477,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 257.81 0)
+			(at 99.06 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10466,7 +10486,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 100.33 262.89 0)
+			(at 99.06 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10491,7 +10511,7 @@
 	)
 	(symbol
 		(lib_id "0_misc:SolderJumper_2_Bridged")
-		(at 166.37 262.89 0)
+		(at 167.64 262.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10500,7 +10520,7 @@
 		(fields_autoplaced yes)
 		(uuid "5399ee36-49ef-46d0-8ee5-e9c850abbf31")
 		(property "Reference" "JP2"
-			(at 166.37 259.08 0)
+			(at 167.64 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10508,7 +10528,7 @@
 			)
 		)
 		(property "Value" "J"
-			(at 166.37 265.43 0)
+			(at 167.64 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10517,7 +10537,7 @@
 			)
 		)
 		(property "Footprint" "0_misc:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 166.37 262.89 0)
+			(at 167.64 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10526,7 +10546,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 262.89 0)
+			(at 167.64 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10535,7 +10555,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 166.37 262.89 0)
+			(at 167.64 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11329,7 +11349,7 @@
 	)
 	(symbol
 		(lib_id "0_misc:SW_Push")
-		(at 154.94 262.89 0)
+		(at 153.67 262.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11337,7 +11357,7 @@
 		(dnp no)
 		(uuid "c2233fec-51cf-4c76-b0c0-efca0244b14e")
 		(property "Reference" "SW3"
-			(at 154.94 257.81 0)
+			(at 153.67 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11345,7 +11365,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 154.94 257.81 0)
+			(at 153.67 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11354,7 +11374,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 257.81 0)
+			(at 153.67 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11363,7 +11383,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 257.81 0)
+			(at 153.67 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11372,7 +11392,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 154.94 262.89 0)
+			(at 153.67 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11905,7 +11925,7 @@
 	)
 	(symbol
 		(lib_id "0_misc:SolderJumper_2_Bridged")
-		(at 111.76 262.89 0)
+		(at 113.03 262.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -11914,7 +11934,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce24472d-2e1d-4931-905c-d7e91d221222")
 		(property "Reference" "JP1"
-			(at 111.76 259.08 0)
+			(at 113.03 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11922,7 +11942,7 @@
 			)
 		)
 		(property "Value" "J"
-			(at 111.76 265.43 0)
+			(at 113.03 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11931,7 +11951,7 @@
 			)
 		)
 		(property "Footprint" "0_misc:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 111.76 262.89 0)
+			(at 113.03 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11940,7 +11960,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 262.89 0)
+			(at 113.03 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11949,7 +11969,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 111.76 262.89 0)
+			(at 113.03 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
