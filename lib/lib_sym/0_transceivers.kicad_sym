@@ -83,8 +83,8 @@
 		)
 		(symbol "74AHCT1G125_1_1"
 			(pin input line
-				(at -15.24 0 0)
-				(length 7.62)
+				(at -10.16 0 0)
+				(length 2.54)
 				(name "~"
 					(effects
 						(font
@@ -101,8 +101,8 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 10.16 270)
-				(length 5.08)
+				(at -5.08 7.62 270)
+				(length 2.54)
 				(name "VCC"
 					(effects
 						(font
@@ -119,8 +119,8 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -10.16 90)
-				(length 5.08)
+				(at -5.08 -7.62 90)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -137,8 +137,8 @@
 				)
 			)
 			(pin input inverted
-				(at 0 10.16 270)
-				(length 7.62)
+				(at 0 7.62 270)
+				(length 5.08)
 				(name "~"
 					(effects
 						(font
@@ -155,8 +155,8 @@
 				)
 			)
 			(pin tri_state line
-				(at 12.7 0 180)
-				(length 7.62)
+				(at 7.62 0 180)
+				(length 2.54)
 				(name "~"
 					(effects
 						(font

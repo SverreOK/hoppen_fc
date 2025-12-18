@@ -1665,6 +1665,9 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "USB"
+		(members "USB_N" "USB_P")
+	)
 	(rectangle
 		(start 76.2 38.1)
 		(end 228.6 152.4)
@@ -1699,7 +1702,7 @@
 		)
 		(uuid "1aefa291-1447-4292-b74d-4e418208a2ab")
 	)
-	(text_box "DESIGN:\nOutput ~1.02V @ 5V"
+	(text_box "DESIGN:\nOutput ~1.0V @ 5V"
 		(exclude_from_sim no)
 		(at 180.34 66.04 0)
 		(size 17.78 5.08)
@@ -2409,7 +2412,7 @@
 	)
 	(bus
 		(pts
-			(xy 201.93 107.95) (xy 212.09 107.95)
+			(xy 201.93 107.95) (xy 207.01 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2557,8 +2560,8 @@
 		)
 		(uuid "dfd8b0e9-aba6-4377-ab6b-743920314c9b")
 	)
-	(hierarchical_label "VBUS_MON"
-		(shape input)
+	(hierarchical_label "VBUS_VMON"
+		(shape output)
 		(at 187.96 74.93 0)
 		(effects
 			(font
@@ -2569,8 +2572,8 @@
 		(uuid "0b7ba3dd-d3bc-4342-b164-4357a38094a3")
 	)
 	(hierarchical_label "{USB}"
-		(shape input)
-		(at 212.09 107.95 0)
+		(shape bidirectional)
+		(at 207.01 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)

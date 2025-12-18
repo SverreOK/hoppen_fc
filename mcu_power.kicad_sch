@@ -6790,7 +6790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3A"
+		(property "Value" "+3V3"
 			(at 113.03 90.1699 0)
 			(effects
 				(font

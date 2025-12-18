@@ -684,6 +684,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "kicad-embed://TitleBlockTemplate.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -718,20 +726,28 @@
       "MCU IO"
     ],
     [
+      "c2b34505-b856-4d49-9ba9-6d21c609d4cd",
+      "Power"
+    ],
+    [
       "328607b5-eaf8-4cbb-82fe-138ea1b53a88",
       "Sensors"
+    ],
+    [
+      "93bd097e-cae3-4aaa-9718-ae37366bd59a",
+      "Storage"
     ],
     [
       "70185383-c6d2-4eb6-9764-fd02002b35f8",
       "USB"
     ],
     [
-      "b20bfd16-8587-4ee2-a4b4-53d6b6d5b5b2",
-      "RS232"
-    ],
-    [
       "4b2dd471-a6f8-4e49-8717-912e41e4e851",
       "FDCAN"
+    ],
+    [
+      "b20bfd16-8587-4ee2-a4b4-53d6b6d5b5b2",
+      "RS232"
     ],
     [
       "8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4",
@@ -742,20 +758,8 @@
       "Interfaces"
     ],
     [
-      "93bd097e-cae3-4aaa-9718-ae37366bd59a",
-      "Storage"
-    ],
-    [
-      "c2b34505-b856-4d49-9ba9-6d21c609d4cd",
-      "Power"
-    ],
-    [
       "6b1c272f-f844-4b77-b3c6-c5f88ea6e7ac",
       "Misc"
-    ],
-    [
-      "5b35c541-f0d7-4dad-bd14-d6c9cfed3927",
-      "Radio"
     ]
   ],
   "text_variables": {

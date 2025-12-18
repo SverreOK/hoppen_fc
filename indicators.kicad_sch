@@ -401,8 +401,8 @@
 			)
 			(symbol "74AHCT1G125_1_1"
 				(pin input line
-					(at -15.24 0 0)
-					(length 7.62)
+					(at -10.16 0 0)
+					(length 2.54)
 					(name "~"
 						(effects
 							(font
@@ -419,8 +419,8 @@
 					)
 				)
 				(pin power_in line
-					(at -5.08 10.16 270)
-					(length 5.08)
+					(at -5.08 7.62 270)
+					(length 2.54)
 					(name "VCC"
 						(effects
 							(font
@@ -437,8 +437,8 @@
 					)
 				)
 				(pin power_in line
-					(at -5.08 -10.16 90)
-					(length 5.08)
+					(at -5.08 -7.62 90)
+					(length 2.54)
 					(name "GND"
 						(effects
 							(font
@@ -455,8 +455,8 @@
 					)
 				)
 				(pin input inverted
-					(at 0 10.16 270)
-					(length 7.62)
+					(at 0 7.62 270)
+					(length 5.08)
 					(name "~"
 						(effects
 							(font
@@ -473,8 +473,8 @@
 					)
 				)
 				(pin tri_state line
-					(at 12.7 0 180)
-					(length 7.62)
+					(at 7.62 0 180)
+					(length 2.54)
 					(name "~"
 						(effects
 							(font
@@ -1577,16 +1577,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 124.46) (xy 90.17 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00c16eea-9d00-4c4b-acd6-0df653943f86")
-	)
-	(wire
-		(pts
 			(xy 200.66 123.19) (xy 200.66 121.92)
 		)
 		(stroke
@@ -1857,7 +1847,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 137.16) (xy 80.01 137.16)
+			(xy 76.2 137.16) (xy 85.09 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1887,7 +1877,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 127) (xy 95.25 124.46)
+			(xy 95.25 124.46) (xy 95.25 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2027,6 +2017,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 137.16) (xy 114.3 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9011bb52-9880-4586-abc7-b6a508155b44")
+	)
+	(wire
+		(pts
 			(xy 90.17 147.32) (xy 90.17 149.86)
 		)
 		(stroke
@@ -2054,6 +2054,16 @@
 			(type default)
 		)
 		(uuid "a7500ceb-833b-432c-acad-dc48efd8dd0f")
+	)
+	(wire
+		(pts
+			(xy 90.17 124.46) (xy 90.17 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9706a22-a9bc-4976-a337-1c96bb6757fa")
 	)
 	(wire
 		(pts
@@ -2104,16 +2114,6 @@
 			(type default)
 		)
 		(uuid "c1dbdb98-25df-4f2d-b364-584b92ad2d43")
-	)
-	(wire
-		(pts
-			(xy 107.95 137.16) (xy 114.3 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4f1bc30-abd9-4a81-992d-3b10250b80e5")
 	)
 	(wire
 		(pts
@@ -3739,92 +3739,6 @@
 		)
 	)
 	(symbol
-		(lib_id "0_transceivers:74AHCT1G125")
-		(at 95.25 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91aac6df-4247-477d-9dd8-e0bb5c7ffdf5")
-		(property "Reference" "U9"
-			(at 107.95 130.7398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74AHCT1G125"
-			(at 107.95 133.2798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 95.25 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
-			(at 95.25 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C20617903"
-			(at 95.25 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "f58e0b0a-8742-4dae-8830-3a1addd34fec")
-		)
-		(pin "3"
-			(uuid "8c703d9a-bdf0-4c42-b0a0-d97fc8a1f149")
-		)
-		(pin "1"
-			(uuid "90e1ece4-aaf5-4ef4-9ed4-eefb5d5d0aed")
-		)
-		(pin "4"
-			(uuid "8ea18764-309b-49aa-867e-e3be80778cf5")
-		)
-		(pin "2"
-			(uuid "63f4468d-0108-412a-b16c-abf915ade134")
-		)
-		(instances
-			(project ""
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 170.18 147.32 0)
 		(unit 1)
@@ -3956,6 +3870,83 @@
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
 					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_transceivers:74AHCT1G125")
+		(at 95.25 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cbd0f12-0d3f-482f-b1bf-24dd9987c5ae")
+		(property "Reference" "U9"
+			(at 107.95 130.7398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHCT1G125"
+			(at 107.95 133.2798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 95.25 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 95.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5dd0fdbf-868b-41a4-b26c-2bed8c07ca2d")
+		)
+		(pin "5"
+			(uuid "185981e6-e5e5-412c-a1b7-98ac21c5908b")
+		)
+		(pin "1"
+			(uuid "26e15c2b-3da5-4d5a-80c2-71416a823dd1")
+		)
+		(pin "2"
+			(uuid "285c5749-1aaa-4b14-976e-dca02a064212")
+		)
+		(pin "4"
+			(uuid "13af53db-b3f6-4daf-a59f-e9757a343bfb")
+		)
+		(instances
+			(project ""
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
+					(reference "U9")
 					(unit 1)
 				)
 			)
