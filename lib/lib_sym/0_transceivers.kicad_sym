@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
 			(at 0 0 0)
 			(effects
 				(font
@@ -195,7 +195,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_transceivers:TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -595,7 +595,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm"
+		(property "Footprint" "0_transceivers:HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm"
 			(at 0 30.48 0)
 			(effects
 				(font

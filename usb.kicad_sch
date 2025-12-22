@@ -34,7 +34,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "0_connectors:USB-C_SMD-TYPE-C-31-M-12_1"
 				(at 3.81 0 0)
 				(effects
 					(font
@@ -54,6 +54,15 @@
 			)
 			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 				(at 0 35.56 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C165948"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -617,7 +626,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SMF"
+			(property "Footprint" "0_diodes:D_SMF"
 				(at 0 13.97 0)
 				(effects
 					(font
@@ -753,7 +762,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(property "Footprint" "0_diodes:SOT-23-6"
 				(at -17.78 21.59 0)
 				(effects
 					(font
@@ -2610,7 +2619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_resistor_smd:R_0402_1005Metric"
 			(at 148.082 127 90)
 			(effects
 				(font
@@ -2680,7 +2689,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_resistor_smd:R_0402_1005Metric"
 			(at 139.192 127 90)
 			(effects
 				(font
@@ -2750,7 +2759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "0_diodes:SOT-23-6"
 			(at 149.86 85.09 0)
 			(effects
 				(font
@@ -2832,7 +2841,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_connectors:USB-C_SMD-TYPE-C-31-M-12_1"
 			(at 118.11 109.22 0)
 			(effects
 				(font
@@ -2851,6 +2860,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 114.3 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C165948"
 			(at 114.3 109.22 0)
 			(effects
 				(font
@@ -3079,7 +3097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_capacitor_smd:C_0402_1005Metric"
 			(at 182.5752 85.09 0)
 			(effects
 				(font
@@ -3149,7 +3167,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMF"
+		(property "Footprint" "0_diodes:D_SMF"
 			(at 167.64 74.93 0)
 			(effects
 				(font
@@ -3284,7 +3302,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_resistor_smd:R_0402_1005Metric"
 			(at 189.23 102.362 90)
 			(effects
 				(font
@@ -3618,7 +3636,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_resistor_smd:R_0402_1005Metric"
 			(at 189.23 113.538 90)
 			(effects
 				(font
@@ -3688,7 +3706,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_resistor_smd:R_0402_1005Metric"
 			(at 173.228 81.28 90)
 			(effects
 				(font
@@ -3758,7 +3776,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_resistor_smd:R_0402_1005Metric"
 			(at 173.228 68.58 90)
 			(effects
 				(font

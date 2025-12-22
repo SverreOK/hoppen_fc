@@ -16,7 +16,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "B"
-				(at -5.08 1.27 0)
+				(at -5.588 1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -32,8 +32,8 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "0_indicators:BUZ-SMD_FST-5030"
+				(at 0 13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -59,14 +59,6 @@
 					(hide yes)
 				)
 			)
-			(property "Name" "FUET-5030"
-				(at 3.81 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "LCSC" "C391031"
 				(at 0 16.51 0)
 				(effects
@@ -74,6 +66,14 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Name" "FUET-5030"
+				(at 2.286 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(symbol "FUET-5030_0_1"
@@ -184,7 +184,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+			(property "Footprint" "0_indicators:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 				(at -24.13 26.67 0)
 				(effects
 					(font
@@ -340,7 +340,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -519,7 +519,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(property "Footprint" "0_transistors:SOT-363_SC-70-6"
 				(at 0 19.05 0)
 				(effects
 					(font
@@ -539,6 +539,15 @@
 			)
 			(property "Description" "200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
 				(at -5.08 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C169790"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2027,7 +2036,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 147.32) (xy 90.17 149.86)
+			(xy 90.17 144.78) (xy 90.17 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2410,6 +2419,75 @@
 		(uuid "fa31686a-4eee-44b6-b843-eecee7e9845b")
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 143.51 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07683985-0142-4a8e-80fc-1d92c5159c42")
+		(property "Reference" "C47"
+			(at 143.51 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 143.51 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_capacitor_smd:C_0402_1005Metric"
+			(at 144.4752 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 143.51 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f5618be9-51db-48c5-adba-567510f3e2da")
+		)
+		(pin "1"
+			(uuid "a1051114-26cd-4b1b-9e8c-fd05fb4034e1")
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
+					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 118.11 133.35 0)
 		(unit 1)
@@ -2571,7 +2649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+		(property "Footprint" "0_transistors:SOT-363_SC-70-6"
 			(at 184.15 69.85 0)
 			(effects
 				(font
@@ -2591,6 +2669,15 @@
 		)
 		(property "Description" "200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
 			(at 179.07 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C169790"
+			(at 184.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2651,7 +2738,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "0_indicators:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 161.29 115.57 0)
 			(effects
 				(font
@@ -2836,75 +2923,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 143.51 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2dd6ea4e-a24e-4064-9ed2-7a4ae486adec")
-		(property "Reference" "C47"
-			(at 143.51 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 143.51 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0_resistor_smd:R_0603_1608Metric"
-			(at 144.4752 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 143.51 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ff8491b3-272e-4f94-9aeb-d4fd75fe2283")
-		)
-		(pin "1"
-			(uuid "ea051d72-40d7-463a-9279-70affd38fc7e")
-		)
-		(instances
-			(project "hoppen_fc"
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "C47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 99.06 78.74 180)
 		(unit 1)
@@ -2930,7 +2948,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_diodes:LED_0402_1005Metric"
 			(at 99.06 78.74 0)
 			(effects
 				(font
@@ -3275,7 +3293,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "0_indicators:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 110.49 115.57 0)
 			(effects
 				(font
@@ -3417,7 +3435,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_diodes:LED_0402_1005Metric"
 			(at 99.06 90.17 0)
 			(effects
 				(font
@@ -3445,6 +3463,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 99.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22355736"
 			(at 99.06 90.17 0)
 			(effects
 				(font
@@ -3562,7 +3589,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_resistor_smd:R_0603_1608Metric"
+		(property "Footprint" "0_capacitor_smd:C_0402_1005Metric"
 			(at 119.0752 132.08 0)
 			(effects
 				(font
@@ -3824,7 +3851,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "4u7"
 			(at 190.5 73.6599 0)
 			(effects
 				(font
@@ -3901,7 +3928,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
 			(at 95.25 137.16 0)
 			(effects
 				(font
@@ -3947,75 +3974,6 @@
 			(project ""
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
 					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 168.91 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9e4e26f7-611a-4b12-9684-a0d4bbb0e9a0")
-		(property "Reference" "C48"
-			(at 168.91 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 168.91 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0_resistor_smd:R_0603_1608Metric"
-			(at 169.8752 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 168.91 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "76ed8133-217a-4138-919f-4999a32a4421")
-		)
-		(pin "1"
-			(uuid "5cf461dd-748e-4f34-bd24-a4bb85b7851c")
-		)
-		(instances
-			(project "hoppen_fc"
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -4115,7 +4073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_indicators:BUZ-SMD_FST-5030"
 			(at 214.63 78.74 0)
 			(effects
 				(font
@@ -4173,75 +4131,6 @@
 			(project ""
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
 					(reference "B1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 194.31 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b19ef578-6fb8-45be-9614-0f3c63b761aa")
-		(property "Reference" "C49"
-			(at 194.31 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 194.31 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0_resistor_smd:R_0603_1608Metric"
-			(at 195.2752 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 194.31 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1f44e24d-27b3-4808-8e8e-5ee4751d9911")
-		)
-		(pin "1"
-			(uuid "f06f29b3-d483-4838-a1f6-0edc29242260")
-		)
-		(instances
-			(project "hoppen_fc"
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -4405,7 +4294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "0_indicators:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 135.89 115.57 0)
 			(effects
 				(font
@@ -4450,6 +4339,75 @@
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 194.31 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c32411e5-7034-4fd4-818b-e41353bf2bcb")
+		(property "Reference" "C49"
+			(at 194.31 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 194.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_capacitor_smd:C_0402_1005Metric"
+			(at 195.2752 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 194.31 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bfc06c94-1a2d-459f-8af4-5aafa41ab16c")
+		)
+		(pin "1"
+			(uuid "2c39c14c-6400-42ce-8bed-5a3c6acfe180")
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -4681,7 +4639,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "0_indicators:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 186.69 115.57 0)
 			(effects
 				(font
@@ -4998,6 +4956,75 @@
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 168.91 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f87ecd49-5ec5-448f-b0db-3a6563b1d6d6")
+		(property "Reference" "C48"
+			(at 168.91 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 168.91 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_capacitor_smd:C_0402_1005Metric"
+			(at 169.8752 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 168.91 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac4714fc-3f27-4ca4-8cbc-a51d2354809f")
+		)
+		(pin "1"
+			(uuid "356da0b0-14a4-4975-85ec-b833b847f655")
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
+					(reference "C48")
 					(unit 1)
 				)
 			)

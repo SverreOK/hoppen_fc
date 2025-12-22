@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "B"
-			(at -5.08 1.27 0)
+			(at -5.588 1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,8 +23,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "0_indicators:BUZ-SMD_FST-5030"
+			(at 0 13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50,14 +50,6 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "FUET-5030"
-			(at 3.81 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC" "C391031"
 			(at 0 16.51 0)
 			(effects
@@ -65,6 +57,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Name" "FUET-5030"
+			(at 2.286 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(symbol "FUET-5030_0_1"
@@ -175,7 +175,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "0_indicators:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 			(at -24.13 26.67 0)
 			(effects
 				(font

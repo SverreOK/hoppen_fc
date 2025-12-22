@@ -178,7 +178,7 @@
 		(uuid "48eb2753-9280-4874-9ce0-47ec92371978")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/lib/3d_models/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+	(model "${KIPRJMOD}/lib/3d_models/R_0805_2012Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)
