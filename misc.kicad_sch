@@ -631,7 +631,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 57.15 69.85 0)
+		(at 55.88 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -640,7 +640,7 @@
 		(fields_autoplaced yes)
 		(uuid "104c2a9d-f223-4cab-807d-cf74c972e49c")
 		(property "Reference" "FID2"
-			(at 59.69 68.5799 0)
+			(at 58.42 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -649,7 +649,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 59.69 71.1199 0)
+			(at 58.42 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -659,7 +659,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
-			(at 57.15 69.85 0)
+			(at 55.88 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -668,7 +668,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 69.85 0)
+			(at 55.88 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -677,7 +677,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 57.15 69.85 0)
+			(at 55.88 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -696,7 +696,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 57.15 80.01 0)
+		(at 55.88 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -705,7 +705,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d3efec6-f987-421d-ae5f-c2a85d06c489")
 		(property "Reference" "FID5"
-			(at 59.69 78.7399 0)
+			(at 58.42 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -714,7 +714,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 59.69 81.2799 0)
+			(at 58.42 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -724,7 +724,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
-			(at 57.15 80.01 0)
+			(at 55.88 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -733,7 +733,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 80.01 0)
+			(at 55.88 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -742,7 +742,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 57.15 80.01 0)
+			(at 55.88 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -828,7 +828,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 73.66 80.01 0)
+		(at 72.39 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -837,7 +837,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b8e2ecb-900d-4b29-b9bb-1b8372593253")
 		(property "Reference" "FID6"
-			(at 76.2 78.7399 0)
+			(at 74.93 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -846,7 +846,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 76.2 81.2799 0)
+			(at 74.93 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -856,7 +856,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
-			(at 73.66 80.01 0)
+			(at 72.39 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -865,7 +865,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 80.01 0)
+			(at 72.39 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -874,7 +874,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 73.66 80.01 0)
+			(at 72.39 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -960,7 +960,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 38.1 69.85 0)
+		(at 36.83 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -969,7 +969,7 @@
 		(fields_autoplaced yes)
 		(uuid "a607d229-0891-4e0c-9956-f471f2cb74e9")
 		(property "Reference" "FID1"
-			(at 40.64 68.5799 0)
+			(at 39.37 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -978,7 +978,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 40.64 71.1199 0)
+			(at 39.37 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -988,7 +988,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
-			(at 38.1 69.85 0)
+			(at 36.83 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -997,7 +997,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 69.85 0)
+			(at 36.83 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1006,7 +1006,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 38.1 69.85 0)
+			(at 36.83 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1025,7 +1025,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 73.66 69.85 0)
+		(at 72.39 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1034,7 +1034,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6469b39-a1cb-4c0e-8f88-8d3c73e1b55b")
 		(property "Reference" "FID3"
-			(at 76.2 68.5799 0)
+			(at 74.93 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1043,7 +1043,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 76.2 71.1199 0)
+			(at 74.93 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1053,7 +1053,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
-			(at 73.66 69.85 0)
+			(at 72.39 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1062,7 +1062,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 69.85 0)
+			(at 72.39 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1071,7 +1071,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 73.66 69.85 0)
+			(at 72.39 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1157,7 +1157,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 38.1 80.01 0)
+		(at 36.83 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1166,7 +1166,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb17ddcd-ae80-48a6-a3b6-fcbe8b3a44d7")
 		(property "Reference" "FID4"
-			(at 40.64 78.7399 0)
+			(at 39.37 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1175,7 +1175,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 40.64 81.2799 0)
+			(at 39.37 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1185,7 +1185,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
-			(at 38.1 80.01 0)
+			(at 36.83 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1194,7 +1194,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 80.01 0)
+			(at 36.83 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1203,7 +1203,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 38.1 80.01 0)
+			(at 36.83 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
