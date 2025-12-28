@@ -2519,7 +2519,7 @@
 		)
 		(uuid "0bd97cba-16e4-4977-be94-91af11259c80")
 	)
-	(label "USB_PRE_TVS_P"
+	(label "USB_NT_P"
 		(at 139.7 111.76 0)
 		(effects
 			(font
@@ -2549,7 +2549,7 @@
 		)
 		(uuid "7879683d-265e-48e8-9362-b9de5533fa44")
 	)
-	(label "USB_PRE_TVS_N"
+	(label "USB_NT_N"
 		(at 139.7 104.14 0)
 		(effects
 			(font

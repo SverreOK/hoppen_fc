@@ -1,0 +1,120 @@
+(footprint "LED-SMD_4P-L2.0-W2.0-BR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.5 -2 0)
+		(layer "F.SilkS")
+		(uuid "761a8ccd-a53c-412b-805e-719f057b4966")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED-SMD_4P-L2.0-W2.0-BR"
+		(at 0 4.65 0)
+		(layer "F.Fab")
+		(uuid "1ce17984-f534-4b02-8f1c-cd8619d1717d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ebeff4f7-e8cd-42e2-929a-7be6030257b2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da249897-eb57-4e91-a6cc-3086ab248040")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.7 1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dfbbc26e-0e67-4d19-a3ba-213143055036")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end 1.5 0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bcdcd29d-06cd-47c7-95aa-7d9d1809bf89")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(uuid "810043b6-f5a0-4dca-b703-2d543c1d4c6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.65 0.65)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7bc63573-18c2-49d3-9865-f08a58e26254")
+	)
+	(pad "2" smd rect
+		(at 0.65 -0.65)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8b64c5dc-14cf-4691-8403-8db71f09a77d")
+	)
+	(pad "3" smd rect
+		(at -0.65 -0.65)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "62d560af-e0ff-41cf-a245-201dd664452d")
+	)
+	(pad "4" smd rect
+		(at -0.65 0.65)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8d154a7b-03f8-45c8-ac65-b841b06740c4")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3d_models/LED-SMD_4P-L2.0-W2.0-BR.step"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

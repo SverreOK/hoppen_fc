@@ -758,8 +758,16 @@
       "Interfaces"
     ],
     [
+      "45aa82bb-5d0c-4be2-bfbe-f6adc776653e",
+      "Power Input"
+    ],
+    [
       "6b1c272f-f844-4b77-b3c6-c5f88ea6e7ac",
       "Misc"
+    ],
+    [
+      "304fa278-ecd3-4686-8fe4-afe398f93fb0",
+      "Power Generation"
     ]
   ],
   "text_variables": {

@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -6.47 0)
+		(at 0 -4 0)
 		(layer "F.SilkS")
 		(uuid "a3e38752-eed9-40bc-9008-0d1ad9232568")
 		(effects

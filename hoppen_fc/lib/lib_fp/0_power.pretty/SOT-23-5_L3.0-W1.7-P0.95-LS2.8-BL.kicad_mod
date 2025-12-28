@@ -1,0 +1,117 @@
+(footprint "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "77670ef1-211b-43d3-837c-1bf57cb53c72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(uuid "af0b38b6-1ccc-4ec4-bf07-612526519f1a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81521c31-1a8a-4952-a255-39bbd724b043")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ce58457-95d4-43f2-a0f3-d01f7afeb253")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -2 1.14)
+		(end -1.85 1.14)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8d388508-3bb7-4864-97e8-c69adac32b98")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "63b96df2-2258-451a-b63a-eb4e1fbb7904")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.95 1.15)
+		(size 0.49 1.16)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2644f8ba-2536-43f8-beb1-8e2c08e73b57")
+	)
+	(pad "2" smd rect
+		(at 0 1.15)
+		(size 0.49 1.16)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bc9c7e87-f6ff-4ffb-98a8-19f77fb7a86c")
+	)
+	(pad "3" smd rect
+		(at 0.95 1.15)
+		(size 0.49 1.16)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2e1bda02-7198-4062-9917-8b8afbda3fe2")
+	)
+	(pad "4" smd rect
+		(at 0.95 -1.15)
+		(size 0.49 1.18)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "aba26ae4-4260-4d28-b817-e3b61a1d9b24")
+	)
+	(pad "5" smd rect
+		(at -0.95 -1.15)
+		(size 0.49 1.18)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8786bbd1-58b5-42aa-a017-bb60d7769bda")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3d_models/SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95.step"
+		(offset
+			(xyz 0 -0.03 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

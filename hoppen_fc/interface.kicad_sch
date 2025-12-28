@@ -395,7 +395,7 @@
 				(pin passive line
 					(at -5.08 -5.08 0)
 					(length 3.81)
-					(name "Pin_2"
+					(name "Pin_3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -639,7 +639,7 @@
 				(pin passive line
 					(at -5.08 -5.08 0)
 					(length 3.81)
-					(name "Pin_2"
+					(name "Pin_3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -657,7 +657,7 @@
 				(pin passive line
 					(at -5.08 -7.62 0)
 					(length 3.81)
-					(name "Pin_2"
+					(name "Pin_4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2056,8 +2056,8 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "0_power:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL"
+				(at 0 10.668 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2209,7 +2209,7 @@
 					)
 				)
 			)
-			(property "Value" "74AHCT1G125"
+			(property "Value" "SN74AHCT1G125"
 				(at 12.7 3.81 0)
 				(effects
 					(font
@@ -2217,8 +2217,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-				(at 0 0 0)
+			(property "Footprint" "0_transceivers:SOT-23-5"
+				(at 0 29.464 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2226,7 +2226,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590923861753999360"
 				(at 0 26.67 0)
 				(effects
 					(font
@@ -3763,6 +3763,28 @@
 		)
 		(uuid "fad275f6-e2a0-4d95-92c2-0f1c53974bf6")
 	)
+	(text_box "DESIGN:\nPossibly change to 6P due to availability"
+		(exclude_from_sim no)
+		(at 260.35 152.4 0)
+		(size 22.86 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.3048)
+			(type solid)
+			(color 132 132 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.016 1.016)
+			)
+			(justify left top)
+		)
+		(uuid "1c16303e-2be9-4ca0-9345-070417c116b8")
+	)
 	(text_box "DESIGN:\nSeries resistors included due to distance"
 		(exclude_from_sim no)
 		(at 80.01 109.22 0)
@@ -3872,6 +3894,28 @@
 			(justify left top)
 		)
 		(uuid "ab4e85ce-1dfe-4a9a-a66f-196fe0c3118a")
+	)
+	(text_box "DESIGN:\nPossibly change to 8P due to availability"
+		(exclude_from_sim no)
+		(at 83.82 220.98 0)
+		(size 22.86 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.3048)
+			(type solid)
+			(color 132 132 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.016 1.016)
+			)
+			(justify left top)
+		)
+		(uuid "d844c086-9ffd-46d5-9a45-4eab886ee697")
 	)
 	(text_box "DESIGN:\nSeries resistors included due to distance"
 		(exclude_from_sim no)
@@ -4014,12 +4058,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42d921b9-a106-45ef-9033-2ef2fcb2b64d")
-	)
-	(junction
-		(at 334.01 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47ac486a-45da-472b-8aab-095e882253eb")
 	)
 	(junction
 		(at 247.65 118.11)
@@ -4200,6 +4238,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc3ccf18-3675-47a1-8b49-f8878511fcd3")
+	)
+	(junction
+		(at 334.01 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1857391-7224-4943-af98-b8b334112022")
 	)
 	(junction
 		(at 269.24 118.11)
@@ -5442,6 +5486,16 @@
 	)
 	(wire
 		(pts
+			(xy 334.01 158.75) (xy 347.98 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ceb315c-cd43-4fe5-a344-b176de73987e")
+	)
+	(wire
+		(pts
 			(xy 64.77 182.88) (xy 85.09 182.88)
 		)
 		(stroke
@@ -6202,7 +6256,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 158.75) (xy 347.98 158.75)
+			(xy 330.2 158.75) (xy 334.01 158.75)
 		)
 		(stroke
 			(width 0)
@@ -7329,16 +7383,6 @@
 			(type default)
 		)
 		(uuid "f230e03d-afae-4757-ae1e-7b9b91b15e52")
-	)
-	(wire
-		(pts
-			(xy 330.2 158.75) (xy 334.01 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2416e22-08c1-467e-8f9b-bfa6e0c64f2f")
 	)
 	(wire
 		(pts
@@ -55075,75 +55119,6 @@
 		(uuid "feba5eb3-92bd-4bf5-ad84-aa5a6f649141")
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 160.02 212.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0154851b-fffd-4e09-8a31-a84f44ad87f8")
-		(property "Reference" "C89"
-			(at 160.02 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 160.02 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0_resistor_smd:R_0603_1608Metric"
-			(at 160.9852 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 160.02 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "61ad33a8-7954-4f00-9d46-3e6fc64386bd")
-		)
-		(pin "1"
-			(uuid "69e520d3-bbd0-4add-b6a9-3cc34cdbe69e")
-		)
-		(instances
-			(project "hoppen_fc"
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
-					(reference "C89")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 236.22 186.69 0)
 		(unit 1)
@@ -55280,75 +55255,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 334.01 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0833e4df-ec55-40db-8fb4-a68f09243d15")
-		(property "Reference" "C95"
-			(at 334.01 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 334.01 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0_resistor_smd:R_0603_1608Metric"
-			(at 334.9752 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 334.01 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 334.01 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "916a1cc2-b3a0-4d21-9d81-5cdb3b9aba03")
-		)
-		(pin "1"
-			(uuid "c727d2e4-c003-4eba-88da-af0a89444dfb")
-		)
-		(instances
-			(project "hoppen_fc"
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
-					(reference "C95")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 71.12 116.84 0)
 		(unit 1)
@@ -55477,75 +55383,6 @@
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
 					(reference "R58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 254 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0e8046e0-6877-4375-9312-8b2b3efb2132")
-		(property "Reference" "R60"
-			(at 255.27 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47k"
-			(at 255.27 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.222 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 254 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c493f4b5-c7e9-4614-a23e-d4b0275c27c8")
-		)
-		(pin "2"
-			(uuid "248af3a0-1f40-458d-b2c4-ab35ff3bbf83")
-		)
-		(instances
-			(project "hoppen_fc"
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
-					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -55713,7 +55550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_connectors:SM06B-GHS-TB-LF-SN"
 			(at 59.69 243.84 0)
 			(effects
 				(font
@@ -55842,75 +55679,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 335.28 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "19b2f015-e44c-45f1-b0c3-dcc2941d5ec1")
-		(property "Reference" "C92"
-			(at 335.28 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 335.28 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0_resistor_smd:R_0603_1608Metric"
-			(at 336.2452 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 335.28 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 335.28 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "34caac44-c600-4de6-b456-96d16dc1169e")
-		)
-		(pin "1"
-			(uuid "b48cc8e8-2cfa-43f7-8271-8a6090cd0e46")
-		)
-		(instances
-			(project "hoppen_fc"
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
-					(reference "C92")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 71.12 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -55936,7 +55704,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_resistor_smd:R_0603_1608Metric"
+		(property "Footprint" "0_capacitor_smd:C_0402_1005Metric"
 			(at 72.0852 67.31 0)
 			(effects
 				(font
@@ -56046,6 +55814,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 254 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "206c2e92-ba6e-4d9d-a7e3-fcfa1f30a864")
+		(property "Reference" "R20"
+			(at 256.54 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 256.54 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_resistor_smd:R_0402_1005Metric"
+			(at 252.222 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 254 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f2f4a6c-0c17-4d3b-99f4-dcdff662d088")
+		)
+		(pin "2"
+			(uuid "00620f1b-6427-4b8f-b592-478ad9fac2b8")
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 71.12 135.89 0)
 		(unit 1)
@@ -56107,154 +55945,6 @@
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
 					(reference "#PWR0118")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 335.28 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "239f4d1a-695d-4180-bd80-a73fb0970726")
-		(property "Reference" "C91"
-			(at 335.28 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 335.28 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0_resistor_smd:R_0603_1608Metric"
-			(at 336.2452 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 335.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 335.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3d09da03-b27f-480e-a682-fb2c9f656bd7")
-		)
-		(pin "1"
-			(uuid "08675537-ad38-466d-8cd4-933ad86d6730")
-		)
-		(instances
-			(project "hoppen_fc"
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
-					(reference "C91")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_connectors:Conn_01x03_Mounting")
-		(at 149.86 120.65 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "25ae5240-5081-4d57-84f9-c00e7fa77f74")
-		(property "Reference" "J9"
-			(at 143.51 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "XH2.5-3P"
-			(at 143.51 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row with mounting pin"
-			(at 149.86 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d1b89b5-dacb-4794-a693-dc060ea8d9e5")
-		)
-		(pin "MP2"
-			(uuid "ee1570ed-d9f6-4928-bffc-0cbb604863f5")
-		)
-		(pin "2"
-			(uuid "64cedaa3-1ee0-45a5-a5d8-18b19e80d007")
-		)
-		(pin "MP1"
-			(uuid "89551700-15af-485d-9831-ae7ad20f1467")
-		)
-		(pin "3"
-			(uuid "37ffb403-976a-41ac-89a4-b8f6f273a041")
-		)
-		(instances
-			(project "hoppen_fc"
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
-					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -56488,7 +56178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_capacitor_smd:CASE-B-3528-21"
 			(at 168.6052 215.9 0)
 			(effects
 				(font
@@ -56507,6 +56197,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 167.64 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7199"
 			(at 167.64 212.09 0)
 			(effects
 				(font
@@ -56665,17 +56364,16 @@
 		)
 	)
 	(symbol
-		(lib_id "0_connectors:Conn_01x03_Mounting")
-		(at 236.22 219.71 0)
-		(mirror y)
+		(lib_id "Device:C")
+		(at 160.02 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2c7fe6dc-9c4b-4c69-9f5a-ef7b5da9bd57")
-		(property "Reference" "J14"
-			(at 229.87 223.52 0)
+		(uuid "2ade25c0-b91c-4f9f-8399-92a5f8e603e2")
+		(property "Reference" "C85"
+			(at 160.02 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56683,8 +56381,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "XH2.5-3P"
-			(at 229.87 220.98 0)
+		(property "Value" "100n"
+			(at 160.02 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56692,8 +56390,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 236.22 219.71 0)
+		(property "Footprint" "0_capacitor_smd:C_0402_1005Metric"
+			(at 160.9852 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56702,7 +56400,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 219.71 0)
+			(at 160.02 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56710,34 +56408,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row with mounting pin"
-			(at 236.22 196.85 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 160.02 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "7194d01c-e24d-458e-b8af-baecee655835")
-		)
-		(pin "MP2"
-			(uuid "7d347aaf-9484-4690-8ceb-cde3b4b08301")
 		)
 		(pin "2"
-			(uuid "3d38240a-cfdc-458f-a092-8fb61bad1d47")
+			(uuid "47f46580-8f24-44f6-8fac-d63b666325bb")
 		)
-		(pin "MP1"
-			(uuid "833468ca-baf3-4392-9c3c-1453281cd959")
-		)
-		(pin "3"
-			(uuid "21476efd-a2b0-4d7f-ada1-e5326c9d8d0c")
+		(pin "1"
+			(uuid "076334f0-9928-47e7-9fb7-60c2f54402c4")
 		)
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
-					(reference "J14")
+					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -56837,7 +56526,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+		(property "Footprint" "0_transceivers:SOT-23-5"
 			(at 262.89 222.25 0)
 			(effects
 				(font
@@ -56846,7 +56535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590923861753999360"
 			(at 262.89 195.58 0)
 			(effects
 				(font
@@ -56883,6 +56572,75 @@
 			(project ""
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
 					(reference "U16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 246.38 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3069a16c-1c3c-41d6-aaaa-eff68e3ae77e")
+		(property "Reference" "C89"
+			(at 246.38 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 246.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_capacitor_smd:C_0402_1005Metric"
+			(at 247.3452 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 246.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7382c584-d3fe-46d5-9baf-6667707cbab2")
+		)
+		(pin "1"
+			(uuid "a9d62339-346a-473d-90a5-75190e1e05fe")
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
+					(reference "C89")
 					(unit 1)
 				)
 			)
@@ -56982,7 +56740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_resistor_smd:R_0402_1005Metric"
 			(at 252.73 119.888 90)
 			(effects
 				(font
@@ -57052,7 +56810,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_connectors:SM02B-GHS-TB-LF-SN"
 			(at 236.22 118.11 0)
 			(effects
 				(font
@@ -57373,15 +57131,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 246.38 78.74 0)
+		(at 250.19 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3a0a5587-4451-4eae-8df2-c95bca6b5201")
+		(uuid "3a1d6751-7988-4e72-b42f-3fd62771d415")
 		(property "Reference" "C97"
-			(at 246.38 76.2 0)
+			(at 250.19 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57390,7 +57148,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 246.38 81.28 0)
+			(at 250.19 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57398,8 +57156,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_resistor_smd:R_0603_1608Metric"
-			(at 247.3452 82.55 0)
+		(property "Footprint" "0_capacitor_smd:C_0402_1005Metric"
+			(at 251.1552 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57408,7 +57166,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 78.74 0)
+			(at 250.19 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57417,7 +57175,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 246.38 78.74 0)
+			(at 250.19 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57426,10 +57184,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "0ed8a282-7af5-488e-af5f-e15f8f724ae6")
+			(uuid "7070283f-fd23-4230-9190-6e7ac70f964e")
 		)
 		(pin "1"
-			(uuid "7e026644-3789-4fe9-b5db-17c4c6bb78f0")
+			(uuid "fec4ccc4-d861-4102-b47c-67a678572ce8")
 		)
 		(instances
 			(project "hoppen_fc"
@@ -57576,15 +57334,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 160.02 113.03 0)
+		(at 335.28 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "40955dc8-8936-4e23-b556-bfd75ec471b4")
-		(property "Reference" "C85"
-			(at 160.02 110.49 0)
+		(uuid "41454932-d4ba-4ce9-bac2-ffa18d4998f7")
+		(property "Reference" "C91"
+			(at 335.28 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57593,7 +57351,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 160.02 115.57 0)
+			(at 335.28 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57601,8 +57359,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_resistor_smd:R_0603_1608Metric"
-			(at 160.9852 116.84 0)
+		(property "Footprint" "0_capacitor_smd:C_0402_1005Metric"
+			(at 336.2452 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57611,7 +57369,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 113.03 0)
+			(at 335.28 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57620,7 +57378,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 160.02 113.03 0)
+			(at 335.28 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57629,15 +57387,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "6ae51fbb-e569-4841-9565-7f008fad17f4")
+			(uuid "d0508120-2daf-4a52-86dc-3817d4784709")
 		)
 		(pin "1"
-			(uuid "f99d44b0-d4d9-4558-8a3c-d39e2d4f3133")
+			(uuid "f8eae2fa-5d9a-4bb9-906a-70f8b3dba668")
 		)
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
-					(reference "C85")
+					(reference "C91")
 					(unit 1)
 				)
 			)
@@ -57772,76 +57530,6 @@
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
 					(reference "#PWR0161")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 167.64 228.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "440eac76-7fab-4199-9184-c36fbf212299")
-		(property "Reference" "R57"
-			(at 170.18 227.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47k"
-			(at 170.18 229.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.862 228.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 167.64 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7b8488f-4f68-4cc6-8b07-aec578dc9855")
-		)
-		(pin "2"
-			(uuid "ce31715d-3a29-4393-a135-8ee397cf032c")
-		)
-		(instances
-			(project "hoppen_fc"
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
-					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -58209,7 +57897,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_power:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL"
 			(at 266.7 68.58 0)
 			(effects
 				(font
@@ -58564,7 +58252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_resistor_smd:R_0402_1005Metric"
 			(at 258.572 123.19 90)
 			(effects
 				(font
@@ -58700,7 +58388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_resistor_smd:R_0603_1608Metric"
+		(property "Footprint" "0_capacitor_smd:C_0402_1005Metric"
 			(at 72.0852 116.84 0)
 			(effects
 				(font
@@ -58761,7 +58449,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "XH2.5-3P"
+		(property "Value" "PH2.0-3P"
 			(at 143.51 72.39 0)
 			(effects
 				(font
@@ -58770,7 +58458,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_connectors:S3B-PH-SM4-TB-LF-SN"
 			(at 149.86 71.12 0)
 			(effects
 				(font
@@ -58849,7 +58537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_misc:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 			(at 349.25 119.38 0)
 			(effects
 				(font
@@ -58892,17 +58580,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 167.64 162.56 0)
+		(lib_id "Device:C")
+		(at 335.28 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "656aa590-5f1c-497a-8b33-97eee46010db")
-		(property "Reference" "C88"
-			(at 171.45 160.4009 0)
+		(uuid "64878032-8e61-4228-958b-fe702cb2e066")
+		(property "Reference" "C92"
+			(at 335.28 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58910,8 +58597,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
-			(at 171.45 162.9409 0)
+		(property "Value" "100n"
+			(at 335.28 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58919,8 +58606,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 168.6052 166.37 0)
+		(property "Footprint" "0_capacitor_smd:C_0402_1005Metric"
+			(at 336.2452 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58929,7 +58616,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 162.56 0)
+			(at 335.28 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58937,8 +58624,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 167.64 162.56 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 335.28 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58947,15 +58634,85 @@
 			)
 		)
 		(pin "2"
-			(uuid "379ad147-b1c6-4338-9824-5604ff89ca28")
+			(uuid "5d6c640f-f444-4b8d-b906-4332e73dc968")
 		)
 		(pin "1"
-			(uuid "f0479d5f-36ba-4342-9aa7-531148ff10cb")
+			(uuid "ab2dff4e-7aa9-4f2e-b240-5576f3800126")
 		)
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
-					(reference "C88")
+					(reference "C92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 167.64 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66a907c7-4499-4015-88be-b60830a4b054")
+		(property "Reference" "R13"
+			(at 170.18 227.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 170.18 229.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_resistor_smd:R_0402_1005Metric"
+			(at 165.862 228.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.64 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c6f17c4-9720-40dc-9803-f98762f7d972")
+		)
+		(pin "2"
+			(uuid "d0e282a9-d3bf-4b35-b21d-ec4062d13c30")
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -59362,76 +59119,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 254 212.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ce4cad4-63c1-4c36-869e-c339ead85b99")
-		(property "Reference" "C94"
-			(at 257.81 209.9309 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 257.81 212.4709 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 254.9652 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 254 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2aff9229-d53e-43af-95e2-7f96863aaf05")
-		)
-		(pin "1"
-			(uuid "a7601b33-5c59-4dce-9e9d-05b922d43e3a")
-		)
-		(instances
-			(project "hoppen_fc"
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
-					(reference "C94")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "0_diodes:SMF5V0A")
 		(at 247.65 121.92 270)
 		(unit 1)
@@ -59702,85 +59389,6 @@
 		)
 	)
 	(symbol
-		(lib_id "0_connectors:Conn_01x03_Mounting")
-		(at 149.86 219.71 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "84a2df34-27ae-423b-a687-6d3102b0c3fb")
-		(property "Reference" "J11"
-			(at 143.51 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "XH2.5-3P"
-			(at 143.51 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row with mounting pin"
-			(at 149.86 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0fbdded2-0c03-4e24-87f0-f76b257ed78f")
-		)
-		(pin "MP2"
-			(uuid "c3d2c044-9079-4298-94a6-59b2fe2bc257")
-		)
-		(pin "2"
-			(uuid "61ba0f1e-5069-41d5-9593-8efdcfc010a9")
-		)
-		(pin "MP1"
-			(uuid "42b25697-0160-4c71-bc56-fba449733c4f")
-		)
-		(pin "3"
-			(uuid "7de25001-a529-4d4b-a304-534d73be8987")
-		)
-		(instances
-			(project "hoppen_fc"
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 156.21 233.68 0)
 		(unit 1)
@@ -59842,75 +59450,6 @@
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
 					(reference "#PWR0163")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 250.19 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "866f4583-0890-40c1-8424-75d1c4a66895")
-		(property "Reference" "C98"
-			(at 250.19 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 250.19 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0_resistor_smd:R_0603_1608Metric"
-			(at 251.1552 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.19 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 250.19 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4ec3cded-c6ff-4b9b-bc02-1950578bdc97")
-		)
-		(pin "1"
-			(uuid "e7356236-cab7-4eb4-b58d-b84bfc2b35a3")
-		)
-		(instances
-			(project "hoppen_fc"
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
-					(reference "C98")
 					(unit 1)
 				)
 			)
@@ -60011,7 +59550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_connectors:SM04B-GHS-TB-LF-SN"
 			(at 60.96 119.38 0)
 			(effects
 				(font
@@ -60066,6 +59605,85 @@
 		)
 	)
 	(symbol
+		(lib_id "0_connectors:Conn_01x03_Mounting")
+		(at 236.22 219.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e8238c6-09e6-4eed-9f55-ed5fa419336d")
+		(property "Reference" "J11"
+			(at 229.87 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PH2.0-3P"
+			(at 229.87 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_connectors:S3B-PH-SM4-TB-LF-SN"
+			(at 236.22 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row with mounting pin"
+			(at 236.22 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75e557c9-dd35-4f9a-b1f4-b015960a0cc1")
+		)
+		(pin "MP2"
+			(uuid "2a900524-89f6-4411-9a05-25c8ebeb5d59")
+		)
+		(pin "2"
+			(uuid "65b22031-e086-49a9-9437-f8717148a5c0")
+		)
+		(pin "MP1"
+			(uuid "a591199a-7cf2-4f7c-ad10-1c6226271e2a")
+		)
+		(pin "3"
+			(uuid "6761a05e-a47c-4933-b952-880e286934b5")
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "0_connectors:Conn_01x04_Mounting")
 		(at 60.96 69.85 0)
 		(mirror y)
@@ -60093,7 +59711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_connectors:SM04B-GHS-TB-LF-SN"
 			(at 60.96 69.85 0)
 			(effects
 				(font
@@ -60175,7 +59793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_connectors:SM04B-GHS-TB-LF-SN"
 			(at 323.85 168.91 0)
 			(effects
 				(font
@@ -60224,144 +59842,6 @@
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
 					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 269.24 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "908dd930-8d99-4107-adca-e88fdbb460d7")
-		(property "Reference" "C96"
-			(at 269.24 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 269.24 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0_resistor_smd:R_0603_1608Metric"
-			(at 270.2052 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 269.24 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 269.24 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "be2980bb-0519-4772-823b-329435f52ae6")
-		)
-		(pin "1"
-			(uuid "d234a48c-ff78-4ba9-a49f-806274bfb5e4")
-		)
-		(instances
-			(project "hoppen_fc"
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
-					(reference "C96")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 160.02 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "91b4f590-372f-4b6d-8d07-69725d26b8de")
-		(property "Reference" "C83"
-			(at 160.02 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 160.02 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0_resistor_smd:R_0603_1608Metric"
-			(at 160.9852 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 160.02 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6808c9aa-a45e-4f55-a96e-eff08639c7c6")
-		)
-		(pin "1"
-			(uuid "d05203b7-f052-4c88-a07b-e9a030069078")
-		)
-		(instances
-			(project "hoppen_fc"
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
-					(reference "C83")
 					(unit 1)
 				)
 			)
@@ -60502,6 +59982,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 160.02 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97b4b00f-c0ea-4870-a34d-33b2c8bd6637")
+		(property "Reference" "C77"
+			(at 160.02 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 160.02 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_capacitor_smd:C_0402_1005Metric"
+			(at 160.9852 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 160.02 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b050898d-149c-4696-b141-ab26f11d6c62")
+		)
+		(pin "1"
+			(uuid "cb3d40c1-b419-4b39-898e-112587227a18")
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
+					(reference "C77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 78.74 72.39 90)
 		(unit 1)
@@ -60630,6 +60179,85 @@
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
 					(reference "#PWR0183")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_connectors:Conn_01x03_Mounting")
+		(at 149.86 219.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d63abd1-bd7f-4e22-85d8-74230dcc5fb5")
+		(property "Reference" "J10"
+			(at 143.51 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PH2.0-3P"
+			(at 143.51 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_connectors:S3B-PH-SM4-TB-LF-SN"
+			(at 149.86 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row with mounting pin"
+			(at 149.86 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52171c5c-ebaa-441e-a94d-08fe142df5b1")
+		)
+		(pin "MP2"
+			(uuid "87e10b9e-3098-4bf0-b847-516e0453bcc8")
+		)
+		(pin "2"
+			(uuid "6ad5d2d3-b7c8-42e0-a715-0324fd13f091")
+		)
+		(pin "MP1"
+			(uuid "8072048e-3d42-48b1-b35e-28111418f96b")
+		)
+		(pin "3"
+			(uuid "18454988-d160-466f-9ea3-3e8db65f8e6a")
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -60835,76 +60463,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 167.64 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aafe6d04-d8db-4ce2-8fa0-173fecd4bea9")
-		(property "Reference" "R54"
-			(at 170.18 177.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47k"
-			(at 170.18 180.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.862 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 167.64 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba88e362-09de-4a19-9254-ffe2c17b9eeb")
-		)
-		(pin "2"
-			(uuid "3c860753-046e-4e94-ad34-7621671c72f0")
-		)
-		(instances
-			(project ""
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
-					(reference "R54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 242.57 207.01 0)
 		(unit 1)
@@ -61038,6 +60596,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 246.38 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac779cf1-f485-4be2-9b6c-dda5f9907ca6")
+		(property "Reference" "C93"
+			(at 246.38 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 246.38 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_capacitor_smd:C_0402_1005Metric"
+			(at 247.3452 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 246.38 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8f6b6ac4-46a3-441b-8f6a-3d4b2f7cbfdd")
+		)
+		(pin "1"
+			(uuid "dcc16e80-b0e1-48fc-b78e-ace3ef3476f3")
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
+					(reference "C93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "0_connectors:Conn_01x02_Mounting")
 		(at 236.22 69.85 0)
 		(mirror y)
@@ -61065,7 +60692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_connectors:SM02B-GHS-TB-LF-SN"
 			(at 236.22 69.85 0)
 			(effects
 				(font
@@ -61141,7 +60768,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_connectors:SM04B-GHS-TB-LF-SN"
 			(at 325.12 69.85 0)
 			(effects
 				(font
@@ -61262,6 +60889,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 269.24 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b476e840-6643-474c-91cf-abaf490284ff")
+		(property "Reference" "C96"
+			(at 269.24 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 269.24 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_capacitor_smd:C_0402_1005Metric"
+			(at 270.2052 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 269.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "55c1ee78-60f5-49da-8d58-f78b38bfb8a8")
+		)
+		(pin "1"
+			(uuid "ff3a582e-15bb-44c2-b512-d5d5d75de6ea")
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
+					(reference "C96")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 356.87 154.94 0)
 		(unit 1)
@@ -61322,6 +61018,85 @@
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
 					(reference "#PWR0182")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_connectors:Conn_01x03_Mounting")
+		(at 149.86 170.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9870f59-1ef7-4761-a877-438c8b0f7406")
+		(property "Reference" "J9"
+			(at 143.51 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PH2.0-3P"
+			(at 143.51 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_connectors:S3B-PH-SM4-TB-LF-SN"
+			(at 149.86 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row with mounting pin"
+			(at 149.86 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91b7fe47-2d98-4096-882d-d4d932b3dbcc")
+		)
+		(pin "MP2"
+			(uuid "7456db68-4a82-4039-b4a2-bdfdb02ba438")
+		)
+		(pin "2"
+			(uuid "4b3feb67-ffb1-4c7d-a0c0-8848f6e21c92")
+		)
+		(pin "MP1"
+			(uuid "8c2fbd05-3668-4785-8dfd-2c7ad3b390c2")
+		)
+		(pin "3"
+			(uuid "ba81848d-487a-4885-8e80-a0ba833b00b7")
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -61622,7 +61397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_misc:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 			(at 349.25 69.85 0)
 			(effects
 				(font
@@ -61692,7 +61467,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_resistor_smd:R_0402_1005Metric"
 			(at 165.862 80.01 90)
 			(effects
 				(font
@@ -61796,75 +61571,6 @@
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
 					(reference "#PWR0146")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 160.02 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c685d906-5b70-483d-b79e-c857929bd5b2")
-		(property "Reference" "C87"
-			(at 160.02 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 160.02 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0_resistor_smd:R_0603_1608Metric"
-			(at 160.9852 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 160.02 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d441cc64-e633-4547-b4ba-f8d671fa6454")
-		)
-		(pin "1"
-			(uuid "7e7b3a04-2a24-48fd-992c-d19f0800917f")
-		)
-		(instances
-			(project "hoppen_fc"
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
-					(reference "C87")
 					(unit 1)
 				)
 			)
@@ -62074,17 +61780,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 167.64 129.54 0)
+		(lib_id "Device:C")
+		(at 160.02 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0818704-c6a3-4fa3-b2c3-aba97410be88")
-		(property "Reference" "R55"
-			(at 170.18 128.2699 0)
+		(uuid "d01607e7-cf19-4dd7-88fb-359a6892250f")
+		(property "Reference" "C83"
+			(at 160.02 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62092,8 +61797,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47k"
-			(at 170.18 130.8099 0)
+		(property "Value" "100n"
+			(at 160.02 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62101,8 +61806,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 165.862 129.54 90)
+		(property "Footprint" "0_capacitor_smd:C_0402_1005Metric"
+			(at 160.9852 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62111,7 +61816,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 129.54 0)
+			(at 160.02 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62119,25 +61824,94 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 167.64 129.54 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 160.02 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "38c29980-fcaf-4aab-b301-f802c7a9011e")
 		)
 		(pin "2"
-			(uuid "81870ca4-f085-4d8d-b343-fd1cb2a1272b")
+			(uuid "f4ec7e94-60c1-44d2-81b2-54427fed6752")
+		)
+		(pin "1"
+			(uuid "7af48b59-ea65-4c14-a5d0-c88d20a587fe")
 		)
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
-					(reference "R55")
+					(reference "C83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 160.02 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d081737c-61f3-45b1-8117-f0f27dff40e3")
+		(property "Reference" "C87"
+			(at 160.02 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 160.02 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_capacitor_smd:C_0402_1005Metric"
+			(at 160.9852 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 160.02 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "11c950c5-33fb-4673-a65b-d84fad6d3f5d")
+		)
+		(pin "1"
+			(uuid "2129f4f5-50e0-417b-87b3-3be90758ce3e")
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
+					(reference "C87")
 					(unit 1)
 				)
 			)
@@ -62345,16 +62119,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 246.38 212.09 0)
+		(lib_id "0_connectors:Conn_01x03_Mounting")
+		(at 149.86 120.65 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d7222872-5f71-481b-8b6b-42103a531cd4")
-		(property "Reference" "C93"
-			(at 246.38 209.55 0)
+		(uuid "d79242b6-f975-4f0b-ac57-0d1c2fc070ca")
+		(property "Reference" "J2"
+			(at 143.51 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62362,8 +62137,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 246.38 214.63 0)
+		(property "Value" "PH2.0-3P"
+			(at 143.51 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62371,8 +62146,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_resistor_smd:R_0603_1608Metric"
-			(at 247.3452 215.9 0)
+		(property "Footprint" "0_connectors:S3B-PH-SM4-TB-LF-SN"
+			(at 149.86 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62381,7 +62156,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 212.09 0)
+			(at 149.86 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62389,25 +62164,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 246.38 212.09 0)
+		(property "Description" "Generic connector, single row with mounting pin"
+			(at 149.86 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "8ece9db5-eed4-4aee-bd3e-2db04b5ed253")
 		)
 		(pin "1"
-			(uuid "873b1ed1-c179-40a3-ad5c-6ac1a41de2a7")
+			(uuid "0a68107c-f1c6-4257-ab81-d7a17b206a3b")
+		)
+		(pin "MP2"
+			(uuid "c471a87c-04f2-454f-bb51-a5d541c2ac1f")
+		)
+		(pin "2"
+			(uuid "a184357c-1733-4ace-bfd0-dfb077bd4ff3")
+		)
+		(pin "MP1"
+			(uuid "6efcd4f7-6713-45d8-a2dd-decce74fb080")
+		)
+		(pin "3"
+			(uuid "de852bdd-7c6d-48da-8295-055d962e302b")
 		)
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
-					(reference "C93")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -62441,7 +62225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_connectors:SM05B-GHS-TB-LF-SN"
 			(at 237.49 172.72 0)
 			(effects
 				(font
@@ -62632,76 +62416,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 167.64 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd074490-9677-4357-b1f3-7bd8c767c10a")
-		(property "Reference" "C86"
-			(at 171.45 110.8709 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 171.45 113.4109 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.6052 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 167.64 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b0a681d0-954e-44af-b0c7-4b918f85930e")
-		)
-		(pin "1"
-			(uuid "7ab5ddbd-5e0b-4698-961d-546b8e5ac42e")
-		)
-		(instances
-			(project "hoppen_fc"
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
-					(reference "C86")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 148.59 85.09 0)
 		(unit 1)
@@ -62769,6 +62483,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 167.64 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4da8f58-48c5-4a86-91e2-a2908fabb4a6")
+		(property "Reference" "C88"
+			(at 171.45 160.4009 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 171.45 162.9409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_capacitor_smd:CASE-B-3528-21"
+			(at 168.6052 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 167.64 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7199"
+			(at 167.64 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "69f23ca9-03b5-47a8-b9b4-b7383b0391eb")
+		)
+		(pin "1"
+			(uuid "4a559e99-d5b1-4d02-9d5b-3c440d738e0c")
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
+					(reference "C88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 72.39 232.41 0)
 		(unit 1)
@@ -62795,7 +62588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_resistor_smd:R_0603_1608Metric"
+		(property "Footprint" "0_capacitor_smd:C_0402_1005Metric"
 			(at 73.3552 236.22 0)
 			(effects
 				(font
@@ -63105,6 +62898,145 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 334.01 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec34e221-a8b3-45f3-bf40-834e893e52a7")
+		(property "Reference" "C95"
+			(at 334.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 334.01 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_capacitor_smd:C_0402_1005Metric"
+			(at 334.9752 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 334.01 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 334.01 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a666139f-c990-4414-8daf-e27ddbb2b6cc")
+		)
+		(pin "1"
+			(uuid "6e784517-3f20-4579-afe2-c6131e2470ce")
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
+					(reference "C95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 167.64 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed44953c-bd28-4165-89d4-0cc939ab37af")
+		(property "Reference" "R15"
+			(at 170.18 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 170.18 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_resistor_smd:R_0402_1005Metric"
+			(at 165.862 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.64 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3dcfe4cb-806b-42a8-8615-9c5b5db8d277")
+		)
+		(pin "2"
+			(uuid "c6600384-0c68-4549-a4f0-06edb6371a75")
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 71.12 67.31 0)
 		(unit 1)
@@ -63199,7 +63131,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_connectors:SM08B-GHS-TB-LF-SN"
 			(at 59.69 177.8 0)
 			(effects
 				(font
@@ -63399,6 +63331,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 167.64 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f18ed6d4-7e1d-46fb-bb84-475132571bb6")
+		(property "Reference" "R14"
+			(at 170.18 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 170.18 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_resistor_smd:R_0402_1005Metric"
+			(at 165.862 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 167.64 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a1fc5b7-d189-4268-ae3d-1fa75edb5ac0")
+		)
+		(pin "2"
+			(uuid "813740d5-b914-4438-acf8-95de051f52cf")
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "0_connectors:Conn_01x04_Mounting")
 		(at 325.12 119.38 0)
 		(mirror y)
@@ -63426,7 +63428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_connectors:SM04B-GHS-TB-LF-SN"
 			(at 325.12 119.38 0)
 			(effects
 				(font
@@ -63615,17 +63617,17 @@
 		)
 	)
 	(symbol
-		(lib_id "0_connectors:Conn_01x03_Mounting")
-		(at 149.86 170.18 0)
-		(mirror y)
+		(lib_id "Device:C_Polarized")
+		(at 254 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fcfb8647-819d-416b-b8c7-0920a87ae1bf")
-		(property "Reference" "J10"
-			(at 143.51 173.99 0)
+		(fields_autoplaced yes)
+		(uuid "f63e2c53-5a85-4f76-b012-164fbee7818e")
+		(property "Reference" "C94"
+			(at 257.81 209.9309 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63633,8 +63635,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "XH2.5-3P"
-			(at 143.51 171.45 0)
+		(property "Value" "22u"
+			(at 257.81 212.4709 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63642,8 +63644,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 149.86 170.18 0)
+		(property "Footprint" "0_capacitor_smd:CASE-B-3528-21"
+			(at 254.9652 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63652,7 +63654,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 170.18 0)
+			(at 254 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63660,8 +63662,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row with mounting pin"
-			(at 149.86 147.32 0)
+		(property "Description" "Polarized capacitor"
+			(at 254 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63669,25 +63671,104 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "96a66c5e-d303-4ab3-9f7f-5cfa369122ac")
-		)
-		(pin "MP2"
-			(uuid "b2ebc4a9-2535-48c8-962f-24feb2964530")
+		(property "LCSC" "C7199"
+			(at 254 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "e6fc92e8-a600-4b8c-9ccc-3632b638e2a9")
+			(uuid "68ba0c73-88f7-40de-a5fd-b44ff7daaf59")
 		)
-		(pin "MP1"
-			(uuid "b0a4ff12-9042-470e-9ce4-5034877e258b")
-		)
-		(pin "3"
-			(uuid "0cfe12c3-d1c0-478f-94f3-0b430fa2002a")
+		(pin "1"
+			(uuid "84380c8e-462f-4f37-a8ed-d4cd4ac62648")
 		)
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
-					(reference "J10")
+					(reference "C94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 167.64 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe3ddfe8-8ca8-498f-9227-406a9750c806")
+		(property "Reference" "C86"
+			(at 171.45 110.8709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 171.45 113.4109 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_capacitor_smd:CASE-B-3528-21"
+			(at 168.6052 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 167.64 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7199"
+			(at 167.64 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0128b768-ef17-4e8b-8184-5c06fe711d38")
+		)
+		(pin "1"
+			(uuid "e1960bef-022d-4cc4-b5e8-4e57d3ae1409")
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
+					(reference "C86")
 					(unit 1)
 				)
 			)

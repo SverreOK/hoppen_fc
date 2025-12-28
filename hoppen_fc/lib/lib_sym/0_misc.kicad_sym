@@ -30,7 +30,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_misc:SW-SMD_L3.9-W3.0-P4.45"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -49,6 +49,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C720477"
 			(at 0 0 0)
 			(effects
 				(font

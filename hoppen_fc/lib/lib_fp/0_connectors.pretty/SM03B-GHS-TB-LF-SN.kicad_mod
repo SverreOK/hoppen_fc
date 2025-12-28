@@ -1,0 +1,117 @@
+(footprint "SM03B-GHS-TB-LF-SN"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "aaa92fbc-03a1-4b74-87d8-6e3617ac9108")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SM03B-GHS-TB-LF-SN"
+		(at 0 5.85 0)
+		(layer "F.Fab")
+		(uuid "227e27cd-00c8-4124-89c7-dadafbc13579")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1e9b063-640a-4b3f-81c8-e8b6de2d6b4e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98ceda0d-793a-40ac-9152-8faecd19fffd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center -2.5 -2)
+		(end -2.3 -2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fef57ebc-d38f-44d8-9319-b62c3ab10db3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6cb15549-cde4-4f60-a53a-75c3c837ca35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.25 -1.85 270)
+		(size 1.7 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4381bec6-6a94-4096-8774-df1c107d81fd")
+	)
+	(pad "2" smd rect
+		(at 0 -1.85 270)
+		(size 1.7 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e3e378ae-0076-4432-8ab0-c2f2a332a796")
+	)
+	(pad "3" smd rect
+		(at 1.25 -1.85 270)
+		(size 1.7 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bd2740c6-5e45-433d-9cdf-dfbf72179381")
+	)
+	(pad "MP1" smd rect
+		(at -3.1 1.85)
+		(size 1 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b2fe7a26-28db-4132-9f97-3b358a8c2590")
+	)
+	(pad "MP2" smd rect
+		(at 3.1 1.85)
+		(size 1 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "77c17f07-6f7d-4ddd-9d77-616df685f3f4")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3d_models/CONN-TH_SM03B-GHS-TB-LF-SN.step"
+		(offset
+			(xyz 0 -0.34 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

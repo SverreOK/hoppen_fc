@@ -1,0 +1,123 @@
+(footprint "SM04B-GHS-TB-LF-SN"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "881dbdb9-fbfe-4da4-ab95-c2f5f36d3c09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SM04B-GHS-TB-LF-SN"
+		(at 0 5.6 0)
+		(layer "F.Fab")
+		(uuid "882b2067-570b-4bfb-a0b6-162fcaef99c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af4176b6-886d-4c69-9434-d16607df4c48")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0092c48a-9825-4c1c-871c-7c8935d3e5a0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -3.5 -1.5)
+		(end -3.3 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "03011e5b-2565-45e6-933d-54cd0bb1f33c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0bada530-9db3-4594-93ca-ddbeb422e963")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.88 -1.6)
+		(size 0.6 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2c63902d-1c23-4a09-8976-45b1fe078323")
+	)
+	(pad "2" smd rect
+		(at -0.63 -1.6)
+		(size 0.6 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c0428910-37fe-4753-8130-bbddb4acf86a")
+	)
+	(pad "3" smd rect
+		(at 0.62 -1.6)
+		(size 0.6 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9aa3835c-b4e0-42d9-a6d8-9ed9cc45d5f9")
+	)
+	(pad "4" smd rect
+		(at 1.87 -1.6)
+		(size 0.6 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "eaaea21b-1513-4017-99f4-390e1576a3db")
+	)
+	(pad "MP1" smd rect
+		(at -3.72 1.6)
+		(size 1 2.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e92da156-4503-48a7-8d07-97b3083100f3")
+	)
+	(pad "MP2" smd rect
+		(at 3.72 1.6)
+		(size 1 2.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f9bec692-1c44-4e64-9db6-3a47334b112a")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3d_models/CONN-SMD_GH1.25-WS-4P.step"
+		(offset
+			(xyz -1.9 0.4 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

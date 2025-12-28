@@ -3810,7 +3810,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "0_misc:SW-SMD_L3.9-W3.0-P4.45"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -3829,6 +3829,15 @@
 				)
 			)
 			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C720477"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5222,7 +5231,7 @@
 		)
 		(uuid "1e9e47e9-f92a-4029-91d1-35cc37b3b9b5")
 	)
-	(text_box "C_S = 3p\nC_L = 12p5\nC = 2(C_L-C_S)"
+	(text_box "C_S = 7p\nC_L = 12p\nC = 2(C_L-C_S)"
 		(exclude_from_sim no)
 		(at 232.41 255.27 0)
 		(size 15.24 6.35)
@@ -5244,7 +5253,7 @@
 		)
 		(uuid "2bc5e549-5cfd-4483-a873-cc64abb1792c")
 	)
-	(text_box "C_S = 3p\nC_L = 8p\nC = 2(C_L-C_S)"
+	(text_box "C_S = 7p\nC_L = 12p\nC = 2(C_L-C_S)"
 		(exclude_from_sim no)
 		(at 184.15 255.27 0)
 		(size 15.24 6.35)
@@ -9897,7 +9906,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_crystals:Crystal_SMD_3215-2Pin"
 			(at 254 265.43 0)
 			(effects
 				(font
@@ -10814,7 +10823,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "20p"
+		(property "Value" "10p"
 			(at 267.97 270.5099 0)
 			(effects
 				(font
@@ -10891,7 +10900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_misc:SW-SMD_L3.9-W3.0-P4.45"
 			(at 99.06 257.81 0)
 			(effects
 				(font
@@ -10910,6 +10919,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 99.06 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C720477"
 			(at 99.06 262.89 0)
 			(effects
 				(font
@@ -11227,7 +11245,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "20p"
+		(property "Value" "10p"
 			(at 246.38 270.5099 0)
 			(effects
 				(font
@@ -11575,7 +11593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_misc:SW-SMD_L3.9-W3.0-P4.45"
 			(at 60.96 257.81 0)
 			(effects
 				(font
@@ -11594,6 +11612,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 60.96 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C720477"
 			(at 60.96 262.89 0)
 			(effects
 				(font
@@ -11710,7 +11737,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_crystals:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 204.47 265.43 0)
 			(effects
 				(font
@@ -11737,7 +11764,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7301943"
+		(property "LCSC" "C9006"
 			(at 204.47 265.43 0)
 			(effects
 				(font
@@ -11863,7 +11890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_misc:SW-SMD_L3.9-W3.0-P4.45"
 			(at 153.67 257.81 0)
 			(effects
 				(font
@@ -11882,6 +11909,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 153.67 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C720477"
 			(at 153.67 262.89 0)
 			(effects
 				(font
