@@ -726,48 +726,44 @@
       "MCU IO"
     ],
     [
-      "c2b34505-b856-4d49-9ba9-6d21c609d4cd",
-      "Power"
+      "45aa82bb-5d0c-4be2-bfbe-f6adc776653e",
+      "Power Input"
+    ],
+    [
+      "304fa278-ecd3-4686-8fe4-afe398f93fb0",
+      "Power Generation"
     ],
     [
       "328607b5-eaf8-4cbb-82fe-138ea1b53a88",
       "Sensors"
     ],
     [
-      "93bd097e-cae3-4aaa-9718-ae37366bd59a",
-      "Storage"
-    ],
-    [
       "70185383-c6d2-4eb6-9764-fd02002b35f8",
       "USB"
     ],
     [
-      "4b2dd471-a6f8-4e49-8717-912e41e4e851",
-      "FDCAN"
+      "93bd097e-cae3-4aaa-9718-ae37366bd59a",
+      "Storage"
     ],
     [
       "b20bfd16-8587-4ee2-a4b4-53d6b6d5b5b2",
       "RS232"
     ],
     [
-      "8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4",
-      "Indicators"
+      "4b2dd471-a6f8-4e49-8717-912e41e4e851",
+      "FDCAN"
     ],
     [
       "1b965b44-1377-4308-8bb4-a6ed39c8528f",
       "Interfaces"
     ],
     [
-      "45aa82bb-5d0c-4be2-bfbe-f6adc776653e",
-      "Power Input"
+      "8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4",
+      "Indicators"
     ],
     [
       "6b1c272f-f844-4b77-b3c6-c5f88ea6e7ac",
       "Misc"
-    ],
-    [
-      "304fa278-ecd3-4686-8fe4-afe398f93fb0",
-      "Power Generation"
     ]
   ],
   "text_variables": {

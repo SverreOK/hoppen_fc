@@ -6698,7 +6698,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 171.45) (xy 274.32 171.45)
+			(xy 254 168.91) (xy 274.32 168.91)
 		)
 		(stroke
 			(width 0)
@@ -8468,16 +8468,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 168.91) (xy 274.32 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa20aa5c-a8cf-431d-9de9-4b00109d70a4")
-	)
-	(wire
-		(pts
 			(xy 254 116.84) (xy 274.32 116.84)
 		)
 		(stroke
@@ -9286,8 +9276,8 @@
 		)
 		(uuid "de17c6ae-f582-44e3-9674-497619c19260")
 	)
-	(label "VBUS_VMON"
-		(at 254 171.45 0)
+	(label "+VBUS_VMON"
+		(at 254 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9305,16 +9295,6 @@
 			(justify left bottom)
 		)
 		(uuid "e0e0a998-5414-46df-ba17-a8a559ca18e4")
-	)
-	(label "BAT_PG"
-		(at 254 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e56ee477-35c8-4d55-8cd9-a3950ff13662")
 	)
 	(label "SD_D2"
 		(at 339.09 86.36 0)
@@ -9428,17 +9408,6 @@
 			(justify left)
 		)
 		(uuid "035d7b63-d664-4ab5-995c-5d1fb0e351bd")
-	)
-	(hierarchical_label "BAT_PG"
-		(shape output)
-		(at 274.32 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "06521642-a219-4616-8c74-a8555506621d")
 	)
 	(hierarchical_label "INT3_GYRO"
 		(shape input)
@@ -9770,9 +9739,9 @@
 		)
 		(uuid "cd8ec717-2eb2-4ad9-b936-dc85136e9a28")
 	)
-	(hierarchical_label "VBUS_VMON"
+	(hierarchical_label "+VBUS_VMON"
 		(shape output)
-		(at 274.32 171.45 0)
+		(at 274.32 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -1700,144 +1700,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_diodes:SMF5V0A"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SMF5V0A"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "0_diodes:D_SMF"
-				(at 0 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/doc?85881"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 5Vrwm, SMF"
-				(at 0 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode TVS voltage suppressor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SMF*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SMF5V0A_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SMF5V0A_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "0_misc:SolderJumper_2_Bridged"
 			(pin_numbers
 				(hide yes)
@@ -2777,6 +2639,144 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:SMF18A"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMF18A"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMF"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/doc?85881"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 18Vrwm, SMF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS voltage suppressor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMF*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMF18A_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMF18A_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3851,7 +3851,7 @@
 		)
 		(uuid "3fd0ce61-4938-4141-9483-a9060de9d04a")
 	)
-	(text_box "DESIGN:\n4S (14.4V) to ~2.2 V\n3S (12.6V) to ~1.6 V"
+	(text_box "DESIGN:\n4S (16.8V) to ~1.7 V\n3S (12.6V) to ~1.3 V"
 		(exclude_from_sim no)
 		(at 247.65 104.14 0)
 		(size 20.32 6.35)
@@ -4060,12 +4060,6 @@
 		(uuid "42d921b9-a106-45ef-9033-2ef2fcb2b64d")
 	)
 	(junction
-		(at 247.65 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c069317-1516-455e-93cd-d505173b48da")
-	)
-	(junction
 		(at 148.59 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4136,6 +4130,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85addb58-182a-4ae6-83af-00d9593dd902")
+	)
+	(junction
+		(at 247.65 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85cbdbf1-da52-4785-a864-65e777eb54fc")
 	)
 	(junction
 		(at 246.38 217.17)
@@ -5246,16 +5246,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 118.11) (xy 247.65 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45580b88-9faa-4ff1-9396-f1fc9db34374")
-	)
-	(wire
-		(pts
 			(xy 242.57 207.01) (xy 242.57 219.71)
 		)
 		(stroke
@@ -5713,6 +5703,16 @@
 			(type default)
 		)
 		(uuid "6c26f8cf-3cc9-4029-aee7-fd6ddbb14762")
+	)
+	(wire
+		(pts
+			(xy 247.65 118.11) (xy 248.92 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c489e70-8acc-4c16-a793-fe5e1b5fbea1")
 	)
 	(wire
 		(pts
@@ -6676,7 +6676,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 118.11) (xy 248.92 118.11)
+			(xy 241.3 118.11) (xy 247.65 118.11)
 		)
 		(stroke
 			(width 0)
@@ -56731,7 +56731,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68k"
+		(property "Value" "90k"
 			(at 257.81 115.57 90)
 			(effects
 				(font
@@ -58852,6 +58852,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMF18A")
+		(at 247.65 121.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d2cc92a-7493-4095-8b89-a5cf05de7bb3")
+		(property "Reference" "D11"
+			(at 250.19 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMF18A"
+			(at 250.19 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMF"
+			(at 242.57 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?85881"
+			(at 247.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 18Vrwm, SMF"
+			(at 247.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ae6405d3-4355-48b1-b043-a8792cf29f6b")
+		)
+		(pin "1"
+			(uuid "b90bd482-115a-48ed-8df5-0303f9fc8c33")
+		)
+		(instances
+			(project ""
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 167.64 134.62 0)
 		(unit 1)
@@ -59113,76 +59183,6 @@
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
 					(reference "#PWR0147")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_diodes:SMF5V0A")
-		(at 247.65 121.92 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ced6831-2e48-47d2-9281-9732c9965f9e")
-		(property "Reference" "D11"
-			(at 250.19 120.6499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMF5V0A"
-			(at 250.19 123.1899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0_diodes:D_SMF"
-			(at 261.62 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?85881"
-			(at 256.54 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 5Vrwm, SMF"
-			(at 259.08 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "74636c4e-74e1-4b8d-85e0-41a6e41145b7")
-		)
-		(pin "1"
-			(uuid "f5524be4-ab14-4009-a721-2f73a29a6733")
-		)
-		(instances
-			(project "hoppen_fc"
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
-					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -61671,7 +61671,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "0_capacitor_smd:CASE-B-3528-21"
 			(at 168.6052 67.31 0)
 			(effects
 				(font
@@ -61690,6 +61690,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 167.64 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7199"
 			(at 167.64 63.5 0)
 			(effects
 				(font
