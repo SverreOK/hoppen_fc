@@ -6319,7 +6319,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 123.19 102.87 0)
 			(effects
 				(font
@@ -6339,6 +6339,15 @@
 		)
 		(property "Description" "Inductor with ferrite core"
 			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1002"
+			(at 123.19 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)

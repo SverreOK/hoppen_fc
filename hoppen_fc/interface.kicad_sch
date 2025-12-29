@@ -4036,6 +4036,12 @@
 		(uuid "2ff85fc3-a359-4d11-9ebd-98c6f9411380")
 	)
 	(junction
+		(at 167.64 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "357c4114-a7f2-4a91-b87c-181cc3c8ee2c")
+	)
+	(junction
 		(at 349.25 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4058,6 +4064,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42d921b9-a106-45ef-9033-2ef2fcb2b64d")
+	)
+	(junction
+		(at 167.64 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e4cfc22-ff16-4ce8-93a9-217cb0be60a3")
 	)
 	(junction
 		(at 148.59 133.35)
@@ -4102,6 +4114,12 @@
 		(uuid "65dfd780-1a06-47bf-9e27-5487670df047")
 	)
 	(junction
+		(at 167.64 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bdd563e-b732-4662-bf44-4ff29f088117")
+	)
+	(junction
 		(at 323.85 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4136,6 +4154,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85cbdbf1-da52-4785-a864-65e777eb54fc")
+	)
+	(junction
+		(at 167.64 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88406d73-594e-4820-854a-d95a7a0c9183")
 	)
 	(junction
 		(at 246.38 217.17)
@@ -4180,6 +4204,12 @@
 		(uuid "ac91e02e-4348-4f5c-9d54-9accb3fe55ee")
 	)
 	(junction
+		(at 167.64 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afd29ed1-0bce-4a7e-8483-c78120f76fd6")
+	)
+	(junction
 		(at 148.59 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4190,6 +4220,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b25f2d4c-ec9f-4a01-af48-f395db006342")
+	)
+	(junction
+		(at 167.64 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc42bd32-ea9d-4a77-b598-cabaa6d01802")
 	)
 	(junction
 		(at 260.35 118.11)
@@ -4220,6 +4256,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d13e8143-970d-4955-806d-a971be2daa50")
+	)
+	(junction
+		(at 167.64 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d668f79e-2bc8-47c8-ba12-05e5727762f0")
+	)
+	(junction
+		(at 167.64 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d83c9028-dd87-4cce-8bc9-833b0bc4d8f6")
 	)
 	(junction
 		(at 349.25 66.04)
@@ -4486,6 +4534,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 167.64) (xy 175.26 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0305546b-68bf-4f45-ad65-6db941bfab45")
+	)
+	(wire
+		(pts
 			(xy 231.14 232.41) (xy 231.14 212.09)
 		)
 		(stroke
@@ -4503,6 +4561,16 @@
 			(type default)
 		)
 		(uuid "03d6da5b-a723-4f95-b17b-d51d8f9b40a9")
+	)
+	(wire
+		(pts
+			(xy 175.26 68.58) (xy 167.64 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04c0b911-a190-4775-bc31-e8bbf883b587")
 	)
 	(bus
 		(pts
@@ -4636,6 +4704,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 207.01) (xy 175.26 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc7a11e-7c9a-489f-9e5e-3dd75378577b")
+	)
+	(wire
+		(pts
 			(xy 330.2 121.92) (xy 342.9 121.92)
 		)
 		(stroke
@@ -4643,6 +4721,16 @@
 			(type default)
 		)
 		(uuid "0c3b581d-1da2-4ff7-acdb-f2fa773369eb")
+	)
+	(wire
+		(pts
+			(xy 167.64 167.64) (xy 175.26 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c3ee949-1dba-4cb1-8aa3-96a3a04e5e7f")
 	)
 	(wire
 		(pts
@@ -4743,6 +4831,16 @@
 			(type default)
 		)
 		(uuid "13c458b7-b402-4247-8b0e-0715fd58c1db")
+	)
+	(wire
+		(pts
+			(xy 175.26 107.95) (xy 175.26 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13d0941f-4ce6-419b-883e-3afa522da01b")
 	)
 	(wire
 		(pts
@@ -5156,6 +5254,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 67.31) (xy 175.26 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a539f37-9ef9-4621-89f1-714e146dab19")
+	)
+	(wire
+		(pts
 			(xy 331.47 59.69) (xy 335.28 59.69)
 		)
 		(stroke
@@ -5253,6 +5361,16 @@
 			(type default)
 		)
 		(uuid "45ae24a1-c435-4f83-a35a-eb34d3864421")
+	)
+	(wire
+		(pts
+			(xy 167.64 157.48) (xy 175.26 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4622c1a1-fc99-4cc0-95fd-5b1faa581b28")
 	)
 	(wire
 		(pts
@@ -5804,6 +5922,16 @@
 		)
 		(uuid "71055afd-62b8-4e1a-92f4-e0785bfdfd5f")
 	)
+	(wire
+		(pts
+			(xy 167.64 217.17) (xy 175.26 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7171f274-c7df-475e-972b-561f35297ac2")
+	)
 	(bus
 		(pts
 			(xy 356.87 73.66) (xy 358.14 73.66)
@@ -5853,6 +5981,16 @@
 			(type default)
 		)
 		(uuid "7503b744-fb57-4f40-8cdc-de3d4f7b8422")
+	)
+	(wire
+		(pts
+			(xy 175.26 118.11) (xy 167.64 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7561acd0-f5ae-4cd7-9f08-c09c4ed4c0dd")
 	)
 	(wire
 		(pts
@@ -5933,6 +6071,16 @@
 			(type default)
 		)
 		(uuid "7f35926f-6916-4b9c-b894-cc06e453ce7d")
+	)
+	(wire
+		(pts
+			(xy 175.26 116.84) (xy 175.26 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fd0169d-02d2-4fd4-b17a-f6641537d63f")
 	)
 	(wire
 		(pts
@@ -6093,6 +6241,16 @@
 			(type default)
 		)
 		(uuid "8b0d48ba-9e91-4f9b-a2f3-c98cbd8f00f0")
+	)
+	(wire
+		(pts
+			(xy 175.26 217.17) (xy 175.26 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c7fcdfd-145e-46fd-9465-d61d0fb1fb3d")
 	)
 	(wire
 		(pts
@@ -6536,6 +6694,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 207.01) (xy 175.26 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abe0ad69-a388-4428-b513-66e9a37549f4")
+	)
+	(wire
+		(pts
 			(xy 269.24 118.11) (xy 270.51 118.11)
 		)
 		(stroke
@@ -6653,6 +6821,16 @@
 			(type default)
 		)
 		(uuid "b62a6e0b-4d4b-48a1-8eb1-ecc70c004668")
+	)
+	(wire
+		(pts
+			(xy 167.64 58.42) (xy 175.26 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7e1bc0e-2260-4d27-bb33-9f6760ca637c")
 	)
 	(wire
 		(pts
@@ -6833,6 +7011,16 @@
 			(type default)
 		)
 		(uuid "c204e8b0-3bee-4d0f-b5cc-388bfd9e1b38")
+	)
+	(wire
+		(pts
+			(xy 167.64 107.95) (xy 175.26 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c218d976-3c61-46ea-adaf-9771d1229aa0")
 	)
 	(wire
 		(pts
@@ -7096,6 +7284,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 58.42) (xy 175.26 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e8d6ff-e5aa-444d-9531-1033e6813538")
+	)
+	(wire
+		(pts
 			(xy 64.77 185.42) (xy 85.09 185.42)
 		)
 		(stroke
@@ -7203,6 +7401,16 @@
 			(type default)
 		)
 		(uuid "e22c8d7f-8b42-4f5b-80d4-7e737ff56f93")
+	)
+	(wire
+		(pts
+			(xy 175.26 157.48) (xy 175.26 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e596d3b3-fd40-4e1a-9326-9e6c0e7dd893")
 	)
 	(wire
 		(pts
@@ -55255,6 +55463,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 175.26 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "082fb192-8ed3-44a6-8e9d-c0ca4f57d78f")
+		(property "Reference" "C63"
+			(at 175.26 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 175.26 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_capacitor_smd:C_0805_2012Metric"
+			(at 176.2252 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 175.26 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C440198"
+			(at 175.26 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f1978a6-f3d8-41e8-a3e4-6c2ffac7b438")
+		)
+		(pin "1"
+			(uuid "07bf54c8-4ca3-441f-9997-0924f092cea4")
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
+					(reference "C63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 71.12 116.84 0)
 		(unit 1)
@@ -55747,6 +56033,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 175.26 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b77cf6d-44da-45fc-8913-4884dd0d6d97")
+		(property "Reference" "C61"
+			(at 175.26 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 175.26 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_capacitor_smd:C_0805_2012Metric"
+			(at 176.2252 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 175.26 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C440198"
+			(at 175.26 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c1d2a530-9920-4b3d-9845-75223f1f2653")
+		)
+		(pin "1"
+			(uuid "11cfab43-2ea7-4453-94eb-ba8b5e20dcaf")
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
+					(reference "C61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 160.02 167.64 0)
 		(unit 1)
@@ -55808,6 +56172,84 @@
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
 					(reference "#PWR0160")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e17aa1e-8d4a-44e5-a6e4-f47b177c4d1f")
+		(property "Reference" "C58"
+			(at 167.64 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 167.64 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_capacitor_smd:C_0805_2012Metric"
+			(at 168.6052 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C440198"
+			(at 167.64 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "68f5e9ee-e2ba-412f-8019-8706eb7ea3b6")
+		)
+		(pin "1"
+			(uuid "54a0a76a-85c0-432a-bfef-430492bbdc9a")
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -56145,85 +56587,6 @@
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
 					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 167.64 212.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27f46037-9180-4aa8-81b0-a686c8de722e")
-		(property "Reference" "C90"
-			(at 171.45 209.9309 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 171.45 212.4709 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0_capacitor_smd:CASE-B-3528-21"
-			(at 168.6052 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 167.64 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C7199"
-			(at 167.64 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2d2b9a70-f879-420b-93f8-7c57f9e45bc6")
-		)
-		(pin "1"
-			(uuid "6fca08ff-4d6d-438c-9633-b9a3bfabda1e")
-		)
-		(instances
-			(project "hoppen_fc"
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
-					(reference "C90")
 					(unit 1)
 				)
 			)
@@ -57015,7 +57378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BAT"
+		(property "Value" "+BAT_PROT"
 			(at 156.21 152.4 0)
 			(effects
 				(font
@@ -57327,6 +57690,162 @@
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
 					(reference "#PWR0150")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 175.26 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40ca31b0-35ac-4675-911c-316634c77609")
+		(property "Reference" "C59"
+			(at 175.26 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 175.26 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_capacitor_smd:C_0805_2012Metric"
+			(at 176.2252 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 175.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C440198"
+			(at 175.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "50876482-bf56-4438-a2ca-54f62ea87589")
+		)
+		(pin "1"
+			(uuid "21dda39f-36b2-4476-b3a6-850d84a552df")
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
+					(reference "C59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 175.26 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "410a86b3-9c43-4dd8-a88c-c40b2a3f1518")
+		(property "Reference" "C56"
+			(at 175.26 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 175.26 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_capacitor_smd:C_0805_2012Metric"
+			(at 176.2252 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 175.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C440198"
+			(at 175.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "470ba560-8a29-4476-a7c1-beda6214578f")
+		)
+		(pin "1"
+			(uuid "ca53b379-799a-41b1-bceb-28eb6c33a918")
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -59207,7 +59726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BAT"
+		(property "Value" "+BAT_PROT"
 			(at 156.21 102.87 0)
 			(effects
 				(font
@@ -61024,6 +61543,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 167.64 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b79e6e4b-ce36-41ca-8708-e8f9e59d867d")
+		(property "Reference" "C60"
+			(at 167.64 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 167.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_capacitor_smd:C_0805_2012Metric"
+			(at 168.6052 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C440198"
+			(at 167.64 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "65eb11e5-6b38-4ffa-9ba9-933e41978922")
+		)
+		(pin "1"
+			(uuid "ba74a265-f52a-40f7-b115-75134320a6dd")
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
+					(reference "C60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "0_connectors:Conn_01x03_Mounting")
 		(at 149.86 170.18 0)
 		(mirror y)
@@ -61644,85 +62241,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 167.64 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf467551-0519-4f41-9010-cd88ca077b54")
-		(property "Reference" "C84"
-			(at 171.45 61.3409 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 171.45 63.8809 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0_capacitor_smd:CASE-B-3528-21"
-			(at 168.6052 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 167.64 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C7199"
-			(at 167.64 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "03dc272d-3151-4d86-a9f0-ee4dd37a2ce8")
-		)
-		(pin "1"
-			(uuid "2c04d402-cfd1-4ee7-8d9a-f0cbe688414a")
-		)
-		(instances
-			(project "hoppen_fc"
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
-					(reference "C84")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 156.21 58.42 0)
 		(unit 1)
@@ -61741,7 +62259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BAT"
+		(property "Value" "+BAT_PROT"
 			(at 156.21 53.34 0)
 			(effects
 				(font
@@ -61921,6 +62439,84 @@
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
 					(reference "C87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d45f6b22-9659-402e-a32a-ce3c57b35ea9")
+		(property "Reference" "C55"
+			(at 167.64 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 167.64 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_capacitor_smd:C_0805_2012Metric"
+			(at 168.6052 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C440198"
+			(at 167.64 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f029e1ed-ecda-48fd-8d6b-979e536e79ee")
+		)
+		(pin "1"
+			(uuid "6a7effc0-3f60-43d2-9572-8c8c57246903")
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -62310,7 +62906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BAT"
+		(property "Value" "+BAT_PROT"
 			(at 156.21 201.93 0)
 			(effects
 				(font
@@ -62492,17 +63088,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 167.64 162.56 0)
+		(lib_id "Device:C")
+		(at 167.64 212.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4da8f58-48c5-4a86-91e2-a2908fabb4a6")
-		(property "Reference" "C88"
-			(at 171.45 160.4009 0)
+		(uuid "e182a3d7-ba5d-437b-8811-c0b858e4aab1")
+		(property "Reference" "C62"
+			(at 167.64 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62510,8 +63105,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
-			(at 171.45 162.9409 0)
+		(property "Value" "10u"
+			(at 167.64 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62519,8 +63114,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:CASE-B-3528-21"
-			(at 168.6052 166.37 0)
+		(property "Footprint" "0_capacitor_smd:C_0805_2012Metric"
+			(at 168.6052 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62529,7 +63124,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 162.56 0)
+			(at 167.64 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62537,8 +63132,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 167.64 162.56 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62546,8 +63141,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7199"
-			(at 167.64 162.56 0)
+		(property "LCSC" "C440198"
+			(at 167.64 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62556,15 +63151,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "69f23ca9-03b5-47a8-b9b4-b7383b0391eb")
+			(uuid "ef430b8d-c37b-42c8-90fa-d5c9c68562fe")
 		)
 		(pin "1"
-			(uuid "4a559e99-d5b1-4d02-9d5b-3c440d738e0c")
+			(uuid "b823d6b6-6bfd-46b5-8372-4c9736e6e32d")
 		)
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
-					(reference "C88")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -63699,85 +64294,6 @@
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
 					(reference "C94")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 167.64 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe3ddfe8-8ca8-498f-9227-406a9750c806")
-		(property "Reference" "C86"
-			(at 171.45 110.8709 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 171.45 113.4109 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0_capacitor_smd:CASE-B-3528-21"
-			(at 168.6052 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 167.64 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C7199"
-			(at 167.64 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0128b768-ef17-4e8b-8184-5c06fe711d38")
-		)
-		(pin "1"
-			(uuid "e1960bef-022d-4cc4-b5e8-4e57d3ae1409")
-		)
-		(instances
-			(project "hoppen_fc"
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/1b965b44-1377-4308-8bb4-a6ed39c8528f"
-					(reference "C86")
 					(unit 1)
 				)
 			)
