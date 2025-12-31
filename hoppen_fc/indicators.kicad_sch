@@ -502,281 +502,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_transistors:PMBT3904YS"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "PMBT3904YS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "0_transistors:SOT-363_SC-70-6"
-				(at 0 19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMBT3904YS.pdf"
-				(at 0 22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
-				(at -5.08 16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C169790"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "NPN/NPN Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?363*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PMBT3904YS_0_1"
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "PMBT3904YS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PMBT3904YS_2_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1223,6 +948,378 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:1N4148W"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148W"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?123*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148W_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148W_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:MMBT3904"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MMBT3904"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MMBT3904_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MMBT3904_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -1547,6 +1644,28 @@
 		)
 		(uuid "239a5125-285e-4b32-84be-ad4aa71018e6")
 	)
+	(text_box "DESIGN:\nMax current is 110 mA"
+		(exclude_from_sim no)
+		(at 148.59 62.23 0)
+		(size 22.86 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.3048)
+			(type solid)
+			(color 132 132 132 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.016 1.016)
+			)
+			(justify left top)
+		)
+		(uuid "551ec0d0-38c5-46d1-96b3-28e2339db09d")
+	)
 	(junction
 		(at 175.26 123.19)
 		(diameter 0)
@@ -1566,10 +1685,16 @@
 		(uuid "7969f19c-f3a8-4387-8449-404776a234b4")
 	)
 	(junction
-		(at 195.58 67.31)
+		(at 201.93 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ad04e082-bb80-4f92-b619-0492cee1c987")
+		(uuid "7bb13b04-0e58-478b-a081-ad0aca6a6c21")
+	)
+	(junction
+		(at 186.69 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93d852ca-18fb-4c38-9705-ae52fe354b9e")
 	)
 	(junction
 		(at 200.66 123.19)
@@ -1602,6 +1727,16 @@
 			(type default)
 		)
 		(uuid "01a269a1-5dff-4a6b-b90f-ecdec21a3d36")
+	)
+	(wire
+		(pts
+			(xy 175.26 68.58) (xy 175.26 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04d65a22-1a1d-424f-93f9-43333dc380c5")
 	)
 	(wire
 		(pts
@@ -1685,13 +1820,33 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 80.01) (xy 195.58 80.01)
+			(xy 186.69 78.74) (xy 186.69 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15105a83-795f-471d-a523-4b678bc72e17")
+	)
+	(wire
+		(pts
+			(xy 204.47 80.01) (xy 201.93 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "15694a91-b02d-4c64-b9ee-fe926ccdd230")
+	)
+	(wire
+		(pts
+			(xy 201.93 67.31) (xy 201.93 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15a6b6ea-08f3-46a5-97a5-3e748b16c255")
 	)
 	(wire
 		(pts
@@ -1702,16 +1857,6 @@
 			(type default)
 		)
 		(uuid "1abe45e5-eda4-42ae-ad01-35cec3e68725")
-	)
-	(wire
-		(pts
-			(xy 186.69 68.58) (xy 186.69 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c373b9f-afc9-4df4-ba49-56967917b223")
 	)
 	(wire
 		(pts
@@ -1835,16 +1980,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 67.31) (xy 195.58 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d86e2a6-fac6-46b6-880b-d3e2129e4b06")
-	)
-	(wire
-		(pts
 			(xy 115.57 90.17) (xy 119.38 90.17)
 		)
 		(stroke
@@ -1915,6 +2050,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 67.31) (xy 201.93 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d1dfb5f-5c8f-41ae-9d48-b0144a5fd451")
+	)
+	(wire
+		(pts
 			(xy 195.58 144.78) (xy 193.04 144.78)
 		)
 		(stroke
@@ -1942,16 +2087,6 @@
 			(type default)
 		)
 		(uuid "659efa70-27c7-4d0e-81ec-8e2767ab53eb")
-	)
-	(wire
-		(pts
-			(xy 195.58 67.31) (xy 195.58 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ca98229-5a89-4c8b-a06a-cf6acfc4e875")
 	)
 	(wire
 		(pts
@@ -2095,6 +2230,26 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 66.04) (xy 201.93 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1e5256c-8225-4855-bd50-1e4a725d2c17")
+	)
+	(wire
+		(pts
+			(xy 175.26 76.2) (xy 175.26 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b49abbf6-e8a4-4ea1-add6-305a7c634e96")
+	)
+	(wire
+		(pts
 			(xy 115.57 78.74) (xy 119.38 78.74)
 		)
 		(stroke
@@ -2172,16 +2327,6 @@
 			(type default)
 		)
 		(uuid "d6935634-d8cb-4f5f-bb62-291c32c5b5b8")
-	)
-	(wire
-		(pts
-			(xy 195.58 67.31) (xy 195.58 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d88fa749-1579-4fd3-b603-d707f0a4cb1f")
 	)
 	(wire
 		(pts
@@ -2275,6 +2420,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 67.31) (xy 186.69 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5333c15-88be-47f9-a05a-400ca859b596")
+	)
+	(wire
+		(pts
 			(xy 118.11 132.08) (xy 118.11 133.35)
 		)
 		(stroke
@@ -2292,16 +2447,6 @@
 			(type default)
 		)
 		(uuid "f837216d-4b40-4d1a-8eb7-8ef3365085c0")
-	)
-	(wire
-		(pts
-			(xy 186.69 76.2) (xy 186.69 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc87a356-0a61-4d36-9f87-b09eaecd0004")
 	)
 	(label "LED_2"
 		(at 102.87 90.17 0)
@@ -2436,7 +2581,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07683985-0142-4a8e-80fc-1d92c5159c42")
-		(property "Reference" "C47"
+		(property "Reference" "C103"
 			(at 143.51 125.73 0)
 			(effects
 				(font
@@ -2481,6 +2626,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 143.51 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f5618be9-51db-48c5-adba-567510f3e2da")
 		)
@@ -2490,7 +2644,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "C47")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -2506,7 +2660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c6f78b9-e1e6-4c1a-963a-bed884adb5ca")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR0198"
 			(at 118.11 139.7 0)
 			(effects
 				(font
@@ -2557,7 +2711,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "#PWR073")
+					(reference "#PWR0198")
 					(unit 1)
 				)
 			)
@@ -2573,7 +2727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ff0f664-baae-49f6-bfb1-146548f1db03")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR0206"
 			(at 90.17 156.21 0)
 			(effects
 				(font
@@ -2624,42 +2778,24 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "#PWR076")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "0_transistors:PMBT3904YS")
-		(at 184.15 88.9 0)
+		(lib_id "power:GND")
+		(at 175.26 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "133c7d57-209b-4c32-8d6d-435ce117348b")
-		(property "Reference" "Q1"
-			(at 189.23 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMBT3904YS"
-			(at 189.23 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0_transistors:SOT-363_SC-70-6"
-			(at 184.15 69.85 0)
+		(uuid "19d91280-9407-4411-aead-7d27eadd7e47")
+		(property "Reference" "#PWR0188"
+			(at 175.26 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2667,8 +2803,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMBT3904YS.pdf"
-			(at 184.15 66.04 0)
+		(property "Value" "GND"
+			(at 175.26 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2676,8 +2812,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "200mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
-			(at 179.07 72.39 0)
+		(property "Footprint" ""
+			(at 175.26 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2685,8 +2821,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C169790"
-			(at 184.15 88.9 0)
+		(property "Datasheet" ""
+			(at 175.26 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2694,28 +2830,22 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "1f255893-3e81-4171-a75f-32bad21e7274")
-		)
-		(pin "5"
-			(uuid "3dd9ec66-e070-4a39-be9a-e4224c56d284")
-		)
-		(pin "3"
-			(uuid "8336ea29-2081-4153-b80c-a4720ce80e0a")
-		)
-		(pin "6"
-			(uuid "66fb81e0-2de5-4b93-aa77-692b58617c0f")
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "e828ee71-4786-4d92-955a-944e95d95f3d")
-		)
-		(pin "2"
-			(uuid "b76b2191-86bb-4b1a-9446-c6cd9fe93d9b")
+			(uuid "d61e3b4c-1b5c-4ea0-9af5-9f8652214121")
 		)
 		(instances
-			(project ""
+			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "Q1")
+					(reference "#PWR0188")
 					(unit 1)
 				)
 			)
@@ -2731,7 +2861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1acc07e7-512a-4d52-b263-d57d9cdd933b")
-		(property "Reference" "D6"
+		(property "Reference" "D12"
 			(at 185.42 132.08 0)
 			(effects
 				(font
@@ -2800,7 +2930,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "D6")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -2816,7 +2946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27a74553-1354-4051-8017-ef180bf6bd4d")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR0197"
 			(at 101.6 133.35 0)
 			(effects
 				(font
@@ -2867,74 +2997,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "#PWR082")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 186.69 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27bef2a7-d291-49dd-9551-754ea2fa759a")
-		(property "Reference" "#PWR062"
-			(at 186.69 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.69 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c57a773-767b-40dd-91ff-e4dec9603fa4")
-		)
-		(instances
-			(project "hoppen_fc"
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "#PWR062")
+					(reference "#PWR0197")
 					(unit 1)
 				)
 			)
@@ -2950,7 +3013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cca215f-7c9f-4286-adf6-65eed7369c4e")
-		(property "Reference" "D2"
+		(property "Reference" "D8"
 			(at 100.6475 71.12 0)
 			(effects
 				(font
@@ -2958,7 +3021,7 @@
 				)
 			)
 		)
-		(property "Value" "Green"
+		(property "Value" "GREEN 0805"
 			(at 100.6475 73.66 0)
 			(effects
 				(font
@@ -2966,7 +3029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_diodes:LED_0402_1005Metric"
+		(property "Footprint" "0_diodes:LED_0805_2012Metric"
 			(at 99.06 78.74 0)
 			(effects
 				(font
@@ -3002,6 +3065,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2297"
+			(at 99.06 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "da4e5fff-ba2d-4349-a370-8330029f4784")
 		)
@@ -3011,7 +3083,7 @@
 		(instances
 			(project ""
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "D2")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -3027,7 +3099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fce9bf8-8f36-46b7-b678-7a67da26b325")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR0196"
 			(at 90.17 128.27 0)
 			(effects
 				(font
@@ -3077,7 +3149,92 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "#PWR077")
+					(reference "#PWR0196")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT3904")
+		(at 184.15 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40018402-4393-4829-80ee-3ba8ea10d482")
+		(property "Reference" "Q2"
+			(at 189.23 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3904"
+			(at 189.23 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 189.23 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+			(at 184.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 184.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C239187"
+			(at 184.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3eda0fe7-4d8e-4658-9e6f-1cdd97366b61")
+		)
+		(pin "1"
+			(uuid "10c7a5a1-fb1d-45d7-8805-71342a0ce2be")
+		)
+		(pin "3"
+			(uuid "384f2383-2de8-4c74-8b1b-944641d55213")
+		)
+		(instances
+			(project ""
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -3093,7 +3250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b69950c-3325-4826-b862-4bbbd6fc8d40")
-		(property "Reference" "R19"
+		(property "Reference" "R48"
 			(at 158.75 82.55 90)
 			(effects
 				(font
@@ -3101,7 +3258,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "220R"
 			(at 158.75 85.09 90)
 			(effects
 				(font
@@ -3136,6 +3293,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25091"
+			(at 158.75 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2e6e21c2-1e89-4d50-95fe-f3d84028e8df")
 		)
@@ -3145,7 +3311,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "R19")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -3161,7 +3327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e2dd5b5-134f-47e2-ac13-8300b637d290")
-		(property "Reference" "R17"
+		(property "Reference" "R47"
 			(at 111.76 72.39 90)
 			(effects
 				(font
@@ -3204,6 +3370,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C11702"
+			(at 111.76 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "971359db-76fb-42d9-98d1-add3fb338c26")
 		)
@@ -3213,7 +3388,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "R17")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -3229,7 +3404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fc8dd58-eec2-4ab6-b28a-c2d073cc75fd")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR0194"
 			(at 175.26 125.73 0)
 			(effects
 				(font
@@ -3279,7 +3454,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "#PWR065")
+					(reference "#PWR0194")
 					(unit 1)
 				)
 			)
@@ -3295,7 +3470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51290b66-2c8a-45c3-8f8d-4fd90cb9e188")
-		(property "Reference" "D4"
+		(property "Reference" "D10"
 			(at 134.62 132.08 0)
 			(effects
 				(font
@@ -3364,7 +3539,7 @@
 		(instances
 			(project ""
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "D4")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -3372,7 +3547,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 195.58 66.04 0)
+		(at 201.93 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3380,8 +3555,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "559df1d0-1beb-416d-8fce-f17f08f637e6")
-		(property "Reference" "#PWR060"
-			(at 195.58 69.85 0)
+		(property "Reference" "#PWR0187"
+			(at 201.93 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3390,7 +3565,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 195.58 60.96 0)
+			(at 201.93 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3398,7 +3573,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 66.04 0)
+			(at 201.93 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3407,7 +3582,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 66.04 0)
+			(at 201.93 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3416,7 +3591,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 195.58 66.04 0)
+			(at 201.93 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3430,7 +3605,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "#PWR060")
+					(reference "#PWR0187")
 					(unit 1)
 				)
 			)
@@ -3446,7 +3621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5dc8deb4-ad90-4d00-a63f-8a77f8ac4831")
-		(property "Reference" "D3"
+		(property "Reference" "D9"
 			(at 100.6475 82.55 0)
 			(effects
 				(font
@@ -3454,7 +3629,7 @@
 				)
 			)
 		)
-		(property "Value" "Blue"
+		(property "Value" "BLUE 0805"
 			(at 100.6475 85.09 0)
 			(effects
 				(font
@@ -3462,7 +3637,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_diodes:LED_0402_1005Metric"
+		(property "Footprint" "0_diodes:LED_0805_2012Metric"
 			(at 99.06 90.17 0)
 			(effects
 				(font
@@ -3498,7 +3673,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22355736"
+		(property "LCSC" "C84256"
 			(at 99.06 90.17 0)
 			(effects
 				(font
@@ -3516,7 +3691,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "D3")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -3532,7 +3707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "695b1d31-9391-430f-95aa-8648600bb597")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR0190"
 			(at 173.99 104.14 0)
 			(effects
 				(font
@@ -3583,7 +3758,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "#PWR081")
+					(reference "#PWR0190")
 					(unit 1)
 				)
 			)
@@ -3598,7 +3773,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c735ab1-6371-42bc-8790-a806340dbc64")
-		(property "Reference" "C46"
+		(property "Reference" "C102"
 			(at 118.11 125.73 0)
 			(effects
 				(font
@@ -3643,6 +3818,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 118.11 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "96a1369e-937a-4099-8291-56d962bf321f")
 		)
@@ -3652,7 +3836,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "C46")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -3668,7 +3852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f19dcbe-3d6f-4540-82ff-4a498b35052e")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR0191"
 			(at 186.69 104.14 0)
 			(effects
 				(font
@@ -3719,7 +3903,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "#PWR063")
+					(reference "#PWR0191")
 					(unit 1)
 				)
 			)
@@ -3735,7 +3919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8070423c-390e-4044-812f-f94e48ec99d7")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR0205"
 			(at 220.98 153.67 0)
 			(effects
 				(font
@@ -3786,7 +3970,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "#PWR070")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -3802,7 +3986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "942b2083-519c-4d4e-9cf3-637b2b6cc4a2")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR0203"
 			(at 170.18 153.67 0)
 			(effects
 				(font
@@ -3853,24 +4037,24 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "#PWR068")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 186.69 72.39 0)
+		(lib_id "Diode:1N4148W")
+		(at 186.69 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "95504408-2750-45ab-b3b0-4ad1248244c3")
-		(property "Reference" "C45"
-			(at 190.5 71.1199 0)
+		(uuid "99a2bff7-4ca9-4fa0-8368-01630a2ac0e9")
+		(property "Reference" "D7"
+			(at 189.23 73.6599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3878,8 +4062,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7"
-			(at 190.5 73.6599 0)
+		(property "Value" "1N4148W"
+			(at 189.23 76.1999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3887,8 +4071,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_resistor_smd:R_0603_1608Metric"
-			(at 187.6552 76.2 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 182.245 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3896,8 +4080,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 186.69 72.39 0)
+		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
+			(at 186.69 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3905,8 +4089,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 186.69 72.39 0)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 186.69 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 186.69 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 186.69 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2099"
+			(at 186.69 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,15 +4126,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "00f0542b-4044-46d3-b4b5-c1dccb5e8868")
+			(uuid "9d9e5235-b7dd-44e7-a4c8-633fffe75a6e")
 		)
 		(pin "1"
-			(uuid "ac914544-6ecb-481b-a79a-4a8b3edfead0")
+			(uuid "a40000f8-8225-41df-b91b-dd9739d514b7")
 		)
 		(instances
-			(project "hoppen_fc"
+			(project ""
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "C45")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -3939,7 +4150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cbd0f12-0d3f-482f-b1bf-24dd9987c5ae")
-		(property "Reference" "U9"
+		(property "Reference" "U17"
 			(at 393.7 542.2198 0)
 			(effects
 				(font
@@ -3982,6 +4193,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C20617903"
+			(at 95.25 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "5dd0fdbf-868b-41a4-b26c-2bed8c07ca2d")
 		)
@@ -4004,7 +4224,7 @@
 					(unit 1)
 				)
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "U9")
+					(reference "U17")
 					(unit 1)
 				)
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/b2889d66-ad44-4386-8a59-32f6d6b6b256"
@@ -4024,7 +4244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a82f43e9-b02f-4af2-a5d3-b82e93088412")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR0199"
 			(at 143.51 139.7 0)
 			(effects
 				(font
@@ -4075,7 +4295,86 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "#PWR072")
+					(reference "#PWR0199")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 175.26 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8a28549-8485-4bd1-8112-0a79c43c88bd")
+		(property "Reference" "C101"
+			(at 179.07 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 179.07 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_capacitor_smd:C_0603_1608Metric"
+			(at 176.2252 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 175.26 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15849"
+			(at 175.26 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "072fc38b-563c-4425-bf52-3d50c1044f5e")
+		)
+		(pin "2"
+			(uuid "3b64f9fd-64ef-4850-8a90-0b1f7cb360d3")
+		)
+		(instances
+			(project ""
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -4099,7 +4398,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "FUET-5030"
 			(at 214.63 78.74 0)
 			(effects
 				(font
@@ -4181,7 +4480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1ae3055-0541-4287-b1ad-e818b740b0c6")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR0193"
 			(at 149.86 125.73 0)
 			(effects
 				(font
@@ -4231,7 +4530,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "#PWR064")
+					(reference "#PWR0193")
 					(unit 1)
 				)
 			)
@@ -4247,7 +4546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b775b520-bc5f-41e2-ad0c-a41e85dc03f3")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR0192"
 			(at 124.46 125.73 0)
 			(effects
 				(font
@@ -4297,7 +4596,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "#PWR071")
+					(reference "#PWR0192")
 					(unit 1)
 				)
 			)
@@ -4313,7 +4612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb9ae107-d39c-4399-869e-dfb5c2fe090c")
-		(property "Reference" "D5"
+		(property "Reference" "D11"
 			(at 160.02 132.08 0)
 			(effects
 				(font
@@ -4382,7 +4681,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "D5")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -4397,7 +4696,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c32411e5-7034-4fd4-818b-e41353bf2bcb")
-		(property "Reference" "C49"
+		(property "Reference" "C105"
 			(at 194.31 125.73 0)
 			(effects
 				(font
@@ -4442,6 +4741,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 194.31 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bfc06c94-1a2d-459f-8af4-5aafa41ab16c")
 		)
@@ -4451,7 +4759,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "C49")
+					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -4467,7 +4775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ced5bc86-d822-49e6-b71e-87acbd078372")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR0202"
 			(at 144.78 153.67 0)
 			(effects
 				(font
@@ -4518,7 +4826,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "#PWR067")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -4534,7 +4842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2f0cf49-c038-4585-9db0-bb5ae2ab1898")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR0189"
 			(at 119.38 100.33 0)
 			(effects
 				(font
@@ -4585,7 +4893,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "#PWR061")
+					(reference "#PWR0189")
 					(unit 1)
 				)
 			)
@@ -4601,7 +4909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d55974ad-1e1f-4aec-81a5-bcaa163705db")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR0195"
 			(at 200.66 125.73 0)
 			(effects
 				(font
@@ -4651,7 +4959,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "#PWR066")
+					(reference "#PWR0195")
 					(unit 1)
 				)
 			)
@@ -4667,7 +4975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db70c6d5-4c7d-4b3d-92e4-1a3b85bacb94")
-		(property "Reference" "D7"
+		(property "Reference" "D13"
 			(at 210.82 132.08 0)
 			(effects
 				(font
@@ -4736,7 +5044,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "D7")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -4752,7 +5060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e213ce30-2984-4541-ad45-79e77e78787e")
-		(property "Reference" "R23"
+		(property "Reference" "R50"
 			(at 176.53 91.4399 0)
 			(effects
 				(font
@@ -4797,6 +5105,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 173.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1e07523-5ff2-44d6-abeb-280489046fd2")
 		)
@@ -4806,7 +5123,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "R23")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -4822,7 +5139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4d1e6cb-9c6f-45df-ae27-4367f165d17b")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR0200"
 			(at 168.91 139.7 0)
 			(effects
 				(font
@@ -4873,7 +5190,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "#PWR074")
+					(reference "#PWR0200")
 					(unit 1)
 				)
 			)
@@ -4889,7 +5206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eaf6550a-50a3-434c-80a9-6635620b0219")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR0204"
 			(at 195.58 153.67 0)
 			(effects
 				(font
@@ -4940,7 +5257,73 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "#PWR069")
+					(reference "#PWR0204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 175.26 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1ce03b5-a07c-4450-830b-5a0293d96c36")
+		(property "Reference" "#PWR0186"
+			(at 175.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 175.26 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 175.26 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b3be838-7c0d-41db-8566-027459da83c3")
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
+					(reference "#PWR0186")
 					(unit 1)
 				)
 			)
@@ -4956,7 +5339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f76f9300-1a6a-4184-954c-7af5b0dc9317")
-		(property "Reference" "R18"
+		(property "Reference" "R49"
 			(at 111.76 83.82 90)
 			(effects
 				(font
@@ -4999,6 +5382,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C11702"
+			(at 111.76 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1ba0a201-676d-4c2f-8d57-1b94b06baf24")
 		)
@@ -5008,7 +5400,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "R18")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -5023,7 +5415,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f87ecd49-5ec5-448f-b0db-3a6563b1d6d6")
-		(property "Reference" "C48"
+		(property "Reference" "C104"
 			(at 168.91 125.73 0)
 			(effects
 				(font
@@ -5068,6 +5460,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 168.91 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ac4714fc-3f27-4ca4-8cbc-a51d2354809f")
 		)
@@ -5077,7 +5478,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "C48")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -5093,7 +5494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb8c4283-151c-4afb-8bcb-89b82c2eb8eb")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR0201"
 			(at 194.31 139.7 0)
 			(effects
 				(font
@@ -5144,7 +5545,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
-					(reference "#PWR075")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)

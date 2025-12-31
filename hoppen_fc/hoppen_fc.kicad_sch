@@ -11,50 +11,74 @@
 		(company "Hoppen")
 	)
 	(lib_symbols)
-	(sheet
-		(at 17.78 20.32)
-		(size 13.97 3.81)
+	(text_box "${REVISION}"
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
+		(at 161.29 29.21 0)
+		(size 99.06 12.7)
+		(margins 4.4999 4.4999 4.4999 4.4999)
 		(stroke
-			(width 0.1524)
+			(width -0.0001)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(type none)
 		)
-		(uuid "3d2c0b1f-5398-4902-9d0f-410840dd3a9a")
-		(property "Sheetname" "Block Diagram"
-			(at 17.78 19.6084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 6 6)
+				(thickness 1.2)
+				(bold yes)
 			)
 		)
-		(property "Sheetfile" "block_diagram.kicad_sch"
-			(at 17.78 24.7146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
+		(uuid "4d2f3ff2-aa9b-4c04-8fdd-4bf4a80e0ae1")
+	)
+	(text_box "HOPPEN FLIGHT COMPUTER"
+		(exclude_from_sim no)
+		(at 16.51 17.78 0)
+		(size 139.7 12.7)
+		(margins 4.4999 4.4999 4.4999 4.4999)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 6 6)
+				(thickness 1.2)
+				(bold yes)
 			)
 		)
-		(instances
-			(project "hoppen_fc"
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029"
-					(page "2")
-				)
+		(uuid "9dd80f07-0d09-4af6-aea9-79746ba3ac7a")
+	)
+	(text_box "${ISSUE_DATE}"
+		(exclude_from_sim no)
+		(at 184.15 17.78 0)
+		(size 99.06 12.7)
+		(margins 4.4999 4.4999 4.4999 4.4999)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 6 6)
+				(thickness 1.2)
+				(bold yes)
 			)
 		)
+		(uuid "bf8349c2-bc10-4d8a-85af-64be3890bf44")
 	)
 	(sheet
-		(at 17.78 30.48)
+		(at -57.15 181.61)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -70,7 +94,7 @@
 		)
 		(uuid "c85454e5-a89e-41eb-a5ed-71b4fc4cf13a")
 		(property "Sheetname" "Architecture"
-			(at 17.78 29.7684 0)
+			(at -57.15 180.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -79,7 +103,7 @@
 			)
 		)
 		(property "Sheetfile" "architecture.kicad_sch"
-			(at 17.78 34.8746 0)
+			(at -57.15 186.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)

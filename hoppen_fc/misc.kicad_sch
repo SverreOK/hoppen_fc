@@ -631,16 +631,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 55.88 69.85 0)
+		(at 34.29 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "104c2a9d-f223-4cab-807d-cf74c972e49c")
-		(property "Reference" "FID2"
-			(at 58.42 68.5799 0)
+		(uuid "3219aea5-1a30-4f75-9274-cc45c7882452")
+		(property "Reference" "FID4"
+			(at 36.83 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -649,7 +649,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 58.42 71.1199 0)
+			(at 36.83 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -658,8 +658,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
-			(at 55.88 69.85 0)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 34.29 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -668,7 +668,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 69.85 0)
+			(at 34.29 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -677,7 +677,72 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 55.88 69.85 0)
+			(at 34.29 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/6b1c272f-f844-4b77-b3c6-c5f88ea6e7ac"
+					(reference "FID4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 54.61 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53b2323d-0398-4abb-85a3-7e8cb4502bc4")
+		(property "Reference" "FID2"
+			(at 57.15 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 57.15 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 54.61 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 54.61 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -689,71 +754,6 @@
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/6b1c272f-f844-4b77-b3c6-c5f88ea6e7ac"
 					(reference "FID2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 55.88 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d3efec6-f987-421d-ae5f-c2a85d06c489")
-		(property "Reference" "FID5"
-			(at 58.42 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 58.42 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
-			(at 55.88 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 55.88 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "hoppen_fc"
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/6b1c272f-f844-4b77-b3c6-c5f88ea6e7ac"
-					(reference "FID5")
 					(unit 1)
 				)
 			)
@@ -827,71 +827,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 72.39 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b8e2ecb-900d-4b29-b9bb-1b8372593253")
-		(property "Reference" "FID6"
-			(at 74.93 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 74.93 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
-			(at 72.39 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 72.39 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "hoppen_fc"
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/6b1c272f-f844-4b77-b3c6-c5f88ea6e7ac"
-					(reference "FID6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 127 81.28 0)
 		(unit 1)
@@ -901,7 +836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97ef39a7-6d8f-4715-ba67-6b0111475c83")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR0207"
 			(at 127 87.63 0)
 			(effects
 				(font
@@ -952,7 +887,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/6b1c272f-f844-4b77-b3c6-c5f88ea6e7ac"
-					(reference "#PWR085")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -960,16 +895,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 36.83 69.85 0)
+		(at 72.39 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a607d229-0891-4e0c-9956-f471f2cb74e9")
-		(property "Reference" "FID1"
-			(at 39.37 68.5799 0)
+		(uuid "a624cb84-41fe-492d-93b7-52c4453f6bb8")
+		(property "Reference" "FID6"
+			(at 74.93 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -978,7 +913,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 39.37 71.1199 0)
+			(at 74.93 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -987,8 +922,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
-			(at 36.83 69.85 0)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 72.39 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -997,7 +932,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 69.85 0)
+			(at 72.39 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1006,7 +941,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 36.83 69.85 0)
+			(at 72.39 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1015,9 +950,9 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/6b1c272f-f844-4b77-b3c6-c5f88ea6e7ac"
-					(reference "FID1")
+					(reference "FID6")
 					(unit 1)
 				)
 			)
@@ -1052,7 +987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 72.39 69.85 0)
 			(effects
 				(font
@@ -1157,16 +1092,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 36.83 82.55 0)
+		(at 34.29 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fb17ddcd-ae80-48a6-a3b6-fcbe8b3a44d7")
-		(property "Reference" "FID4"
-			(at 39.37 81.2799 0)
+		(uuid "e6db1e20-a1ea-437b-b0c7-df5371b90646")
+		(property "Reference" "FID1"
+			(at 36.83 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1175,7 +1110,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 39.37 83.8199 0)
+			(at 36.83 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1184,8 +1119,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
-			(at 36.83 82.55 0)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 34.29 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1194,7 +1129,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 82.55 0)
+			(at 34.29 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1203,7 +1138,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 36.83 82.55 0)
+			(at 34.29 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1214,7 +1149,72 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/6b1c272f-f844-4b77-b3c6-c5f88ea6e7ac"
-					(reference "FID4")
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 54.61 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8040585-c494-45b2-bb63-d460f844cdf6")
+		(property "Reference" "FID5"
+			(at 57.15 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 57.15 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 54.61 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 54.61 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/6b1c272f-f844-4b77-b3c6-c5f88ea6e7ac"
+					(reference "FID5")
 					(unit 1)
 				)
 			)

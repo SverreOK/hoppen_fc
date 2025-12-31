@@ -1719,7 +1719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21bfac21-8575-495d-8869-e051d4383cb1")
-		(property "Reference" "C80"
+		(property "Reference" "C76"
 			(at 210.82 80.0099 0)
 			(effects
 				(font
@@ -1764,6 +1764,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 207.01 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8d8d0617-9fca-4f3d-9aee-59c879b754ec")
 		)
@@ -1773,7 +1782,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/4b2dd471-a6f8-4e49-8717-912e41e4e851"
-					(reference "C80")
+					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -1789,7 +1798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cd6f338-a98f-491d-88c1-c78da7dc1eff")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR0108"
 			(at 114.3 77.47 0)
 			(effects
 				(font
@@ -1839,7 +1848,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/4b2dd471-a6f8-4e49-8717-912e41e4e851"
-					(reference "#PWR057")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -1855,7 +1864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bf5362c-7571-4063-a64c-53c02ac6e99b")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR0111"
 			(at 86.36 93.98 0)
 			(effects
 				(font
@@ -1906,7 +1915,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/4b2dd471-a6f8-4e49-8717-912e41e4e851"
-					(reference "#PWR055")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -1922,7 +1931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61ad6018-8418-4877-a0c5-55032d3fd320")
-		(property "Reference" "C44"
+		(property "Reference" "C74"
 			(at 118.11 80.0099 0)
 			(effects
 				(font
@@ -1967,6 +1976,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 114.3 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d9e1ed8a-d378-4864-b3ca-fc7eeec2fcb7")
 		)
@@ -1976,7 +1994,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/4b2dd471-a6f8-4e49-8717-912e41e4e851"
-					(reference "C44")
+					(reference "C74")
 					(unit 1)
 				)
 			)
@@ -1992,7 +2010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72ccd293-8fd9-4e56-a0f4-db3db89c8251")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0113"
 			(at 179.07 93.98 0)
 			(effects
 				(font
@@ -2043,7 +2061,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/4b2dd471-a6f8-4e49-8717-912e41e4e851"
-					(reference "#PWR0134")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -2059,7 +2077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f0794ff-db39-484c-b7fa-e0bbae3ab48a")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0116"
 			(at 195.58 123.19 0)
 			(effects
 				(font
@@ -2110,7 +2128,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/4b2dd471-a6f8-4e49-8717-912e41e4e851"
-					(reference "#PWR0138")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -2126,7 +2144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c52adea-ca3a-48b3-83d1-103023a281a2")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR0112"
 			(at 114.3 93.98 0)
 			(effects
 				(font
@@ -2177,7 +2195,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/4b2dd471-a6f8-4e49-8717-912e41e4e851"
-					(reference "#PWR056")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -2193,7 +2211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d4b5d5d-ddd9-4ee1-86ec-6dcc7c104588")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0110"
 			(at 207.01 77.47 0)
 			(effects
 				(font
@@ -2243,7 +2261,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/4b2dd471-a6f8-4e49-8717-912e41e4e851"
-					(reference "#PWR0139")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -2259,7 +2277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4551cd2-c38e-49db-b0e7-1a47ba12229a")
-		(property "Reference" "R16"
+		(property "Reference" "R30"
 			(at 85.09 109.2199 0)
 			(effects
 				(font
@@ -2304,6 +2322,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 82.55 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb4bda2e-2c06-450b-864b-7b5bd03e737d")
 		)
@@ -2313,7 +2340,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/4b2dd471-a6f8-4e49-8717-912e41e4e851"
-					(reference "R16")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -2329,7 +2356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b800edc8-7bee-4120-a8d5-4d7bca82b69a")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0114"
 			(at 207.01 93.98 0)
 			(effects
 				(font
@@ -2380,7 +2407,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/4b2dd471-a6f8-4e49-8717-912e41e4e851"
-					(reference "#PWR0140")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -2396,7 +2423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c12599e1-cc31-4372-bca3-58add6a8406c")
-		(property "Reference" "R51"
+		(property "Reference" "R31"
 			(at 177.8 109.2199 0)
 			(effects
 				(font
@@ -2441,6 +2468,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 175.26 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3460e0d1-7c83-49a7-9b47-24de9673c00e")
 		)
@@ -2450,7 +2486,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/4b2dd471-a6f8-4e49-8717-912e41e4e851"
-					(reference "R51")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -2466,7 +2502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca88c202-371e-4165-8cd4-abae80bde8ee")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR0107"
 			(at 86.36 77.47 0)
 			(effects
 				(font
@@ -2516,7 +2552,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/4b2dd471-a6f8-4e49-8717-912e41e4e851"
-					(reference "#PWR058")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -2532,7 +2568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3501509-5014-46b0-8dcd-56db9d051e37")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR0115"
 			(at 102.87 123.19 0)
 			(effects
 				(font
@@ -2583,7 +2619,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/4b2dd471-a6f8-4e49-8717-912e41e4e851"
-					(reference "#PWR059")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -2599,7 +2635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8aa2b27-20ed-4ded-80a7-4b8932f7a017")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0109"
 			(at 179.07 77.47 0)
 			(effects
 				(font
@@ -2649,7 +2685,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/4b2dd471-a6f8-4e49-8717-912e41e4e851"
-					(reference "#PWR0133")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -2665,7 +2701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7755251-6343-4a8e-86bb-c3dbc120edee")
-		(property "Reference" "C79"
+		(property "Reference" "C75"
 			(at 182.88 80.0099 0)
 			(effects
 				(font
@@ -2710,6 +2746,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 179.07 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1d2ba08e-089d-4eee-854d-863b6cc1746f")
 		)
@@ -2719,7 +2764,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/4b2dd471-a6f8-4e49-8717-912e41e4e851"
-					(reference "C79")
+					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -2735,7 +2780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "faa254c5-43f8-408a-b4a3-81ffbd12c4a2")
-		(property "Reference" "C43"
+		(property "Reference" "C73"
 			(at 90.17 80.0099 0)
 			(effects
 				(font
@@ -2780,6 +2825,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 86.36 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d22281ca-1882-472a-ac11-c515f92c26fb")
 		)
@@ -2789,7 +2843,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/4b2dd471-a6f8-4e49-8717-912e41e4e851"
-					(reference "C43")
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -2804,7 +2858,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "faba77c1-8c67-46e1-b227-a5acdede6b70")
-		(property "Reference" "U8"
+		(property "Reference" "U13"
 			(at 106.68 88.9 0)
 			(effects
 				(font
@@ -2889,7 +2943,7 @@
 		(instances
 			(project ""
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/4b2dd471-a6f8-4e49-8717-912e41e4e851"
-					(reference "U8")
+					(reference "U13")
 					(unit 1)
 				)
 			)
