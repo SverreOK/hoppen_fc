@@ -1171,6 +1171,24 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=B 2=E 3=C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "NPN Transistor"
 				(at 0 0 0)
 				(effects
@@ -1760,7 +1778,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 137.16) (xy 114.3 144.78)
+			(xy 116.84 137.16) (xy 116.84 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2170,16 +2188,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 137.16) (xy 114.3 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9011bb52-9880-4586-abc7-b6a508155b44")
-	)
-	(wire
-		(pts
 			(xy 90.17 144.78) (xy 90.17 149.86)
 		)
 		(stroke
@@ -2410,13 +2418,23 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 144.78) (xy 127 144.78)
+			(xy 116.84 144.78) (xy 127 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e94fc884-4015-42e9-9954-4fbdd8192ace")
+	)
+	(wire
+		(pts
+			(xy 102.87 137.16) (xy 109.22 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f106e75e-cb52-4518-96d1-a6b1960f2394")
 	)
 	(wire
 		(pts
@@ -2477,6 +2495,16 @@
 			(justify left bottom)
 		)
 		(uuid "66488090-109e-4ff7-b5cf-a10c9bea35ab")
+	)
+	(label "PRE_ADD_LED_D_0"
+		(at 102.87 137.16 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "66a82fa5-0ad8-45ed-bacd-e3f1ceb6980b")
 	)
 	(label "BUZZER_BASE"
 		(at 165.1 88.9 0)
@@ -3214,6 +3242,24 @@
 			)
 		)
 		(property "LCSC" "C239187"
+			(at 184.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 184.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 184.15 88.9 0)
 			(effects
 				(font
@@ -4760,6 +4806,82 @@
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
 					(reference "C105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 113.03 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4782963-8491-4b64-988e-6c49ecb2d799")
+		(property "Reference" "R51"
+			(at 113.03 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 113.03 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0_resistor_smd:R_0402_1005Metric"
+			(at 113.03 138.938 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 113.03 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25092"
+			(at 113.03 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "658b5b97-c8ce-4ad9-9104-025b5f7090c1")
+		)
+		(pin "2"
+			(uuid "067b8555-e068-43b5-bb34-9569d9c683aa")
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
+					(reference "R51")
 					(unit 1)
 				)
 			)

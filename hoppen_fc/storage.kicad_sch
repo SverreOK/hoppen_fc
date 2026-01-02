@@ -2172,6 +2172,16 @@
 		)
 		(uuid "7b799258-1761-4646-b829-ffe144064df2")
 	)
+	(label "SD_CLK_T"
+		(at 195.58 105.41 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fed09b7-0812-43eb-8dcc-445755a9cd00")
+	)
 	(label "QSPI_CLK_T"
 		(at 69.85 106.68 0)
 		(effects

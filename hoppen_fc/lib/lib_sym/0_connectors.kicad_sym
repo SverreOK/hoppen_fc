@@ -2319,16 +2319,16 @@
 		)
 		(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 			(pin passive line
-				(at -7.62 -22.86 90)
+				(at -17.78 -7.62 0)
 				(length 5.08)
-				(name "SHIELD"
+				(name "MNT"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "S1"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2337,16 +2337,16 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -22.86 90)
+				(at -17.78 -10.16 0)
 				(length 5.08)
-				(name "GND"
+				(name "MNT"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "A1"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2355,16 +2355,16 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -22.86 90)
+				(at -17.78 -12.7 0)
 				(length 5.08)
-				(name "GND"
+				(name "MNT"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "A12"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2373,16 +2373,16 @@
 				)
 			)
 			(pin passive line
-				(at 0 -22.86 90)
+				(at -17.78 -15.24 0)
 				(length 5.08)
-				(name "GND"
+				(name "MNT"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "B1"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2391,8 +2391,8 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -22.86 90)
-				(length 5.08)
+				(at -2.54 -24.13 90)
+				(length 6.35)
 				(name "GND"
 					(effects
 						(font
@@ -2400,7 +2400,25 @@
 						)
 					)
 				)
-				(number "B12"
+				(number "A1B12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -24.13 90)
+				(length 6.35)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1A12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2418,7 +2436,7 @@
 						)
 					)
 				)
-				(number "A4"
+				(number "A4B9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2436,43 +2454,7 @@
 						)
 					)
 				)
-				(number "B9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 17.78 12.7 180)
-				(length 5.08)
-				(name "VBUS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 17.78 10.16 180)
-				(length 5.08)
-				(name "VBUS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A9"
+				(number "B4A9"
 					(effects
 						(font
 							(size 1.27 1.27)

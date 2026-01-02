@@ -196,7 +196,7 @@
 			)
 		)
 		(property "Footprint" "0_transceivers:TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL"
-			(at 0 0 0)
+			(at -0.254 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -256,7 +256,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -274,7 +274,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -292,7 +292,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -310,7 +310,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -319,45 +319,9 @@
 				)
 			)
 			(pin input line
-				(at -19.05 -2.54 0)
+				(at -19.05 -1.27 0)
 				(length 5.08)
 				(name "T1IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -19.05 -5.08 0)
-				(length 5.08)
-				(name "R1OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -19.05 -7.62 0)
-				(length 5.08)
-				(name "T2IN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -373,9 +337,27 @@
 				)
 			)
 			(pin output line
-				(at -19.05 -10.16 0)
+				(at -19.05 -6.35 0)
 				(length 5.08)
-				(name "R2OUT"
+				(name "R1OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -19.05 -11.43 0)
+				(length 5.08)
+				(name "T2IN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -390,35 +372,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -19.05 -13.97 0)
-				(length 5.08)
-				(name "nSHDN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
+			(pin output line
 				(at -19.05 -16.51 0)
 				(length 5.08)
-				(name "nEN"
+				(name "R2OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -436,7 +400,7 @@
 						)
 					)
 				)
-				(number "17"
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -454,7 +418,7 @@
 						)
 					)
 				)
-				(number "16"
+				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -472,7 +436,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -490,7 +454,7 @@
 						)
 					)
 				)
-				(number "7"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -508,7 +472,7 @@
 						)
 					)
 				)
-				(number "15"
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -526,7 +490,7 @@
 						)
 					)
 				)
-				(number "14"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -544,7 +508,7 @@
 						)
 					)
 				)
-				(number "8"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -562,7 +526,7 @@
 						)
 					)
 				)
-				(number "9"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)

@@ -32,7 +32,7 @@
 				)
 			)
 			(property "Footprint" "0_transceivers:TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL"
-				(at 0 0 0)
+				(at -0.254 37.084 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -92,7 +92,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -110,7 +110,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -128,7 +128,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -146,7 +146,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -155,45 +155,9 @@
 					)
 				)
 				(pin input line
-					(at -19.05 -2.54 0)
+					(at -19.05 -1.27 0)
 					(length 5.08)
 					(name "T1IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -19.05 -5.08 0)
-					(length 5.08)
-					(name "R1OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -19.05 -7.62 0)
-					(length 5.08)
-					(name "T2IN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -209,9 +173,27 @@
 					)
 				)
 				(pin output line
-					(at -19.05 -10.16 0)
+					(at -19.05 -6.35 0)
 					(length 5.08)
-					(name "R2OUT"
+					(name "R1OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.05 -11.43 0)
+					(length 5.08)
+					(name "T2IN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -226,35 +208,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -19.05 -13.97 0)
-					(length 5.08)
-					(name "nSHDN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
+				(pin output line
 					(at -19.05 -16.51 0)
 					(length 5.08)
-					(name "nEN"
+					(name "R2OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -272,7 +236,7 @@
 							)
 						)
 					)
-					(number "17"
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -290,7 +254,7 @@
 							)
 						)
 					)
-					(number "16"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -308,7 +272,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -326,7 +290,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -344,7 +308,7 @@
 							)
 						)
 					)
-					(number "15"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -362,7 +326,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -380,7 +344,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -398,7 +362,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -832,19 +796,19 @@
 		(uuid "3af67e84-408a-423c-9559-c5f709117c12")
 	)
 	(no_connect
-		(at 120.65 106.68)
-		(uuid "5f46f197-460e-48ee-8467-45964ad1f34e")
+		(at 120.65 110.49)
+		(uuid "adad0c5c-a2f5-4ba0-ad46-fad43e9b8d2c")
 	)
 	(no_connect
-		(at 120.65 109.22)
-		(uuid "9077b962-1b5e-48d3-b194-da58a68505b3")
+		(at 120.65 115.57)
+		(uuid "d457d3c1-6429-41d7-a62b-69b18222fda6")
 	)
 	(no_connect
 		(at 158.75 115.57)
 		(uuid "f3aec8bd-b1c8-4a57-865b-4be95fdfda11")
 	)
 	(bus_entry
-		(at 90.17 99.06)
+		(at 90.17 97.79)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -853,7 +817,7 @@
 		(uuid "3795c104-27d1-45c9-bdcc-60d20854277a")
 	)
 	(bus_entry
-		(at 90.17 101.6)
+		(at 90.17 102.87)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -911,7 +875,7 @@
 	)
 	(bus
 		(pts
-			(xy 87.63 97.79) (xy 88.9 97.79)
+			(xy 87.63 97.79) (xy 90.17 97.79)
 		)
 		(stroke
 			(width 0)
@@ -951,23 +915,13 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 101.6) (xy 120.65 101.6)
+			(xy 92.71 100.33) (xy 120.65 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "37df1748-ebb1-49f4-885b-15987ad21367")
-	)
-	(wire
-		(pts
-			(xy 114.3 113.03) (xy 120.65 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f7bcfaf-3ac3-4b4b-a969-a9f6841c30af")
 	)
 	(wire
 		(pts
@@ -1001,16 +955,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 115.57) (xy 120.65 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42572eeb-c3f5-4758-9f06-795716ffe6c6")
-	)
-	(wire
-		(pts
 			(xy 176.53 81.28) (xy 176.53 85.09)
 		)
 		(stroke
@@ -1028,16 +972,6 @@
 			(type default)
 		)
 		(uuid "520c9295-5192-488c-9ce5-f43d00ed8b9f")
-	)
-	(bus
-		(pts
-			(xy 90.17 99.06) (xy 88.9 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5442f07d-d16f-4f5b-a86b-aba90a779e45")
 	)
 	(wire
 		(pts
@@ -1131,7 +1065,7 @@
 	)
 	(bus
 		(pts
-			(xy 90.17 99.06) (xy 90.17 101.6)
+			(xy 90.17 97.79) (xy 90.17 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1151,7 +1085,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 104.14) (xy 120.65 104.14)
+			(xy 92.71 105.41) (xy 120.65 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1320,7 +1254,7 @@
 		(uuid "7b02a1d0-9ddf-496a-b369-86a120b16b1e")
 	)
 	(label "RS232_IN_RX"
-		(at 105.41 104.14 0)
+		(at 105.41 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1350,7 +1284,7 @@
 		(uuid "e379c2ef-54c7-41b7-b39f-6cbeb9b3770f")
 	)
 	(label "RS232_IN_TX"
-		(at 105.41 101.6 0)
+		(at 105.41 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1368,17 +1302,6 @@
 			(justify left bottom)
 		)
 		(uuid "ec58f4a9-e0be-4dfe-8c83-ff3e7bd9f1ef")
-	)
-	(hierarchical_label "RS232_nSHDN"
-		(shape input)
-		(at 114.3 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0737b1e7-512f-47a1-96c8-a298389349cd")
 	)
 	(hierarchical_label "{RS232_IN}"
 		(shape bidirectional)
@@ -1401,17 +1324,6 @@
 			(justify left)
 		)
 		(uuid "94e1c4db-0d6e-47b6-9336-541a72f5cfdf")
-	)
-	(hierarchical_label "RS232_nEN"
-		(shape input)
-		(at 114.3 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c9d537ee-9d58-43bb-8d63-1b2e552ba95e")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2081,14 +1993,8 @@
 		(pin "6"
 			(uuid "98667ef4-464b-41b0-87de-5da0ef16a822")
 		)
-		(pin "18"
-			(uuid "28516bd4-b519-40a2-a9d5-28ca43625a93")
-		)
 		(pin "1"
 			(uuid "d261b623-890f-464b-bb93-e4a1cae04977")
-		)
-		(pin "17"
-			(uuid "f149469a-b335-4499-8aaa-29eabcebde78")
 		)
 		(pin "10"
 			(uuid "357e046a-07ba-4d5d-bce0-31ca3bab64e6")

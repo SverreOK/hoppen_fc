@@ -161,16 +161,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 118.11) (xy 175.26 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0187d452-e814-4fe4-af38-9fe06ca7df3b")
-	)
-	(wire
-		(pts
 			(xy 101.6 43.18) (xy 111.76 43.18)
 		)
 		(stroke
@@ -188,6 +178,16 @@
 			(type default)
 		)
 		(uuid "12422dce-4c7a-4e41-a4e8-b3871178499d")
+	)
+	(wire
+		(pts
+			(xy 50.8 40.64) (xy 73.66 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21c95cc3-e6e0-4b56-842a-c8b6637c225e")
 	)
 	(wire
 		(pts
@@ -499,16 +499,6 @@
 		)
 		(uuid "86056fe8-6fe2-43db-bd1a-5ab4918dce27")
 	)
-	(wire
-		(pts
-			(xy 50.8 40.64) (xy 76.2 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c947b80-8735-4f01-9c80-ebfde62f2782")
-	)
 	(bus
 		(pts
 			(xy 161.29 77.47) (xy 175.26 77.47)
@@ -778,16 +768,6 @@
 			(type default)
 		)
 		(uuid "fb247107-09e1-4e36-af0e-6ce51a647449")
-	)
-	(wire
-		(pts
-			(xy 161.29 113.03) (xy 175.26 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff08e9d2-0763-4045-8080-e0df1948094f")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -1232,8 +1212,8 @@
 		)
 	)
 	(sheet
-		(at 76.2 38.1)
-		(size 25.4 15.24)
+		(at 73.66 38.1)
+		(size 27.94 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1248,16 +1228,18 @@
 		)
 		(uuid "304fa278-ecd3-4686-8fe4-afe398f93fb0")
 		(property "Sheetname" "Power Generation"
-			(at 76.2 37.3884 0)
+			(at 73.66 37.0074 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.032 2.032)
+					(thickness 0.4064)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "power_generation.kicad_sch"
-			(at 76.2 53.9246 0)
+			(at 73.66 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1306,7 +1288,7 @@
 			)
 		)
 		(pin "+BAT_PROT" input
-			(at 76.2 40.64 180)
+			(at 73.66 40.64 180)
 			(uuid "1377275b-2a9f-4b5f-9c9a-4cbbd0c02df5")
 			(effects
 				(font
@@ -1484,10 +1466,12 @@
 		)
 		(uuid "45aa82bb-5d0c-4be2-bfbe-f6adc776653e")
 		(property "Sheetname" "Power Input"
-			(at 25.4 37.3884 0)
+			(at 25.4 37.0074 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.032 2.032)
+					(thickness 0.4064)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
@@ -1915,26 +1899,6 @@
 				(justify left top)
 			)
 		)
-		(pin "RS232_nEN" input
-			(at 175.26 118.11 180)
-			(uuid "82550812-0c10-4d10-a5d2-d01722f5c6c1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RS232_nSHDN" input
-			(at 175.26 113.03 180)
-			(uuid "ffaf024f-5868-45e5-9422-59b5dfe13882")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "{RS232_IN}" bidirectional
 			(at 175.26 107.95 180)
 			(uuid "ce68d347-a5b7-40b0-89f8-285d6468def1")
@@ -2182,26 +2146,6 @@
 		(pin "PWM4" output
 			(at 161.29 62.23 0)
 			(uuid "25b97fe9-dda6-4ae9-87d3-844894056b52")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RS232_nEN" output
-			(at 161.29 118.11 0)
-			(uuid "b09506b6-79d0-4baa-a0f0-5213c694f238")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RS232_nSHDN" output
-			(at 161.29 113.03 0)
-			(uuid "2b499ae3-1389-4a1d-b866-5aed68320d58")
 			(effects
 				(font
 					(size 1.27 1.27)
