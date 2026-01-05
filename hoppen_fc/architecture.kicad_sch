@@ -1514,6 +1514,50 @@
 		)
 	)
 	(sheet
+		(at 175.26 147.32)
+		(size 27.94 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "497505dd-337e-4de8-b212-9653d17f2ba6")
+		(property "Sheetname" "Radio"
+			(at 175.26 146.2274 0)
+			(effects
+				(font
+					(size 2.032 2.032)
+					(thickness 0.4064)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "radio.kicad_sch"
+			(at 175.26 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 175.26 128.27)
 		(size 27.94 11.43)
 		(exclude_from_sim no)

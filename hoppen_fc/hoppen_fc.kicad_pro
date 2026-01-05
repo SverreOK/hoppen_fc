@@ -505,7 +505,7 @@
         "bus_width": 16,
         "line_style": 0,
         "name": "BAT",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(194, 0, 194)",
         "priority": 0,
         "schematic_color": "rgb(194, 0, 194)",
         "wire_width": 16
@@ -514,7 +514,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "Ground",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 0, 0)",
         "priority": 6,
         "schematic_color": "rgb(0, 0, 0)",
         "wire_width": 12
@@ -523,7 +523,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "Power 3V3",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(221, 133, 0)",
         "priority": 7,
         "schematic_color": "rgb(221, 133, 0)",
         "wire_width": 12
@@ -532,7 +532,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "Power 5V",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(132, 0, 0)",
         "priority": 4,
         "schematic_color": "rgb(132, 0, 0)",
         "wire_width": 12
@@ -541,7 +541,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "QSPI",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(221, 133, 0)",
         "priority": 2,
         "schematic_color": "rgb(221, 133, 0)",
         "wire_width": 12
@@ -550,7 +550,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "SD",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(132, 132, 0)",
         "priority": 1,
         "schematic_color": "rgb(132, 132, 0)",
         "wire_width": 12
@@ -559,7 +559,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "SPI",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(194, 194, 0)",
         "priority": 3,
         "schematic_color": "rgb(194, 194, 0)",
         "wire_width": 12
@@ -568,7 +568,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 117, 200)",
         "priority": 5,
         "schematic_color": "rgb(0, 117, 200)",
         "wire_width": 12
@@ -909,6 +909,10 @@
     [
       "6b1c272f-f844-4b77-b3c6-c5f88ea6e7ac",
       "Misc"
+    ],
+    [
+      "497505dd-337e-4de8-b212-9653d17f2ba6",
+      "Radio"
     ]
   ],
   "text_variables": {

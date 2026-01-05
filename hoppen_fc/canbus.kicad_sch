@@ -2277,7 +2277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4551cd2-c38e-49db-b0e7-1a47ba12229a")
-		(property "Reference" "R30"
+		(property "Reference" "R29"
 			(at 85.09 109.2199 0)
 			(effects
 				(font
@@ -2340,7 +2340,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/4b2dd471-a6f8-4e49-8717-912e41e4e851"
-					(reference "R30")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -2423,7 +2423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c12599e1-cc31-4372-bca3-58add6a8406c")
-		(property "Reference" "R31"
+		(property "Reference" "R30"
 			(at 177.8 109.2199 0)
 			(effects
 				(font
@@ -2486,7 +2486,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/4b2dd471-a6f8-4e49-8717-912e41e4e851"
-					(reference "R31")
+					(reference "R30")
 					(unit 1)
 				)
 			)
