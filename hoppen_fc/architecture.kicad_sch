@@ -159,6 +159,16 @@
 		)
 		(uuid "b360f501-52a5-4975-b9ef-6f06129ce9fc")
 	)
+	(bus
+		(pts
+			(xy 161.29 123.19) (xy 175.26 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "065b1d24-10ae-4d55-bff4-c876b714646d")
+	)
 	(wire
 		(pts
 			(xy 101.6 43.18) (xy 111.76 43.18)
@@ -198,6 +208,16 @@
 			(type default)
 		)
 		(uuid "265aad50-c33a-4bca-8ab5-9dbe853ea8ce")
+	)
+	(bus
+		(pts
+			(xy 161.29 129.54) (xy 175.26 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2981ffd5-3200-4a29-b737-ddb1b497050c")
 	)
 	(wire
 		(pts
@@ -239,6 +259,16 @@
 		)
 		(uuid "325c1827-2814-4f70-b6d6-3e0a3c43e012")
 	)
+	(wire
+		(pts
+			(xy 161.29 144.78) (xy 175.26 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36614cde-f879-4c50-abe9-bd82f9023c0c")
+	)
 	(bus
 		(pts
 			(xy 101.6 72.39) (xy 127 72.39)
@@ -261,7 +291,7 @@
 	)
 	(bus
 		(pts
-			(xy 215.9 130.81) (xy 215.9 62.23)
+			(xy 215.9 123.19) (xy 215.9 62.23)
 		)
 		(stroke
 			(width 0)
@@ -319,6 +349,26 @@
 		)
 		(uuid "4f9ef579-514f-483a-b21a-d0a9fe578475")
 	)
+	(wire
+		(pts
+			(xy 161.29 151.13) (xy 175.26 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5167d947-b837-4a9e-b755-dbf55e1ffd97")
+	)
+	(bus
+		(pts
+			(xy 161.29 142.24) (xy 175.26 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57672b94-5500-43a8-a594-dfa4af0d6c11")
+	)
 	(bus
 		(pts
 			(xy 101.6 110.49) (xy 127 110.49)
@@ -338,6 +388,16 @@
 			(type default)
 		)
 		(uuid "5d09d4ec-7bc7-4152-89a1-0ef3777c6554")
+	)
+	(wire
+		(pts
+			(xy 161.29 153.67) (xy 175.26 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d35d7e3-4aa0-4c1e-8ab9-7f5baf685ad0")
 	)
 	(bus
 		(pts
@@ -481,7 +541,7 @@
 	)
 	(bus
 		(pts
-			(xy 219.71 137.16) (xy 219.71 54.61)
+			(xy 219.71 129.54) (xy 219.71 54.61)
 		)
 		(stroke
 			(width 0)
@@ -498,6 +558,16 @@
 			(type default)
 		)
 		(uuid "86056fe8-6fe2-43db-bd1a-5ab4918dce27")
+	)
+	(wire
+		(pts
+			(xy 161.29 158.75) (xy 175.26 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c425c8-d272-40be-9821-d53cec57ab49")
 	)
 	(bus
 		(pts
@@ -539,6 +609,16 @@
 		)
 		(uuid "b3045940-ece5-44a2-b4e5-d5140e7628d6")
 	)
+	(wire
+		(pts
+			(xy 161.29 148.59) (xy 175.26 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b86065c6-1280-4101-98ec-e6da8fea0b5f")
+	)
 	(bus
 		(pts
 			(xy 203.2 107.95) (xy 212.09 107.95)
@@ -571,23 +651,13 @@
 	)
 	(bus
 		(pts
-			(xy 203.2 137.16) (xy 219.71 137.16)
+			(xy 203.2 129.54) (xy 219.71 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cfee648d-16c7-4d44-84e0-42eec5832f15")
-	)
-	(bus
-		(pts
-			(xy 161.29 130.81) (xy 175.26 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d383990f-f6c1-4b96-924f-e3209158366c")
 	)
 	(wire
 		(pts
@@ -641,7 +711,7 @@
 	)
 	(bus
 		(pts
-			(xy 203.2 130.81) (xy 215.9 130.81)
+			(xy 203.2 123.19) (xy 215.9 123.19)
 		)
 		(stroke
 			(width 0)
@@ -708,16 +778,6 @@
 			(type default)
 		)
 		(uuid "e731e71d-833b-4dcd-979e-cbf4f1517f75")
-	)
-	(bus
-		(pts
-			(xy 161.29 137.16) (xy 175.26 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8a7e596-66ab-4fbc-bed2-f8569bf4d7d5")
 	)
 	(bus
 		(pts
@@ -1514,8 +1574,8 @@
 		)
 	)
 	(sheet
-		(at 175.26 147.32)
-		(size 27.94 10.16)
+		(at 175.26 139.7)
+		(size 27.94 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1526,11 +1586,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 132 0 0 1.0000)
 		)
 		(uuid "497505dd-337e-4de8-b212-9653d17f2ba6")
 		(property "Sheetname" "Radio"
-			(at 175.26 146.2274 0)
+			(at 175.26 138.6074 0)
 			(effects
 				(font
 					(size 2.032 2.032)
@@ -1541,12 +1601,72 @@
 			)
 		)
 		(property "Sheetfile" "radio.kicad_sch"
-			(at 175.26 158.0646 0)
+			(at 175.26 161.8746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "RADIO_CS" input
+			(at 175.26 144.78 180)
+			(uuid "6fca4545-9869-4ef5-a857-73c3df70398f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SPI3}" bidirectional
+			(at 175.26 142.24 180)
+			(uuid "9be7e123-2d17-4508-adaf-1d57e28b093b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RADIO_RST" input
+			(at 175.26 158.75 180)
+			(uuid "7a3ab977-ca16-48e6-baf6-7179e864b5df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RADIO_DIO0" bidirectional
+			(at 175.26 153.67 180)
+			(uuid "9a736767-ea5a-4124-803f-35162ec790eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RADIO_DIO1" bidirectional
+			(at 175.26 151.13 180)
+			(uuid "e5434f9c-50b9-4f0f-ad2f-74e3fa1b2192")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RADIO_DIO5" bidirectional
+			(at 175.26 148.59 180)
+			(uuid "81be5a85-0028-4538-a0d2-74f2cc3955e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1558,7 +1678,7 @@
 		)
 	)
 	(sheet
-		(at 175.26 128.27)
+		(at 175.26 120.65)
 		(size 27.94 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1574,7 +1694,7 @@
 		)
 		(uuid "4b2dd471-a6f8-4e49-8717-912e41e4e851")
 		(property "Sheetname" "FDCAN"
-			(at 175.26 127.5076 0)
+			(at 175.26 119.8876 0)
 			(effects
 				(font
 					(size 2.032 2.032)
@@ -1585,7 +1705,7 @@
 			)
 		)
 		(property "Sheetfile" "canbus.kicad_sch"
-			(at 175.26 140.3354 0)
+			(at 175.26 132.7154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1594,7 +1714,7 @@
 			)
 		)
 		(pin "{FDCAN1_TTL}" bidirectional
-			(at 175.26 130.81 180)
+			(at 175.26 123.19 180)
 			(uuid "a62ffc6a-2cfa-48b1-880b-f5e228917a75")
 			(effects
 				(font
@@ -1604,7 +1724,7 @@
 			)
 		)
 		(pin "{FDCAN1}" bidirectional
-			(at 203.2 130.81 0)
+			(at 203.2 123.19 0)
 			(uuid "9d5fae40-2497-4986-bda2-0f6d9254fd10")
 			(effects
 				(font
@@ -1614,7 +1734,7 @@
 			)
 		)
 		(pin "{FDCAN2_TTL}" bidirectional
-			(at 175.26 137.16 180)
+			(at 175.26 129.54 180)
 			(uuid "27cf1cdd-19b1-460b-80f2-a8ceeb7e6afa")
 			(effects
 				(font
@@ -1624,7 +1744,7 @@
 			)
 		)
 		(pin "{FDCAN2}" bidirectional
-			(at 203.2 137.16 0)
+			(at 203.2 129.54 0)
 			(uuid "b213ceed-4c62-470e-8d50-cf6d1c2008d7")
 			(effects
 				(font
@@ -1642,7 +1762,7 @@
 		)
 	)
 	(sheet
-		(at 127 168.91)
+		(at 127 172.72)
 		(size 34.29 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1658,7 +1778,7 @@
 		)
 		(uuid "6b1c272f-f844-4b77-b3c6-c5f88ea6e7ac")
 		(property "Sheetname" "Misc"
-			(at 127 167.7666 0)
+			(at 127 171.5766 0)
 			(effects
 				(font
 					(size 2.032 2.032)
@@ -1669,7 +1789,7 @@
 			)
 		)
 		(property "Sheetfile" "misc.kicad_sch"
-			(at 127 182.2454 0)
+			(at 127 186.0554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1680,7 +1800,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a"
-					(page "15")
+					(page "16")
 				)
 			)
 		)
@@ -1751,7 +1871,7 @@
 	)
 	(sheet
 		(at 80.01 139.7)
-		(size 21.59 16.51)
+		(size 21.59 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1766,7 +1886,7 @@
 		)
 		(uuid "8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4")
 		(property "Sheetname" "Indicators"
-			(at 80.01 138.9376 0)
+			(at 80.01 138.5566 0)
 			(effects
 				(font
 					(size 2.032 2.032)
@@ -1777,7 +1897,7 @@
 			)
 		)
 		(property "Sheetfile" "indicators.kicad_sch"
-			(at 80.01 156.8454 0)
+			(at 80.01 160.6554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1909,7 +2029,7 @@
 	)
 	(sheet
 		(at 175.26 105.41)
-		(size 27.94 15.24)
+		(size 27.94 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1924,7 +2044,7 @@
 		)
 		(uuid "b20bfd16-8587-4ee2-a4b4-53d6b6d5b5b2")
 		(property "Sheetname" "RS232"
-			(at 175.26 104.6476 0)
+			(at 175.26 104.2666 0)
 			(effects
 				(font
 					(size 2.032 2.032)
@@ -1935,7 +2055,7 @@
 			)
 		)
 		(property "Sheetfile" "rs232.kicad_sch"
-			(at 175.26 121.2854 0)
+			(at 175.26 113.6654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1973,7 +2093,7 @@
 	)
 	(sheet
 		(at 127 38.1)
-		(size 34.29 119.38)
+		(size 34.29 124.46)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1999,7 +2119,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu_io.kicad_sch"
-			(at 127 158.1154 0)
+			(at 127 163.1954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2248,7 +2368,7 @@
 			)
 		)
 		(pin "{FDCAN1_TTL}" bidirectional
-			(at 161.29 130.81 0)
+			(at 161.29 123.19 0)
 			(uuid "bb80fae6-8888-497e-a5ca-1f63a3d50b64")
 			(effects
 				(font
@@ -2258,7 +2378,7 @@
 			)
 		)
 		(pin "{FDCAN2_TTL}" bidirectional
-			(at 161.29 137.16 0)
+			(at 161.29 129.54 0)
 			(uuid "4e1866bb-d003-4d99-8710-30e11757121f")
 			(effects
 				(font
@@ -2415,6 +2535,66 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "RADIO_CS" output
+			(at 161.29 144.78 0)
+			(uuid "e2ddc4b3-1f5c-4d32-808d-43cc85a4864e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RADIO_DIO0" bidirectional
+			(at 161.29 153.67 0)
+			(uuid "5dab5c2e-956e-43f7-857b-04332aeb48c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RADIO_DIO1" bidirectional
+			(at 161.29 151.13 0)
+			(uuid "154f119d-7533-4c5e-902b-40268094aada")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{SPI3}" bidirectional
+			(at 161.29 142.24 0)
+			(uuid "7c6070c5-46c8-4746-9de5-f2a4e134f6fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RADIO_RST" output
+			(at 161.29 158.75 0)
+			(uuid "f29fc908-ac5e-47a2-81b0-4fb1fc505272")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RADIO_DIO5" bidirectional
+			(at 161.29 148.59 0)
+			(uuid "4115456d-84ad-4ed4-8b08-5148bead44a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

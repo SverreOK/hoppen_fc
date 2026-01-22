@@ -663,7 +663,7 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -675,19 +675,19 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -803,7 +803,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "LCSC"
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -907,12 +907,12 @@
       "Indicators"
     ],
     [
-      "6b1c272f-f844-4b77-b3c6-c5f88ea6e7ac",
-      "Misc"
-    ],
-    [
       "497505dd-337e-4de8-b212-9653d17f2ba6",
       "Radio"
+    ],
+    [
+      "6b1c272f-f844-4b77-b3c6-c5f88ea6e7ac",
+      "Misc"
     ]
   ],
   "text_variables": {

@@ -2860,7 +2860,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "XT30_MALE"
+		(property "Value" "XT30 M"
 			(at 62.23 69.8499 0)
 			(effects
 				(font
