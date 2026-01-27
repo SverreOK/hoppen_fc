@@ -1184,6 +1184,20 @@
 		)
 		(uuid "dff6cdd3-0d05-4cc0-a262-aafb08381745")
 	)
+	(text "ADD TVS DIODES\n"
+		(exclude_from_sim no)
+		(at 173.482 48.768 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "f7ec376a-4213-49a9-a87c-65d8dbbe5862")
+	)
 	(text_box "DESIGN:\nCARD DETECT = LOW when CARD inserted"
 		(exclude_from_sim no)
 		(at 250.19 97.79 0)

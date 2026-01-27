@@ -3156,6 +3156,20 @@
 		)
 		(uuid "43a77ae7-a5f9-4886-b80a-058121d7eee4")
 	)
+	(text "SPLIT UP IN MORE DOCUMENTS AND ADD TVS DIODES\n"
+		(exclude_from_sim no)
+		(at 102.108 19.812 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "4ad03dd0-b16d-42dd-ac3a-8afd5f527475")
+	)
 	(text "SENSORS"
 		(exclude_from_sim no)
 		(at 73.66 39.37 0)
@@ -3325,6 +3339,20 @@
 		)
 		(uuid "b43d97a8-b5c0-47dc-a8f7-b8ab23efd742")
 	)
+	(text "ACCOMODATE FOR DSHOT TELEMETRY ASWELL"
+		(exclude_from_sim no)
+		(at 148.844 32.258 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "bb08adef-99ed-44af-b370-3dc05b1625f7")
+	)
 	(text "LIDAR INTERFACE #2"
 		(exclude_from_sim no)
 		(at 57.15 97.79 0)
@@ -3350,6 +3378,20 @@
 			)
 		)
 		(uuid "d83631fb-9db4-40bb-91d5-56bfb99fbc85")
+	)
+	(text "CHANGE TO UPRIGHT CONNECTORS?"
+		(exclude_from_sim no)
+		(at 312.166 24.638 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "d8cd6441-efaf-4c19-a27f-ce2447864472")
 	)
 	(text "FDCAN #2"
 		(exclude_from_sim no)

@@ -934,6 +934,20 @@
 		)
 		(uuid b0346029-6cf7-4540-89e9-492a813763dd)
 	)
+	(text "REMOVE?"
+		(exclude_from_sim no)
+		(at 94.488 43.942 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "0747995b-5ff0-41dd-84cf-75c4081a05f7")
+	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
 		(at 43.18 17.78 0)

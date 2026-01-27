@@ -349,6 +349,20 @@
 		)
 		(uuid "183b40b1-0efe-4425-9b18-f3ec2436b7e6")
 	)
+	(text "ADD LOGO AND HOPPEN LOGO"
+		(exclude_from_sim no)
+		(at 216.154 49.53 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "4705d1c0-9e03-4008-8980-a9882ad93d18")
+	)
 	(text "Logos and Graphics"
 		(exclude_from_sim no)
 		(at 219.71 60.96 0)
