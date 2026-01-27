@@ -3393,6 +3393,20 @@
 		)
 		(uuid "d8cd6441-efaf-4c19-a27f-ce2447864472")
 	)
+	(text "BIGGER CONNECTORS?"
+		(exclude_from_sim no)
+		(at 197.104 39.116 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "e3ef5df4-6940-460b-b1ce-39f7f3178477")
+	)
 	(text "FDCAN #2"
 		(exclude_from_sim no)
 		(at 311.15 97.79 0)
