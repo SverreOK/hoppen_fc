@@ -1505,7 +1505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45f3ad18-7ac7-4718-8cb5-8b656bf376ad")
-		(property "Reference" "#PWR0211"
+		(property "Reference" "#PWR0206"
 			(at 191.77 105.41 0)
 			(effects
 				(font
@@ -1556,7 +1556,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/497505dd-337e-4de8-b212-9653d17f2ba6"
-					(reference "#PWR0211")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -1651,7 +1651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "810f575d-0f95-41ba-800c-73655b91d042")
-		(property "Reference" "#PWR0210"
+		(property "Reference" "#PWR0204"
 			(at 134.62 68.58 0)
 			(effects
 				(font
@@ -1701,7 +1701,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/497505dd-337e-4de8-b212-9653d17f2ba6"
-					(reference "#PWR0210")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -1717,7 +1717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a67bb366-952e-47a4-b528-f488d54651ab")
-		(property "Reference" "#PWR0208"
+		(property "Reference" "#PWR0205"
 			(at 140.97 83.82 0)
 			(effects
 				(font
@@ -1768,7 +1768,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/497505dd-337e-4de8-b212-9653d17f2ba6"
-					(reference "#PWR0208")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -1784,7 +1784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8623923-275a-4662-9082-f6904148648c")
-		(property "Reference" "#PWR0209"
+		(property "Reference" "#PWR0207"
 			(at 132.08 125.73 0)
 			(effects
 				(font
@@ -1835,7 +1835,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/497505dd-337e-4de8-b212-9653d17f2ba6"
-					(reference "#PWR0209")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -1851,7 +1851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccba3793-dfc6-4141-b4b0-c9dd443338da")
-		(property "Reference" "C98"
+		(property "Reference" "C104"
 			(at 144.78 69.8499 0)
 			(effects
 				(font
@@ -1914,7 +1914,7 @@
 		(instances
 			(project ""
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/497505dd-337e-4de8-b212-9653d17f2ba6"
-					(reference "C98")
+					(reference "C104")
 					(unit 1)
 				)
 			)

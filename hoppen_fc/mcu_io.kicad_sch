@@ -5135,7 +5135,7 @@
 	)
 	(rectangle
 		(start 273.05 220.98)
-		(end 317.5 237.49)
+		(end 317.5 245.11)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -6161,7 +6161,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 231.14) (xy 295.91 231.14)
+			(xy 275.59 236.22) (xy 295.91 236.22)
 		)
 		(stroke
 			(width 0)
@@ -6728,6 +6728,16 @@
 			(type default)
 		)
 		(uuid "33282a42-3fc5-4630-950e-0c9bcfd8258c")
+	)
+	(wire
+		(pts
+			(xy 275.59 231.14) (xy 295.91 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33602df5-96df-462c-b3b3-921f3d48b6f1")
 	)
 	(wire
 		(pts
@@ -7838,6 +7848,16 @@
 			(type default)
 		)
 		(uuid "9fa70fa9-9c57-4bbc-8fee-4041222c6691")
+	)
+	(wire
+		(pts
+			(xy 275.59 233.68) (xy 295.91 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1217139-0f63-47f2-bd6c-c51977359d3b")
 	)
 	(wire
 		(pts
@@ -9011,7 +9031,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 233.68) (xy 295.91 233.68)
+			(xy 275.59 238.76) (xy 295.91 238.76)
 		)
 		(stroke
 			(width 0)
@@ -9039,7 +9059,7 @@
 		)
 		(uuid "04d961ff-a460-45af-a101-12061810fc7d")
 	)
-	(label "PWM2"
+	(label "ESC_TX_1"
 		(at 275.59 228.6 0)
 		(effects
 			(font
@@ -9279,6 +9299,16 @@
 		)
 		(uuid "3d1c4223-5270-4ad7-a605-fe167425a7c8")
 	)
+	(label "PWM2"
+		(at 275.59 231.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3de9c9ce-010a-4d49-b315-93beb3e1a1f9")
+	)
 	(label "RST"
 		(at 85.09 262.89 0)
 		(effects
@@ -9338,6 +9368,16 @@
 			(justify left bottom)
 		)
 		(uuid "4637f059-83f8-4ace-851d-8795fc0fbff0")
+	)
+	(label "ESC_TX_2"
+		(at 275.59 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a93ee2b-6bbd-444a-a369-7b868e64bbdb")
 	)
 	(label "QSPI_CLK"
 		(at 347.98 90.17 0)
@@ -9570,7 +9610,7 @@
 		(uuid "a021dee5-7a68-4e3a-b7b7-836a60a050e4")
 	)
 	(label "PWM3"
-		(at 275.59 231.14 0)
+		(at 275.59 236.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9900,7 +9940,7 @@
 		(uuid "e888a6b1-fe02-436e-b6cb-859b5adc6aea")
 	)
 	(label "PWM4"
-		(at 275.59 233.68 0)
+		(at 275.59 238.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10125,8 +10165,8 @@
 		)
 		(uuid "72d1e1af-1b7b-4927-a580-7938b191a000")
 	)
-	(hierarchical_label "PWM2"
-		(shape output)
+	(hierarchical_label "ESC_TX_1"
+		(shape input)
 		(at 295.91 228.6 0)
 		(effects
 			(font
@@ -10157,6 +10197,17 @@
 			(justify left)
 		)
 		(uuid "8bd05bd1-bcda-4c4b-a53a-9ce729d1eb9d")
+	)
+	(hierarchical_label "ESC_TX_2"
+		(shape input)
+		(at 295.91 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ee03f4d-5bbc-4585-b3a3-ef1a0e50d9cf")
 	)
 	(hierarchical_label "+BAT_VMON"
 		(shape input)
@@ -10259,7 +10310,7 @@
 	)
 	(hierarchical_label "PWM3"
 		(shape output)
-		(at 295.91 231.14 0)
+		(at 295.91 236.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10400,6 +10451,17 @@
 		)
 		(uuid "e24c2f54-cbdd-47d8-b53d-636e71bfc23d")
 	)
+	(hierarchical_label "PWM1"
+		(shape output)
+		(at 295.91 231.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e26a147b-cebb-4028-bd02-6cbfe68888ee")
+	)
 	(hierarchical_label "ADD_LED"
 		(shape output)
 		(at 295.91 212.09 0)
@@ -10435,7 +10497,7 @@
 	)
 	(hierarchical_label "PWM4"
 		(shape output)
-		(at 295.91 233.68 0)
+		(at 295.91 238.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)

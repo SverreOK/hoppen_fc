@@ -793,20 +793,6 @@
 		)
 		(uuid c4315dfa-4d61-4b8f-b369-76c43349b463)
 	)
-	(text "IMPLEMENT SWITCH?"
-		(exclude_from_sim no)
-		(at 66.294 38.1 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "198d8828-8bf2-498d-8774-3c52f10097e9")
-	)
 	(text "FDCAN TRANSCEIVER 1 @ 5 Mbit/s"
 		(exclude_from_sim no)
 		(at 90.17 49.53 0)

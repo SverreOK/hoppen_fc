@@ -301,20 +301,8 @@
 		)
 	)
 	(rectangle
-		(start 200.66 63.5)
-		(end 264.16 88.9)
-		(stroke
-			(width 0.254)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 2eac5d20-2ea1-4116-af19-c0c9b8e4c23c)
-	)
-	(rectangle
-		(start 114.3 63.5)
-		(end 177.8 88.9)
+		(start 158.75 59.69)
+		(end 222.25 85.09)
 		(stroke
 			(width 0.254)
 			(type dash)
@@ -325,8 +313,8 @@
 		(uuid 85687356-6e8a-44b3-96e3-0b27ad23d990)
 	)
 	(rectangle
-		(start 25.4 63.5)
-		(end 87.63 90.17)
+		(start 69.85 59.69)
+		(end 132.08 86.36)
 		(stroke
 			(width 0.254)
 			(type dash)
@@ -338,7 +326,7 @@
 	)
 	(text "FIDUCIALS (FRONT & BACK)"
 		(exclude_from_sim no)
-		(at 52.07 60.96 0)
+		(at 96.52 57.15 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -349,36 +337,9 @@
 		)
 		(uuid "183b40b1-0efe-4425-9b18-f3ec2436b7e6")
 	)
-	(text "ADD LOGO AND HOPPEN LOGO"
-		(exclude_from_sim no)
-		(at 216.154 49.53 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "4705d1c0-9e03-4008-8980-a9882ad93d18")
-	)
-	(text "Logos and Graphics"
-		(exclude_from_sim no)
-		(at 219.71 60.96 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "ccbed81e-4c5a-4702-b69e-0383105106e9")
-	)
 	(text "M3 MOUNTING HOLES"
 		(exclude_from_sim no)
-		(at 134.62 60.96 0)
+		(at 179.07 57.15 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -412,26 +373,26 @@
 		(uuid "aad6dcae-21f3-4654-8e04-c36788bbe376")
 	)
 	(junction
-		(at 127 77.47)
+		(at 171.45 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26e8ada9-0244-476d-86ab-fcbe46921bf1")
 	)
 	(junction
-		(at 153.67 77.47)
+		(at 198.12 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5353e724-5d22-4d5a-802e-0e3407dcab71")
 	)
 	(junction
-		(at 140.97 77.47)
+		(at 185.42 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6bfbdfc-340c-4e9b-b759-a66101f455c3")
 	)
 	(wire
 		(pts
-			(xy 127 73.66) (xy 127 77.47)
+			(xy 171.45 69.85) (xy 171.45 73.66)
 		)
 		(stroke
 			(width 0)
@@ -441,7 +402,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 77.47) (xy 153.67 73.66)
+			(xy 198.12 73.66) (xy 198.12 69.85)
 		)
 		(stroke
 			(width 0)
@@ -451,7 +412,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 77.47) (xy 166.37 73.66)
+			(xy 210.82 73.66) (xy 210.82 69.85)
 		)
 		(stroke
 			(width 0)
@@ -461,7 +422,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 77.47) (xy 127 81.28)
+			(xy 171.45 73.66) (xy 171.45 77.47)
 		)
 		(stroke
 			(width 0)
@@ -471,7 +432,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 77.47) (xy 153.67 77.47)
+			(xy 185.42 73.66) (xy 198.12 73.66)
 		)
 		(stroke
 			(width 0)
@@ -481,7 +442,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 73.66) (xy 140.97 77.47)
+			(xy 185.42 69.85) (xy 185.42 73.66)
 		)
 		(stroke
 			(width 0)
@@ -491,7 +452,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 77.47) (xy 166.37 77.47)
+			(xy 198.12 73.66) (xy 210.82 73.66)
 		)
 		(stroke
 			(width 0)
@@ -501,7 +462,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 77.47) (xy 140.97 77.47)
+			(xy 171.45 73.66) (xy 185.42 73.66)
 		)
 		(stroke
 			(width 0)
@@ -511,7 +472,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 34.29 80.01 0)
+		(at 78.74 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -520,7 +481,7 @@
 		(fields_autoplaced yes)
 		(uuid "3219aea5-1a30-4f75-9274-cc45c7882452")
 		(property "Reference" "FID4"
-			(at 36.83 78.7399 0)
+			(at 81.28 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -529,7 +490,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 36.83 81.2799 0)
+			(at 81.28 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -539,7 +500,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 34.29 80.01 0)
+			(at 78.74 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -548,7 +509,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 80.01 0)
+			(at 78.74 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -557,7 +518,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 34.29 80.01 0)
+			(at 78.74 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -576,7 +537,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 54.61 69.85 0)
+		(at 99.06 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -585,7 +546,7 @@
 		(fields_autoplaced yes)
 		(uuid "53b2323d-0398-4abb-85a3-7e8cb4502bc4")
 		(property "Reference" "FID2"
-			(at 57.15 68.5799 0)
+			(at 101.6 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -594,7 +555,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 57.15 71.1199 0)
+			(at 101.6 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -604,7 +565,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 54.61 69.85 0)
+			(at 99.06 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -613,7 +574,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 69.85 0)
+			(at 99.06 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -622,7 +583,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 54.61 69.85 0)
+			(at 99.06 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -642,7 +603,7 @@
 	(symbol
 		(lib_name "MountingHole_Pad_MP_1")
 		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 140.97 71.12 0)
+		(at 185.42 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -651,7 +612,7 @@
 		(fields_autoplaced yes)
 		(uuid "76b6ef0a-452e-4a4a-bc48-161fc8cae0df")
 		(property "Reference" "H2"
-			(at 143.51 68.5799 0)
+			(at 187.96 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -660,7 +621,7 @@
 			)
 		)
 		(property "Value" "M3"
-			(at 143.51 71.1199 0)
+			(at 187.96 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -669,7 +630,7 @@
 			)
 		)
 		(property "Footprint" "0_misc:MountingHole_3.2mm_M3_Pad_Via"
-			(at 140.97 71.12 0)
+			(at 185.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -678,7 +639,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 71.12 0)
+			(at 185.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -687,7 +648,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 140.97 71.12 0)
+			(at 185.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -709,7 +670,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 81.28 0)
+		(at 171.45 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -717,8 +678,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97ef39a7-6d8f-4715-ba67-6b0111475c83")
-		(property "Reference" "#PWR0207"
-			(at 127 87.63 0)
+		(property "Reference" "#PWR0208"
+			(at 171.45 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -727,7 +688,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 86.36 0)
+			(at 171.45 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -736,7 +697,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 81.28 0)
+			(at 171.45 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -745,7 +706,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 81.28 0)
+			(at 171.45 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -754,7 +715,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 81.28 0)
+			(at 171.45 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -768,7 +729,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/6b1c272f-f844-4b77-b3c6-c5f88ea6e7ac"
-					(reference "#PWR0207")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -776,7 +737,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 72.39 80.01 0)
+		(at 116.84 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -785,7 +746,7 @@
 		(fields_autoplaced yes)
 		(uuid "a624cb84-41fe-492d-93b7-52c4453f6bb8")
 		(property "Reference" "FID6"
-			(at 74.93 78.7399 0)
+			(at 119.38 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -794,7 +755,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 74.93 81.2799 0)
+			(at 119.38 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -804,7 +765,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 72.39 80.01 0)
+			(at 116.84 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -813,7 +774,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 80.01 0)
+			(at 116.84 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -822,7 +783,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 72.39 80.01 0)
+			(at 116.84 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -842,7 +803,7 @@
 	(symbol
 		(lib_name "MountingHole_Pad_MP_1")
 		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 166.37 71.12 0)
+		(at 210.82 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -851,7 +812,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba359307-a1d9-4110-a63e-d4c55d846d2d")
 		(property "Reference" "H4"
-			(at 168.91 68.5799 0)
+			(at 213.36 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -860,7 +821,7 @@
 			)
 		)
 		(property "Value" "M3"
-			(at 168.91 71.1199 0)
+			(at 213.36 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -869,7 +830,7 @@
 			)
 		)
 		(property "Footprint" "0_misc:MountingHole_3.2mm_M3_Pad_Via"
-			(at 166.37 71.12 0)
+			(at 210.82 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -878,7 +839,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 71.12 0)
+			(at 210.82 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -887,7 +848,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 166.37 71.12 0)
+			(at 210.82 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -909,7 +870,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 72.39 69.85 0)
+		(at 116.84 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -918,7 +879,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6469b39-a1cb-4c0e-8f88-8d3c73e1b55b")
 		(property "Reference" "FID3"
-			(at 74.93 68.5799 0)
+			(at 119.38 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -927,7 +888,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 74.93 71.1199 0)
+			(at 119.38 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -937,7 +898,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 72.39 69.85 0)
+			(at 116.84 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -946,7 +907,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 69.85 0)
+			(at 116.84 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -955,7 +916,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 72.39 69.85 0)
+			(at 116.84 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -975,7 +936,7 @@
 	(symbol
 		(lib_name "MountingHole_Pad_MP_1")
 		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 153.67 71.12 0)
+		(at 198.12 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -984,7 +945,7 @@
 		(fields_autoplaced yes)
 		(uuid "cef9ab24-daf7-47e4-8084-5f10d590ba95")
 		(property "Reference" "H3"
-			(at 156.21 68.5799 0)
+			(at 200.66 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -993,7 +954,7 @@
 			)
 		)
 		(property "Value" "M3"
-			(at 156.21 71.1199 0)
+			(at 200.66 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1002,7 +963,7 @@
 			)
 		)
 		(property "Footprint" "0_misc:MountingHole_3.2mm_M3_Pad_Via"
-			(at 153.67 71.12 0)
+			(at 198.12 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1011,7 +972,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 71.12 0)
+			(at 198.12 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1020,7 +981,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 153.67 71.12 0)
+			(at 198.12 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1043,7 +1004,7 @@
 	(symbol
 		(lib_name "MountingHole_Pad_MP_1")
 		(lib_id "Mechanical:MountingHole_Pad_MP")
-		(at 127 71.12 0)
+		(at 171.45 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1052,7 +1013,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7032c83-d94f-40c4-a5ba-71c5df696491")
 		(property "Reference" "H1"
-			(at 129.54 68.5799 0)
+			(at 173.99 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1061,7 +1022,7 @@
 			)
 		)
 		(property "Value" "M3"
-			(at 129.54 71.1199 0)
+			(at 173.99 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1070,7 +1031,7 @@
 			)
 		)
 		(property "Footprint" "0_misc:MountingHole_3.2mm_M3_Pad_Via"
-			(at 127 71.12 0)
+			(at 171.45 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1079,7 +1040,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 71.12 0)
+			(at 171.45 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1088,7 +1049,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection as pad named MP"
-			(at 127 71.12 0)
+			(at 171.45 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1110,7 +1071,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 34.29 69.85 0)
+		(at 78.74 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1119,7 +1080,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6db1e20-a1ea-437b-b0c7-df5371b90646")
 		(property "Reference" "FID1"
-			(at 36.83 68.5799 0)
+			(at 81.28 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1128,7 +1089,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 36.83 71.1199 0)
+			(at 81.28 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1138,7 +1099,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 34.29 69.85 0)
+			(at 78.74 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1147,7 +1108,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 69.85 0)
+			(at 78.74 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1156,7 +1117,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 34.29 69.85 0)
+			(at 78.74 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1175,7 +1136,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 54.61 80.01 0)
+		(at 99.06 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1184,7 +1145,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8040585-c494-45b2-bb63-d460f844cdf6")
 		(property "Reference" "FID5"
-			(at 57.15 78.7399 0)
+			(at 101.6 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1193,7 +1154,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 57.15 81.2799 0)
+			(at 101.6 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1203,7 +1164,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 54.61 80.01 0)
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1212,7 +1173,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 80.01 0)
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1221,7 +1182,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 54.61 80.01 0)
+			(at 99.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -757,20 +757,6 @@
 		)
 		(uuid 636f7f8c-b6ad-44ec-92b2-1e456183078c)
 	)
-	(text "ADD TVS DIODES\n"
-		(exclude_from_sim no)
-		(at 89.916 46.228 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "cdc8053e-f420-4723-abc0-5fd6dd2a24b8")
-	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
 		(at 95.25 20.32 0)

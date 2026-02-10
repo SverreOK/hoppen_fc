@@ -630,7 +630,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../Downloads/hoppen_fc.step",
       "svg": "",
       "vrml": ""
     },
@@ -899,12 +899,20 @@
       "FDCAN"
     ],
     [
-      "1b965b44-1377-4308-8bb4-a6ed39c8528f",
-      "Interfaces"
-    ],
-    [
       "8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4",
       "Indicators"
+    ],
+    [
+      "55466c7d-2602-495a-8eab-b762fa810734",
+      "Interfaces - Sensors"
+    ],
+    [
+      "2fdf737f-f9ec-442b-9e43-c31a92457be2",
+      "Interfaces - Actuators"
+    ],
+    [
+      "4ffe1006-14f1-46cf-875e-eefbb8c17932",
+      "Interfaces - Comms"
     ],
     [
       "497505dd-337e-4de8-b212-9653d17f2ba6",
