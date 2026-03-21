@@ -678,7 +678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97ef39a7-6d8f-4715-ba67-6b0111475c83")
-		(property "Reference" "#PWR0208"
+		(property "Reference" "#PWR0209"
 			(at 171.45 83.82 0)
 			(effects
 				(font
@@ -729,7 +729,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/6b1c272f-f844-4b77-b3c6-c5f88ea6e7ac"
-					(reference "#PWR0208")
+					(reference "#PWR0209")
 					(unit 1)
 				)
 			)

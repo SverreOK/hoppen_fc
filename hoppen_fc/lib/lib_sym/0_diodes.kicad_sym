@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -4.445 12.065 0)
+			(at -4.445 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "PD4E1U"
-			(at 3.175 12.065 0)
+			(at 3.175 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60,8 +60,8 @@
 		)
 		(symbol "PD4E1U_1_1"
 			(rectangle
-				(start -5.715 10.795)
-				(end 5.715 0.635)
+				(start -6.35 6.35)
+				(end 6.35 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -70,8 +70,8 @@
 					(type background)
 				)
 			)
-			(pin free line
-				(at -8.255 8.255 0)
+			(pin input line
+				(at -8.89 3.81 0)
 				(length 2.54)
 				(name "D1+"
 					(effects
@@ -88,8 +88,8 @@
 					)
 				)
 			)
-			(pin free line
-				(at -8.255 5.715 0)
+			(pin input line
+				(at -8.89 1.27 0)
 				(length 2.54)
 				(name "D1-"
 					(effects
@@ -106,8 +106,8 @@
 					)
 				)
 			)
-			(pin free line
-				(at -8.255 3.175 0)
+			(pin passive line
+				(at -8.89 -1.27 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -124,8 +124,8 @@
 					)
 				)
 			)
-			(pin free line
-				(at 8.255 8.255 180)
+			(pin input line
+				(at 8.89 3.81 180)
 				(length 2.54)
 				(name "D2+"
 					(effects
@@ -142,8 +142,8 @@
 					)
 				)
 			)
-			(pin free line
-				(at 8.255 5.715 180)
+			(pin input line
+				(at 8.89 1.27 180)
 				(length 2.54)
 				(name "D2-"
 					(effects
@@ -160,8 +160,8 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 8.255 3.175 180)
+			(pin passive line
+				(at 8.89 -1.27 180)
 				(length 2.54)
 				(name "NC"
 					(effects

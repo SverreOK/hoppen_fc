@@ -934,20 +934,6 @@
 		)
 		(uuid b0346029-6cf7-4540-89e9-492a813763dd)
 	)
-	(text "REMOVE?"
-		(exclude_from_sim no)
-		(at 94.488 43.942 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "0747995b-5ff0-41dd-84cf-75c4081a05f7")
-	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
 		(at 43.18 17.78 0)
@@ -993,8 +979,8 @@
 		(uuid "2ff3c9fb-03b3-422e-b98c-f908828b4e04")
 	)
 	(no_connect
-		(at 147.32 104.14)
-		(uuid "5cc7768f-920d-4e1e-a1cf-616331f73a11")
+		(at 147.32 96.52)
+		(uuid "447bb112-ee64-49a5-a520-bed7f517bbce")
 	)
 	(no_connect
 		(at 147.32 99.06)
@@ -1119,6 +1105,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 104.14) (xy 161.29 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d82a513-c0c2-45ca-b4d5-ec43a946854e")
+	)
+	(wire
+		(pts
 			(xy 134.62 114.3) (xy 134.62 116.84)
 		)
 		(stroke
@@ -1126,16 +1122,6 @@
 			(type default)
 		)
 		(uuid "72ba4f2a-abe1-4771-8276-4913c0016232")
-	)
-	(wire
-		(pts
-			(xy 147.32 96.52) (xy 161.29 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74d3d753-d411-496c-9cdc-a4cab459aae0")
 	)
 	(bus
 		(pts
@@ -1277,17 +1263,7 @@
 		)
 		(uuid "1070cef2-6d4f-4935-b150-e0288fab7701")
 	)
-	(label "RADIO_CS"
-		(at 120.65 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "30674113-baca-4b84-9e3f-4de17df0d729")
-	)
-	(label "SPI3_MISO"
+	(label "SPI2_MISO"
 		(at 120.65 96.52 180)
 		(effects
 			(font
@@ -1297,7 +1273,7 @@
 		)
 		(uuid "5ac39f1e-532b-49f2-a7f5-ee16b77c83fc")
 	)
-	(label "SPI3_MOSI"
+	(label "SPI2_MOSI"
 		(at 120.65 93.98 180)
 		(effects
 			(font
@@ -1307,7 +1283,7 @@
 		)
 		(uuid "87695288-b6bd-4a7f-91f3-c247445ba2b7")
 	)
-	(label "SPI3_SCK"
+	(label "SPI2_SCK"
 		(at 120.65 91.44 180)
 		(effects
 			(font
@@ -1317,7 +1293,18 @@
 		)
 		(uuid "b29834bd-f577-4021-8257-a9682e13d5f7")
 	)
-	(hierarchical_label "{SPI3}"
+	(hierarchical_label "RADIO_DIO2"
+		(shape bidirectional)
+		(at 161.29 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05849a8f-de3e-44e0-ae7f-d6759c125ae0")
+	)
+	(hierarchical_label "{SPI2}"
 		(shape bidirectional)
 		(at 102.87 87.63 180)
 		(effects
@@ -1372,28 +1359,17 @@
 		)
 		(uuid "de95722e-89d5-4e8a-b66a-a74e4e31ec1b")
 	)
-	(hierarchical_label "RADIO_DIO5"
-		(shape bidirectional)
-		(at 161.29 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f2a661c5-46b2-48a7-8486-ad532e205c94")
-	)
 	(symbol
 		(lib_id "0_rf:RFM95W-868S2")
 		(at 134.62 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0231a67b-59b4-4c3a-a52d-fdf7e8543896")
-		(property "Reference" "U18"
+		(property "Reference" "U23"
 			(at 136.7633 83.82 0)
 			(effects
 				(font
@@ -1489,7 +1465,7 @@
 		(instances
 			(project ""
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/497505dd-337e-4de8-b212-9653d17f2ba6"
-					(reference "U18")
+					(reference "U23")
 					(unit 1)
 				)
 			)
@@ -1505,7 +1481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45f3ad18-7ac7-4718-8cb5-8b656bf376ad")
-		(property "Reference" "#PWR0206"
+		(property "Reference" "#PWR0207"
 			(at 191.77 105.41 0)
 			(effects
 				(font
@@ -1556,7 +1532,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/497505dd-337e-4de8-b212-9653d17f2ba6"
-					(reference "#PWR0206")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -1572,7 +1548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c1dc88d-34f7-427d-bd24-dc11fe5adc06")
-		(property "Reference" "J19"
+		(property "Reference" "J18"
 			(at 195.58 90.4631 0)
 			(effects
 				(font
@@ -1635,7 +1611,7 @@
 		(instances
 			(project ""
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/497505dd-337e-4de8-b212-9653d17f2ba6"
-					(reference "J19")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -1651,7 +1627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "810f575d-0f95-41ba-800c-73655b91d042")
-		(property "Reference" "#PWR0204"
+		(property "Reference" "#PWR0205"
 			(at 134.62 68.58 0)
 			(effects
 				(font
@@ -1701,7 +1677,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/497505dd-337e-4de8-b212-9653d17f2ba6"
-					(reference "#PWR0204")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -1717,7 +1693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a67bb366-952e-47a4-b528-f488d54651ab")
-		(property "Reference" "#PWR0205"
+		(property "Reference" "#PWR0206"
 			(at 140.97 83.82 0)
 			(effects
 				(font
@@ -1768,7 +1744,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/497505dd-337e-4de8-b212-9653d17f2ba6"
-					(reference "#PWR0205")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -1784,7 +1760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8623923-275a-4662-9082-f6904148648c")
-		(property "Reference" "#PWR0207"
+		(property "Reference" "#PWR0208"
 			(at 132.08 125.73 0)
 			(effects
 				(font
@@ -1835,7 +1811,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/497505dd-337e-4de8-b212-9653d17f2ba6"
-					(reference "#PWR0207")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -1850,8 +1826,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ccba3793-dfc6-4141-b4b0-c9dd443338da")
-		(property "Reference" "C104"
+		(uuid "e3a2b60a-f7d1-4334-b2c1-b534f3ca7728")
+		(property "Reference" "C87"
 			(at 144.78 69.8499 0)
 			(effects
 				(font
@@ -1860,7 +1836,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "22u"
 			(at 144.78 72.3899 0)
 			(effects
 				(font
@@ -1869,7 +1845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_capacitor_smd:C_0402_1005Metric"
+		(property "Footprint" "0_capacitor_smd:C_0805_2012Metric"
 			(at 141.9352 74.93 0)
 			(effects
 				(font
@@ -1896,7 +1872,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C45783"
 			(at 140.97 71.12 0)
 			(effects
 				(font
@@ -1906,15 +1882,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "09685d87-b5c9-451a-a4e0-77bac87b28fe")
+			(uuid "e9da977c-15d0-4531-9de8-6d9514ddbb78")
 		)
 		(pin "1"
-			(uuid "eed539d9-68d7-458f-8052-aa4d761f20c3")
+			(uuid "00d3e9af-4ba5-463d-b030-a462619ba0a1")
 		)
 		(instances
-			(project ""
+			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/497505dd-337e-4de8-b212-9653d17f2ba6"
-					(reference "C104")
+					(reference "C87")
 					(unit 1)
 				)
 			)

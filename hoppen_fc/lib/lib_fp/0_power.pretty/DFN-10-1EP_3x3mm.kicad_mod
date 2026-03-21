@@ -1,0 +1,214 @@
+(footprint "DFN-10-1EP_3x3mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.4 0)
+		(layer "F.SilkS")
+		(uuid "a50d0c56-d079-4bde-b0ff-4e959fbadc1e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DFN-10-1EP_3x3mm"
+		(at 0 5 0)
+		(layer "F.Fab")
+		(uuid "a92a0d85-101c-41dd-b8f3-3d66c46d4eaf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2b4563f-a017-4024-b045-53312140c8ec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86ac3a88-bb98-4c0d-a64e-a689213db9d1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.61 -1.6)
+		(end 1.61 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7bac954a-f0ea-4cd1-b866-a102abd7f38d")
+	)
+	(fp_line
+		(start -1.61 -1.375)
+		(end -1.61 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cd2272bb-006c-4b6e-9fa3-c300931cde75")
+	)
+	(fp_line
+		(start -1.61 1.62)
+		(end -1.61 1.395)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a654a28f-a156-404c-a0e8-5c7e0c4d2973")
+	)
+	(fp_line
+		(start 1.61 -1.6)
+		(end 1.61 -1.375)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9607563-9ea5-436a-8867-05e77fe1c4aa")
+	)
+	(fp_line
+		(start 1.61 1.395)
+		(end 1.61 1.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f3b1297-eb12-4f41-bea1-1a812d1d75e1")
+	)
+	(fp_line
+		(start 1.61 1.62)
+		(end -1.61 1.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e1cd1bac-2869-47ff-9a61-63a37d8375e1")
+	)
+	(fp_poly
+		(pts
+			(xy -2.14 -0.99) (xy -2.47 -0.75) (xy -2.47 -1.23)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ec3799c7-a2ef-48fb-b1b3-d6b752b08647")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "32c565e2-abbb-4ab5-81ff-9569e0414539")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.41 -1)
+		(size 0.66 0.28)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8c838946-c0ee-4447-bf6f-ff95d04c0339")
+	)
+	(pad "2" smd rect
+		(at -1.41 -0.5)
+		(size 0.66 0.28)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "362cb9d8-c927-41b1-978b-d38d34e7eef1")
+	)
+	(pad "3" smd rect
+		(at -1.41 0)
+		(size 0.66 0.28)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a5824321-8c1f-47d8-b0f6-54ea972c458f")
+	)
+	(pad "4" smd rect
+		(at -1.41 0.5)
+		(size 0.66 0.28)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1e9e55d3-e56f-4624-95b8-75df206791db")
+	)
+	(pad "5" smd rect
+		(at -1.41 1)
+		(size 0.66 0.28)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e3f8614b-0a01-4e2b-83f4-5e6e10f247c8")
+	)
+	(pad "6" smd rect
+		(at 1.41 1)
+		(size 0.66 0.28)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "38e924c5-a62d-4612-ac6f-71a8dfa8f7f7")
+	)
+	(pad "7" smd rect
+		(at 1.41 0.5)
+		(size 0.66 0.28)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5c7e673b-ec04-4a9a-b793-377d42664253")
+	)
+	(pad "8" smd rect
+		(at 1.41 0)
+		(size 0.66 0.28)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b991610a-35a3-47e9-8780-dfb433c2751f")
+	)
+	(pad "9" smd rect
+		(at 1.41 -0.5)
+		(size 0.66 0.28)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "55876752-cdcb-4d8b-a8d7-3084fb70d37e")
+	)
+	(pad "10" smd rect
+		(at 1.41 -1)
+		(size 0.66 0.28)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bb7cde78-27a7-444e-86aa-73a6857c6847")
+	)
+	(pad "11" smd rect
+		(at 0 0)
+		(size 1.64 2.38)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "60a682eb-af37-425c-a582-fd3ec9acb8dd")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3d_models/DFN-10_L3.0-W3.0-P0.50-TL-EP2.4.step"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -51,8 +51,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -6.75 -1.26)
-		(end -4.91 -1.26)
+		(start -6.75 -1.7)
+		(end -4.91 -1.7)
 		(stroke
 			(width 0.25)
 			(type solid)
@@ -71,8 +71,8 @@
 		(uuid "80e4e2a7-bc16-4d23-81cf-5753b238e101")
 	)
 	(fp_line
-		(start 4.91 -1.26)
-		(end 6.75 -1.26)
+		(start 4.88 -1.7)
+		(end 6.72 -1.7)
 		(stroke
 			(width 0.25)
 			(type solid)
