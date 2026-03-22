@@ -246,7 +246,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "INA180"
+	(symbol "INA293"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -258,7 +258,7 @@
 				)
 			)
 		)
-		(property "Value" "INA180"
+		(property "Value" "INA293A"
 			(at 4.318 8.89 0)
 			(effects
 				(font
@@ -275,7 +275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina180.pdf?ts=1767065031120"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina293.pdf?ts=1774067049648"
 			(at 0 28.448 0)
 			(effects
 				(font
@@ -284,7 +284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "26V, 350kHz current sense amplifier"
+		(property "Description" "INA293 –4 V to 110 V, 1.3-MHz, Ultra-Precise Current Sense Amplifier"
 			(at 0 24.892 0)
 			(effects
 				(font
@@ -293,7 +293,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C122228"
+		(property "LCSC" "C1855790"
 			(at 0 30.48 0)
 			(effects
 				(font
@@ -302,7 +302,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "INA180_0_1"
+		(symbol "INA293_0_1"
 			(rectangle
 				(start -7.62 7.62)
 				(end 7.62 -5.08)
@@ -315,7 +315,7 @@
 				)
 			)
 		)
-		(symbol "INA180_1_1"
+		(symbol "INA293_1_1"
 			(pin passive line
 				(at -10.16 5.08 0)
 				(length 2.54)

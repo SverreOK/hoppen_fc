@@ -2277,12 +2277,6 @@
 		(uuid "8988ae95-1b00-4644-98e3-3469cf7ef35e")
 	)
 	(junction
-		(at 92.71 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e072d80-1855-4870-9571-6690c404fa41")
-	)
-	(junction
 		(at 236.22 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2889,16 +2883,6 @@
 			(type default)
 		)
 		(uuid "5c35501e-fbe2-40a5-a243-87d65bf68d11")
-	)
-	(wire
-		(pts
-			(xy 91.44 50.8) (xy 92.71 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c56ef93-053a-4d01-8b6a-63fa6c92c02b")
 	)
 	(wire
 		(pts
@@ -3652,7 +3636,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 50.8) (xy 93.98 50.8)
+			(xy 91.44 50.8) (xy 93.98 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3709,16 +3693,6 @@
 			(type default)
 		)
 		(uuid "e137f176-019f-41c9-83e9-7d9089960376")
-	)
-	(wire
-		(pts
-			(xy 92.71 45.72) (xy 92.71 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e85dfe87-f9f7-4f77-ad7a-320548973ea1")
 	)
 	(wire
 		(pts
@@ -6584,74 +6558,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 92.71 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "756405e3-adc5-4fdd-ac50-88b5cdca1bb4")
-		(property "Reference" "TP4"
-			(at 95.25 42.4179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 95.25 43.6879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 97.79 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 92.71 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "430cbfb8-075a-4738-8d85-607d637b5956")
-		)
-		(instances
-			(project "hoppen_fc"
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/304fa278-ecd3-4686-8fe4-afe398f93fb0"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 24.13 163.83 0)
 		(unit 1)
@@ -6939,7 +6845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94298a51-f63a-4b88-8cc1-5c8a37770ea3")
-		(property "Reference" "TP6"
+		(property "Reference" "TP22"
 			(at 266.7 127.5079 0)
 			(effects
 				(font
@@ -6991,7 +6897,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/304fa278-ecd3-4686-8fe4-afe398f93fb0"
-					(reference "TP6")
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -8879,7 +8785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4ebfc43-47fc-4ef7-98f6-9a9c6a2776a2")
-		(property "Reference" "TP5"
+		(property "Reference" "TP21"
 			(at 95.25 64.0079 0)
 			(effects
 				(font
@@ -8931,7 +8837,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/304fa278-ecd3-4686-8fe4-afe398f93fb0"
-					(reference "TP5")
+					(reference "TP21")
 					(unit 1)
 				)
 			)

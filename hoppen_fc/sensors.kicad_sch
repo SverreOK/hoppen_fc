@@ -3147,6 +3147,71 @@
 		(uuid "dd3544bf-a7b0-47a6-885a-15b89663d984")
 	)
 	(symbol
+		(lib_id "0_misc:right_hand_rule")
+		(at 134.62 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01ba697c-4199-4c97-b2f5-530d4f718c56")
+		(property "Reference" "S2"
+			(at 140.97 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 140.97 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "0_misc:right_hand_rule_2"
+			(at 134.62 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/328607b5-eaf8-4cbb-82fe-138ea1b53a88"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 260.35 144.78 90)
 		(unit 1)
@@ -3156,7 +3221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0434a664-79db-465a-9cec-461353a84ec7")
-		(property "Reference" "TP14"
+		(property "Reference" "TP30"
 			(at 257.048 142.24 90)
 			(effects
 				(font
@@ -3207,7 +3272,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/328607b5-eaf8-4cbb-82fe-138ea1b53a88"
-					(reference "TP14")
+					(reference "TP30")
 					(unit 1)
 				)
 			)
@@ -3625,7 +3690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c529eda-51ee-44c6-a87e-57046a0481bd")
-		(property "Reference" "TP17"
+		(property "Reference" "TP33"
 			(at 235.458 152.4 90)
 			(effects
 				(font
@@ -3676,7 +3741,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/328607b5-eaf8-4cbb-82fe-138ea1b53a88"
-					(reference "TP17")
+					(reference "TP33")
 					(unit 1)
 				)
 			)
@@ -3692,7 +3757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "597cd39a-f954-4419-b76f-c1a07c90a34c")
-		(property "Reference" "TP18"
+		(property "Reference" "TP34"
 			(at 257.048 152.4 90)
 			(effects
 				(font
@@ -3743,7 +3808,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/328607b5-eaf8-4cbb-82fe-138ea1b53a88"
-					(reference "TP18")
+					(reference "TP34")
 					(unit 1)
 				)
 			)
@@ -4050,7 +4115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "861cdd14-11a4-4fb2-8362-fab5fb486d8d")
-		(property "Reference" "TP11"
+		(property "Reference" "TP27"
 			(at 235.458 137.16 90)
 			(effects
 				(font
@@ -4101,7 +4166,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/328607b5-eaf8-4cbb-82fe-138ea1b53a88"
-					(reference "TP11")
+					(reference "TP27")
 					(unit 1)
 				)
 			)
@@ -4117,7 +4182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "877da0c7-3bfe-4601-b51b-62a516fdf84c")
-		(property "Reference" "TP16"
+		(property "Reference" "TP32"
 			(at 257.048 147.32 90)
 			(effects
 				(font
@@ -4168,7 +4233,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/328607b5-eaf8-4cbb-82fe-138ea1b53a88"
-					(reference "TP16")
+					(reference "TP32")
 					(unit 1)
 				)
 			)
@@ -4384,7 +4449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ee64d70-826b-475d-b44a-8cc0fdc77d5d")
-		(property "Reference" "TP13"
+		(property "Reference" "TP29"
 			(at 235.458 142.24 90)
 			(effects
 				(font
@@ -4435,7 +4500,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/328607b5-eaf8-4cbb-82fe-138ea1b53a88"
-					(reference "TP13")
+					(reference "TP29")
 					(unit 1)
 				)
 			)
@@ -4451,7 +4516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aba237aa-ebf7-4c8a-9d82-45a0f9830082")
-		(property "Reference" "TP7"
+		(property "Reference" "TP23"
 			(at 235.458 127 90)
 			(effects
 				(font
@@ -4502,7 +4567,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/328607b5-eaf8-4cbb-82fe-138ea1b53a88"
-					(reference "TP7")
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -4585,7 +4650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af3a84ac-1e0c-4945-8b06-f18efa732674")
-		(property "Reference" "TP15"
+		(property "Reference" "TP31"
 			(at 235.458 147.32 90)
 			(effects
 				(font
@@ -4636,7 +4701,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/328607b5-eaf8-4cbb-82fe-138ea1b53a88"
-					(reference "TP15")
+					(reference "TP31")
 					(unit 1)
 				)
 			)
@@ -4717,7 +4782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5ee6977-f258-4b73-80ed-6982e0891b9f")
-		(property "Reference" "TP10"
+		(property "Reference" "TP26"
 			(at 257.048 132.08 90)
 			(effects
 				(font
@@ -4768,7 +4833,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/328607b5-eaf8-4cbb-82fe-138ea1b53a88"
-					(reference "TP10")
+					(reference "TP26")
 					(unit 1)
 				)
 			)
@@ -4968,7 +5033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8fb7025-a9f3-43d5-a248-2cc15971fbf7")
-		(property "Reference" "TP12"
+		(property "Reference" "TP28"
 			(at 257.048 137.16 90)
 			(effects
 				(font
@@ -5019,7 +5084,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/328607b5-eaf8-4cbb-82fe-138ea1b53a88"
-					(reference "TP12")
+					(reference "TP28")
 					(unit 1)
 				)
 			)
@@ -5179,7 +5244,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d42d0af6-cfb3-4e0e-814c-4507be5584f7")
-		(property "Reference" "TP19"
+		(property "Reference" "TP35"
 			(at 235.458 157.48 90)
 			(effects
 				(font
@@ -5230,7 +5295,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/328607b5-eaf8-4cbb-82fe-138ea1b53a88"
-					(reference "TP19")
+					(reference "TP35")
 					(unit 1)
 				)
 			)
@@ -5246,7 +5311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d81b2394-30c3-4541-b2a9-789c9abc8fc0")
-		(property "Reference" "TP9"
+		(property "Reference" "TP25"
 			(at 235.458 132.08 90)
 			(effects
 				(font
@@ -5297,7 +5362,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/328607b5-eaf8-4cbb-82fe-138ea1b53a88"
-					(reference "TP9")
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -5590,7 +5655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2002ae1-f571-4ce8-9d3d-caf7f7aa96f0")
-		(property "Reference" "TP8"
+		(property "Reference" "TP24"
 			(at 257.048 127 90)
 			(effects
 				(font
@@ -5641,7 +5706,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/328607b5-eaf8-4cbb-82fe-138ea1b53a88"
-					(reference "TP8")
+					(reference "TP24")
 					(unit 1)
 				)
 			)

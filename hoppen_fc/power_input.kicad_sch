@@ -215,7 +215,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0_power:INA180"
+		(symbol "0_power:INA293"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -227,7 +227,7 @@
 					)
 				)
 			)
-			(property "Value" "INA180"
+			(property "Value" "INA293A"
 				(at 4.318 8.89 0)
 				(effects
 					(font
@@ -244,7 +244,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina180.pdf?ts=1767065031120"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina293.pdf?ts=1774067049648"
 				(at 0 28.448 0)
 				(effects
 					(font
@@ -253,7 +253,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "26V, 350kHz current sense amplifier"
+			(property "Description" "INA293 –4 V to 110 V, 1.3-MHz, Ultra-Precise Current Sense Amplifier"
 				(at 0 24.892 0)
 				(effects
 					(font
@@ -262,7 +262,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C122228"
+			(property "LCSC" "C1855790"
 				(at 0 30.48 0)
 				(effects
 					(font
@@ -271,7 +271,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "INA180_0_1"
+			(symbol "INA293_0_1"
 				(rectangle
 					(start -7.62 7.62)
 					(end 7.62 -5.08)
@@ -284,7 +284,7 @@
 					)
 				)
 			)
-			(symbol "INA180_1_1"
+			(symbol "INA293_1_1"
 				(pin passive line
 					(at -10.16 5.08 0)
 					(length 2.54)
@@ -1704,7 +1704,7 @@
 		)
 		(uuid "36570150-ca1c-4573-a702-027e65eb136e")
 	)
-	(text_box "DESIGN:\nVds 60V\nVgs 20V\nRds@10V 2.8mohm\nId 80A"
+	(text_box "DESIGN:\nVds 60V\nVgs 20V\nRds@4.5V 8.5mohm\nId 80A"
 		(exclude_from_sim no)
 		(at 158.75 53.34 0)
 		(size 17.78 10.16)
@@ -1725,12 +1725,6 @@
 			(justify left top)
 		)
 		(uuid "cf8b29af-7d11-49bd-bd70-36b9245ea0dd")
-	)
-	(junction
-		(at 205.74 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12b242d2-ebd7-4164-9f58-0d09feb244c4")
 	)
 	(junction
 		(at 177.8 67.31)
@@ -2112,7 +2106,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 67.31) (xy 212.09 67.31)
+			(xy 195.58 67.31) (xy 212.09 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2262,16 +2256,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 67.31) (xy 205.74 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceb20313-6c28-4daa-b4de-d4cb3e72fbd1")
-	)
-	(wire
-		(pts
 			(xy 118.11 99.06) (xy 118.11 81.28)
 		)
 		(stroke
@@ -2373,74 +2357,6 @@
 		(uuid "b64ffc8d-6a40-47df-bad4-d66252790c08")
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 205.74 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "053d8ba2-bb87-4c3f-a017-0082b9c43a19")
-		(property "Reference" "TP2"
-			(at 208.28 62.7379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 208.28 65.2779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 210.82 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 205.74 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13d8b81c-4e9c-444f-85c9-b7eccfb3cbda")
-		)
-		(instances
-			(project "hoppen_fc"
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/45aa82bb-5d0c-4be2-bfbe-f6adc776653e"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 250.19 64.77 0)
 		(unit 1)
@@ -2501,92 +2417,6 @@
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/45aa82bb-5d0c-4be2-bfbe-f6adc776653e"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_power:INA180")
-		(at 224.79 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "139a76ab-c586-4a85-a609-f3a084f8d72f")
-		(property "Reference" "U3"
-			(at 224.79 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INA180"
-			(at 224.79 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "0_transceivers:SOT-23-5"
-			(at 224.79 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina180.pdf?ts=1767065031120"
-			(at 224.79 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "26V, 350kHz current sense amplifier"
-			(at 224.79 62.738 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C122228"
-			(at 224.79 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "14cb9a57-a3b2-4670-a4d0-f744ef366744")
-		)
-		(pin "4"
-			(uuid "c91deb85-5d6b-4c32-9971-33c63735d7b6")
-		)
-		(pin "2"
-			(uuid "ce70bb5e-0972-4eb2-886a-021800d9a180")
-		)
-		(pin "5"
-			(uuid "d74feac8-424f-4d34-9ac6-76e82d406a59")
-		)
-		(pin "1"
-			(uuid "efcc6f89-3eb9-4e69-82ff-59914583b153")
-		)
-		(instances
-			(project ""
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/45aa82bb-5d0c-4be2-bfbe-f6adc776653e"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -2672,6 +2502,92 @@
 		)
 	)
 	(symbol
+		(lib_id "0_power:INA293")
+		(at 224.79 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1970f12f-f87d-42a5-895a-45206c8482c4")
+		(property "Reference" "U3"
+			(at 224.79 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA293A"
+			(at 224.79 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0_transceivers:SOT-23-5"
+			(at 224.79 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina293.pdf?ts=1774067049648"
+			(at 224.79 59.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "INA293 –4 V to 110 V, 1.3-MHz, Ultra-Precise Current Sense Amplifier"
+			(at 224.79 62.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1855790"
+			(at 224.79 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50d2b871-14ff-43d6-b8f9-dedb570367e9")
+		)
+		(pin "5"
+			(uuid "8d68f7e3-e1a6-4aff-907c-114be2eff4d6")
+		)
+		(pin "2"
+			(uuid "e4ca369d-cffe-449b-a211-bfb7c800be3f")
+		)
+		(pin "3"
+			(uuid "3cc816ea-ac9f-467d-85af-31dd12d8ba96")
+		)
+		(pin "4"
+			(uuid "e22d12cb-0894-4d41-8f7b-f0ad0230a249")
+		)
+		(instances
+			(project ""
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/45aa82bb-5d0c-4be2-bfbe-f6adc776653e"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "0_power:LM74700")
 		(at 151.13 88.9 0)
 		(unit 1)
@@ -2724,7 +2640,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2941042"
+		(property "LCSC" "C2802568"
 			(at 151.13 54.356 0)
 			(effects
 				(font
@@ -3208,7 +3124,7 @@
 				)
 			)
 		)
-		(property "Footprint" "0_transistors:DFN-8"
+		(property "Footprint" "0_transistors:Diodes_PowerDI3333-8"
 			(at 153.67 64.77 0)
 			(effects
 				(font
@@ -3307,7 +3223,7 @@
 				)
 			)
 		)
-		(property "Value" "10m"
+		(property "Value" "5m"
 			(at 224.79 63.5 90)
 			(effects
 				(font
@@ -3315,7 +3231,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 224.79 69.088 90)
 			(effects
 				(font
@@ -3342,7 +3258,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C105362"
+		(property "LCSC" "C185817"
 			(at 224.79 67.31 90)
 			(effects
 				(font
@@ -3944,7 +3860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9aed8b0-613e-410d-a7b9-9bb8f5475a6d")
-		(property "Reference" "TP3"
+		(property "Reference" "TP20"
 			(at 252.73 85.5979 0)
 			(effects
 				(font
@@ -3996,7 +3912,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/45aa82bb-5d0c-4be2-bfbe-f6adc776653e"
-					(reference "TP3")
+					(reference "TP20")
 					(unit 1)
 				)
 			)

@@ -1683,7 +1683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25ade592-7eaf-4d6d-b29d-8cd003e73d5b")
-		(property "Reference" "TP36"
+		(property "Reference" "TP51"
 			(at 105.41 115.0619 0)
 			(effects
 				(font
@@ -1735,7 +1735,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/b20bfd16-8587-4ee2-a4b4-53d6b6d5b5b2"
-					(reference "TP36")
+					(reference "TP51")
 					(unit 1)
 				)
 			)
@@ -2376,7 +2376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5749cbc-6ca8-4816-b5d4-c09c085a1bae")
-		(property "Reference" "TP35"
+		(property "Reference" "TP50"
 			(at 96.52 115.0619 0)
 			(effects
 				(font
@@ -2428,7 +2428,7 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/b20bfd16-8587-4ee2-a4b4-53d6b6d5b5b2"
-					(reference "TP35")
+					(reference "TP50")
 					(unit 1)
 				)
 			)
