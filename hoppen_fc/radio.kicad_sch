@@ -1463,7 +1463,7 @@
 			(uuid "91d7f922-0901-46ef-9113-af9f0f9379e7")
 		)
 		(instances
-			(project ""
+			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/497505dd-337e-4de8-b212-9653d17f2ba6"
 					(reference "U23")
 					(unit 1)
@@ -1609,7 +1609,7 @@
 			(uuid "ee04354b-989c-40f5-bf02-9db854bf7d0d")
 		)
 		(instances
-			(project ""
+			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/497505dd-337e-4de8-b212-9653d17f2ba6"
 					(reference "J18")
 					(unit 1)

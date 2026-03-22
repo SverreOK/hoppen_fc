@@ -1829,7 +1829,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_JLCPCB-Diodes:TVS-Uni,SMF18A"
+		(symbol "PCM_JLCPCB-Diodes:TVS-Bi,SMF28CA"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1848,7 +1848,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SMF18A"
+			(property "Value" "SMF28CA"
 				(at 2.032 -1.2122 0)
 				(effects
 					(font
@@ -1866,7 +1866,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312280940_hongjiacheng-SMF18A_C19077512.pdf"
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312221742_hongjiacheng-SMF28CA_C19077517.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1875,7 +1875,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "6.8A 29.2V 200W 22.1V Unidirectional 18V SOD-123FL ESD and Surge Protection (TVS/ESD) ROHS"
+			(property "Description" "4.4A 45.4V 200W 34.4V Bidirectional 28V SOD-123FL ESD and Surge Protection (TVS/ESD) ROHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1884,7 +1884,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C19077512"
+			(property "LCSC" "C19077517"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1893,7 +1893,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "43774"
+			(property "Stock" "117291"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1902,7 +1902,7 @@
 					(hide yes)
 				)
 			)
-			(property "Price" "0.027USD"
+			(property "Price" "0.028USD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1965,7 +1965,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part" "SMF18A"
+			(property "Part" "SMF28CA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1983,10 +1983,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "TVS-Uni,SMF18A_0_1"
+			(symbol "TVS-Bi,SMF28CA_0_1"
 				(polyline
 					(pts
-						(xy -1.905 -1.905) (xy -1.27 -1.27) (xy 1.27 -1.27) (xy 1.905 -0.635)
+						(xy -1.905 -0.635) (xy -1.27 0) (xy 1.27 0) (xy 1.905 0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -1998,7 +1998,19 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy 0 -1.27) (xy 1.27 1.27) (xy -1.27 1.27)
+						(xy -1.27 2.54) (xy 0 0) (xy 1.27 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0 0) (xy -1.27 -2.54) (xy 1.27 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -2009,7 +2021,7 @@
 					)
 				)
 			)
-			(symbol "TVS-Uni,SMF18A_1_1"
+			(symbol "TVS-Bi,SMF28CA_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 3.81)
@@ -2587,12 +2599,6 @@
 		(uuid "138c94b9-716a-499f-ae6d-34f5fc75a9ac")
 	)
 	(junction
-		(at 247.65 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f43e99c-feb8-4453-b1fd-0fd5bbd580dc")
-	)
-	(junction
 		(at 260.35 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2645,6 +2651,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2cdaf42-1a57-4595-a750-ca1a5393b269")
+	)
+	(junction
+		(at 247.65 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5435ef3-719c-40f5-b90b-3b69424d871d")
 	)
 	(junction
 		(at 123.19 180.34)
@@ -2863,6 +2875,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 118.11) (xy 261.62 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17cf73d9-fd00-4aae-99ab-f91cebded798")
+	)
+	(wire
+		(pts
 			(xy 120.65 58.42) (xy 124.46 58.42)
 		)
 		(stroke
@@ -2963,17 +2985,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 172.72) (xy 260.35 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fed59d6-0c07-4e68-a71f-1a4c90a58e92")
-	)
-	(wire
-		(pts
-			(xy 247.65 118.11) (xy 261.62 118.11)
+			(xy 241.3 118.11) (xy 247.65 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3150,6 +3162,16 @@
 			(type default)
 		)
 		(uuid "5199b243-4746-4e4b-b6e2-e386cc822b88")
+	)
+	(wire
+		(pts
+			(xy 260.35 171.45) (xy 260.35 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "548d022f-3e18-49d7-9cd6-80b886e25a45")
 	)
 	(wire
 		(pts
@@ -3760,16 +3782,6 @@
 			(type default)
 		)
 		(uuid "cd23e170-24e1-433e-a03e-a574f20468d3")
-	)
-	(wire
-		(pts
-			(xy 241.3 118.11) (xy 247.65 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d064f8bb-10cd-4752-bbcb-bda84d9c5bdd")
 	)
 	(wire
 		(pts
@@ -6410,6 +6422,166 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Diodes:TVS-Bi,SMF28CA")
+		(at 247.65 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92909554-2b6c-45c9-aa9d-19785af677ca")
+		(property "Reference" "D13"
+			(at 251.46 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMF28CA"
+			(at 251.46 123.19 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_SOD-123FL"
+			(at 245.872 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312221742_hongjiacheng-SMF28CA_C19077517.pdf"
+			(at 247.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.4A 45.4V 200W 34.4V Bidirectional 28V SOD-123FL ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 247.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19077517"
+			(at 247.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "117291"
+			(at 247.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.028USD"
+			(at 247.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 247.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "15"
+			(at 247.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 247.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 247.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "TVS/Fuse/Board Level Protection,Electrostatic And Surge Protection (TVS/ESD)"
+			(at 247.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 247.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "SMF28CA"
+			(at 247.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f13ce3f9-7d1d-4916-bdae-c8bd85477eed")
+		)
+		(pin "2"
+			(uuid "5cc7f89c-faba-4633-9892-2356f6910474")
+		)
+		(instances
+			(project "hoppen_fc"
+				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/4ffe1006-14f1-46cf-875e-eefbb8c17932"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 243.84 55.88 0)
 		(unit 1)
@@ -7117,166 +7289,6 @@
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/4ffe1006-14f1-46cf-875e-eefbb8c17932"
 					(reference "JP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Diodes:TVS-Uni,SMF18A")
-		(at 247.65 121.92 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce4c0586-1477-4a10-8c22-63cfae645849")
-		(property "Reference" "D13"
-			(at 251.46 120.3324 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SMF18A"
-			(at 251.46 122.8725 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 249.428 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312280940_hongjiacheng-SMF18A_C19077512.pdf"
-			(at 247.65 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6.8A 29.2V 200W 22.1V Unidirectional 18V SOD-123FL ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 247.65 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C19077512"
-			(at 247.65 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "43774"
-			(at 247.65 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.027USD"
-			(at 247.65 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 247.65 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "15"
-			(at 247.65 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "4"
-			(at 247.65 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 247.65 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "TVS/Fuse/Board Level Protection,Electrostatic And Surge Protection (TVS/ESD)"
-			(at 247.65 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "hongjiacheng"
-			(at 247.65 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "SMF18A"
-			(at 247.65 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "adc5ebc6-79d6-49aa-a7d5-6014ebebd0eb")
-		)
-		(pin "2"
-			(uuid "bbcc63c9-dc47-472a-a871-e1e4abf769a2")
-		)
-		(instances
-			(project "hoppen_fc"
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/4ffe1006-14f1-46cf-875e-eefbb8c17932"
-					(reference "D13")
 					(unit 1)
 				)
 			)

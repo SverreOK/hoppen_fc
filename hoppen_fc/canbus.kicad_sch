@@ -3400,7 +3400,7 @@
 			(uuid "c5d3d328-d34f-4406-bacf-46d622892226")
 		)
 		(instances
-			(project ""
+			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/4b2dd471-a6f8-4e49-8717-912e41e4e851"
 					(reference "U15")
 					(unit 1)

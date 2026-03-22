@@ -2493,7 +2493,7 @@
 			(uuid "fbdd29d5-be8c-499f-8b2e-ff0ecfa38ef5")
 		)
 		(instances
-			(project ""
+			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/45aa82bb-5d0c-4be2-bfbe-f6adc776653e"
 					(reference "D1")
 					(unit 1)
@@ -2579,7 +2579,7 @@
 			(uuid "e22d12cb-0894-4d41-8f7b-f0ad0230a249")
 		)
 		(instances
-			(project ""
+			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/45aa82bb-5d0c-4be2-bfbe-f6adc776653e"
 					(reference "U3")
 					(unit 1)
@@ -2640,7 +2640,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2802568"
+		(property "LCSC" "C2941042"
 			(at 151.13 54.356 0)
 			(effects
 				(font
@@ -2668,7 +2668,7 @@
 			(uuid "7d5f652b-917a-403a-a41a-69b49fe16236")
 		)
 		(instances
-			(project ""
+			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/45aa82bb-5d0c-4be2-bfbe-f6adc776653e"
 					(reference "U4")
 					(unit 1)
@@ -2744,7 +2744,7 @@
 			(uuid "691a2f01-04eb-4100-aa19-d1463d36bf7d")
 		)
 		(instances
-			(project ""
+			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/45aa82bb-5d0c-4be2-bfbe-f6adc776653e"
 					(reference "J1")
 					(unit 1)
@@ -3022,7 +3022,7 @@
 			(uuid "c94ea5d3-80db-44c5-9309-5d9545f87df8")
 		)
 		(instances
-			(project ""
+			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/45aa82bb-5d0c-4be2-bfbe-f6adc776653e"
 					(reference "#PWR031")
 					(unit 1)
@@ -3178,7 +3178,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C467174"
+		(property "LCSC" "C2802568"
 			(at 151.13 69.85 90)
 			(effects
 				(font
@@ -3197,7 +3197,7 @@
 			(uuid "6b2b1268-c0ef-4381-8119-413fdc283e2d")
 		)
 		(instances
-			(project ""
+			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/45aa82bb-5d0c-4be2-bfbe-f6adc776653e"
 					(reference "Q1")
 					(unit 1)
@@ -3274,7 +3274,7 @@
 			(uuid "829c40ea-a3cc-412d-99e1-ac8a56f57bb8")
 		)
 		(instances
-			(project ""
+			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/45aa82bb-5d0c-4be2-bfbe-f6adc776653e"
 					(reference "R2")
 					(unit 1)
