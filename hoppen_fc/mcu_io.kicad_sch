@@ -6042,10 +6042,6 @@
 		(uuid "797b1889-6b3f-443c-87bb-c1dfd3a326f4")
 	)
 	(no_connect
-		(at 191.77 83.82)
-		(uuid "7cf24a81-079e-4489-b736-bee7144330b3")
-	)
-	(no_connect
 		(at 116.84 86.36)
 		(uuid "80b88103-a7ba-418d-b5df-bdf1a240afdd")
 	)
@@ -6064,6 +6060,10 @@
 	(no_connect
 		(at 99.06 68.58)
 		(uuid "9a9ab4b1-62fd-436c-93c9-bcdb81deea64")
+	)
+	(no_connect
+		(at 191.77 86.36)
+		(uuid "abde8a9f-0a66-4031-80ed-6691e724ca7f")
 	)
 	(no_connect
 		(at 191.77 142.24)
@@ -9942,14 +9942,14 @@
 		(uuid "36abef56-161d-45f9-b846-3a55b59b8f1b")
 	)
 	(label "ESC_TX_1"
-		(at 191.77 86.36 180)
+		(at 191.77 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "3b9e993f-efd4-43a9-9dea-1427688793d3")
+		(uuid "384a6b03-83b8-4ce7-8cf3-fa15f9ea0f2e")
 	)
 	(label "QSPI_CLK"
 		(at 110.49 137.16 0)
@@ -12475,10 +12475,6 @@
 					(reference "U1")
 					(unit 2)
 				)
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/e8dec57f-fe0f-4242-be3c-094f4ce75313"
-					(reference "U1")
-					(unit 2)
-				)
 			)
 		)
 	)
@@ -12567,7 +12563,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 163.83 270.5099 0)
 			(effects
 				(font
@@ -12603,7 +12599,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C106235"
+		(property "LCSC" "C25744"
 			(at 161.29 269.24 0)
 			(effects
 				(font
@@ -14446,10 +14442,6 @@
 		(instances
 			(project "hoppen_fc"
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/b2889d66-ad44-4386-8a59-32f6d6b6b256"
-					(reference "U1")
-					(unit 3)
-				)
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/e8dec57f-fe0f-4242-be3c-094f4ce75313"
 					(reference "U1")
 					(unit 3)
 				)

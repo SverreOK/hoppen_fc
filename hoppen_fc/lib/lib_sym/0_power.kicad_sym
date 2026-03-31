@@ -1583,60 +1583,6 @@
 			(pin unspecified line
 				(at -8.89 2.54 0)
 				(length 2.54)
-				(name "IN1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -8.89 0 0)
-				(length 2.54)
-				(name "PR1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -8.89 -2.54 0)
-				(length 2.54)
-				(name "OV1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -8.89 -19.05 0)
-				(length 2.54)
 				(name "IN2"
 					(effects
 						(font
@@ -1653,7 +1599,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 -21.59 0)
+				(at -8.89 0 0)
 				(length 2.54)
 				(name "CP2"
 					(effects
@@ -1671,7 +1617,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 -24.13 0)
+				(at -8.89 -2.54 0)
 				(length 2.54)
 				(name "OV2"
 					(effects
@@ -1681,6 +1627,60 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -19.05 0)
+				(length 2.54)
+				(name "IN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -21.59 0)
+				(length 2.54)
+				(name "PR1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -8.89 -24.13 0)
+				(length 2.54)
+				(name "OV1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)

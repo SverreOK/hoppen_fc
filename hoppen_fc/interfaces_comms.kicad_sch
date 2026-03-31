@@ -2411,7 +2411,7 @@
 		)
 		(uuid "5ecd1993-e91d-4419-9ce7-e59cbdf7b314")
 	)
-	(text "MAX 4S"
+	(text "MAX 6S"
 		(exclude_from_sim no)
 		(at 223.266 138.176 0)
 		(effects

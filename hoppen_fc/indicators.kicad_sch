@@ -4232,16 +4232,8 @@
 		)
 		(instances
 			(project "hoppen_fc"
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a"
-					(reference "U9")
-					(unit 1)
-				)
 				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/8b8c6acc-be78-4f0d-9edb-cfc9fd9bc6b4"
 					(reference "U17")
-					(unit 1)
-				)
-				(path "/abe950a1-9eef-4508-9fd4-31d3e723e029/c85454e5-a89e-41eb-a5ed-71b4fc4cf13a/b2889d66-ad44-4386-8a59-32f6d6b6b256"
-					(reference "U9")
 					(unit 1)
 				)
 			)
